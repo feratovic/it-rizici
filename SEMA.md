@@ -77,13 +77,61 @@ Agregacija je verifikovana prema izvornom fajlu — vidi `VERIFIKACIJA.md`.
 
 ## M3 — IT upitnik, dijelovi A i B
 
-_(još nije primijenjeno)_
+**Dodato**
+
+| Objekat | Tip | Napomena |
+|---|---|---|
+| `DioUpitnika` | enum | `A` (Opšti podaci), `B` (Indikatori IT rizika), `C` (IT kontrole) |
+| `TipOdgovora` | enum | `BROJ`, `TEKST`, `DA_NE`, `IZBOR`, `DA_NE_DJELIMICNO` |
+| `UpitnikPitanje` | composite tip | ugnježđuje se u `UpitnikSekcija`, nema sopstvenu kolekciju |
+| `UpitnikSekcija` | kolekcija | `kod` je `@unique` (A1, B3, C4.7…) + `@@index([dio])` |
+| `UpitnikOdgovor` | kolekcija | `@@unique([procjenaId, pitanjeKod])` + `@@index([procjenaId])` |
+| `UpitnikOcjena` | kolekcija | `@@unique([procjenaId, sekcijaKod])` + `@@index([procjenaId])` |
+
+Sva tri dijela dijele iste modele, pa je šema primijenjena odjednom; M4 dodaje
+samo ekran dijela C i njegovu agregaciju.
+
+**Odluke**
+
+- Pitanja su **ugniježđena** u sekciju, odgovori i ocjene su **zasebne
+  kolekcije** — isti razlog kao kod COBIT-a (`CobitIzjava` vs `CobitOdgovor`).
+- `roditeljKod` je kod nadređene oblasti, **ne relacija**: katalog se uvijek
+  čita cijeli po ekranu dijela, pa spajanje kolekcija ne bi ništa donijelo.
+- **Ocjena stoji uz sekciju, ne uz pitanje.** U izvornom fajlu je kolona `H`
+  jedna spojena ćelija preko svih redova sekcije (npr. `H132:H145` za B1,
+  `H209:H218` za C1.1). Isto važi za obrazloženja dijela C — kolone `F` i `G`
+  su takođe spojene po sekciji (`F209:F218`, `G209:G218`).
+- Objašnjenje uz pojedinačno pitanje (`UpitnikOdgovor.objasnjenje`) postoji
+  samo u dijelovima A i B, gdje kolona `F` **nije** spojena.
+- `UpitnikOdgovor.vrijednost` je `String?`, a ne tipizovana kolona: pitanja
+  imaju pet različitih tipova odgovora, a nijedan se ne agregira numerički.
+  Ispravnost prema `tipOdgovora` provjerava server akcija uz katalog.
+- `UpitnikOcjena.ocjena` je obavezna. Obrazloženje uneseno prije ocjene kreira
+  zapis sa `ocjena: 0` — vrijednost van skale 1–4, koja se nigdje ne prikazuje
+  ni ne agregira.
+- Dio A nema ocjenu; dio B ocjenjuje svih pet kategorija; dio C ocjenjuje
+  podoblasti, te oblasti `C9` i `C10` koje podoblasti nemaju.
+
+**Katalog**
+
+52 sekcije, **402 pitanja** (107 + 68 + 227). Generisano iz izvornog Excel fajla:
+
+```bash
+python alati/izvuci-upitnik.py "putanja/do/3.Samoprocjena nivoa IT rizika.xlsx"
+npm run db:push
+npm run db:seed
+```
+
+Agregacija prati blok `Rezultat samoprocjene` izvornog fajla — vidi
+`VERIFIKACIJA.md`, sekcija 4.
 
 ---
 
 ## M4 — IT upitnik, dio C
 
-_(još nije primijenjeno)_
+**Dodato**
+
+Bez promjene šeme — dio C koristi iste modele kao M3.
 
 ---
 

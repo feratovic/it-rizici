@@ -155,12 +155,74 @@ async function seedCobit() {
   console.log(`  COBIT: ${procesi.length} procesa, ${ukupnoIzjava} izjava`);
 }
 
+// --- IT upitnik, katalog ---------------------------------------------------
+// Tekstovi se čuvaju u prisma/podaci/upitnik.json i generišu se iz izvornog
+// Excel fajla skriptom alati/izvuci-upitnik.py.
+
+type UpitnikPitanjeJson = {
+  kod: string;
+  redniBroj: number;
+  tekst: string;
+  uputstvo: string;
+  tipOdgovora: 'BROJ' | 'TEKST' | 'DA_NE' | 'IZBOR' | 'DA_NE_DJELIMICNO';
+  opcije: string[];
+};
+
+type UpitnikSekcijaJson = {
+  kod: string;
+  naziv: string;
+  dio: 'A' | 'B' | 'C';
+  roditeljKod: string | null;
+  redniBroj: number;
+  pitanja: UpitnikPitanjeJson[];
+};
+
+async function seedUpitnik() {
+  const sekcije = ucitaj<UpitnikSekcijaJson[]>('upitnik.json');
+
+  for (const s of sekcije) {
+    const pitanja = s.pitanja.map((p) => ({
+      kod: p.kod,
+      redniBroj: p.redniBroj,
+      tekst: p.tekst,
+      uputstvo: p.uputstvo,
+      tipOdgovora: p.tipOdgovora,
+      opcije: p.opcije,
+    }));
+
+    const podaci = {
+      naziv: s.naziv,
+      dio: s.dio,
+      roditeljKod: s.roditeljKod,
+      redniBroj: s.redniBroj,
+      pitanja,
+    };
+
+    await prisma.upitnikSekcija.upsert({
+      where: { kod: s.kod },
+      update: podaci,
+      create: { kod: s.kod, ...podaci },
+    });
+  }
+
+  const poDijelu = (dio: string) =>
+    sekcije
+      .filter((s) => s.dio === dio)
+      .reduce((a, s) => a + s.pitanja.length, 0);
+
+  console.log(
+    `  IT upitnik: ${sekcije.length} sekcija, ` +
+      `${poDijelu('A')} + ${poDijelu('B')} + ${poDijelu('C')} pitanja (A + B + C)`,
+  );
+}
+
 async function main() {
   console.log('Seed baze — start');
 
   const institucije = await seedInstitucije();
   await seedKorisnike(institucije);
   await seedCobit();
+  await seedUpitnik();
 
   console.log('Seed baze — gotovo');
 }

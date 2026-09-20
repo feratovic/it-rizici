@@ -77,6 +77,39 @@ export const OPCIJE_KONTROLE: { vrijednost: string; oznaka: string }[] = [
   { vrijednost: 'NE', oznaka: 'Ne' },
 ];
 
+// --- Nazivi dijelova upitnika ---------------------------------------------
+// Preuzeti iz izvornog fajla (red zaglavlja svakog dijela, kolona B).
+
+export const DIJELOVI_UPITNIKA = ['A', 'B', 'C'] as const;
+export type DioUpitnika = (typeof DIJELOVI_UPITNIKA)[number];
+
+export const NAZIV_DIJELA: Record<DioUpitnika, string> = {
+  A: 'Opšti podaci',
+  B: 'Indikatori IT rizika',
+  C: 'IT kontrole',
+};
+
+/** Kratak opis šta se u dijelu ocjenjuje — za podnaslov ekrana. */
+export const OPIS_DIJELA: Record<DioUpitnika, string> = {
+  A: 'Prikupljanje podataka o instituciji. Dio A se ne ocjenjuje.',
+  B: 'Ocjena rizika 1–4 po kategoriji. Veća vrijednost znači veći rizik.',
+  C: 'Ocjena nivoa zrelosti 1–4 po podoblasti. Veća vrijednost znači slabije kontrole.',
+};
+
+/** Naziv ocjene sekcije — zavisi od dijela, jer skale nisu iste. */
+export function nazivOcjeneSekcije(dio: DioUpitnika, ocjena: number): string {
+  return dio === 'B'
+    ? (NAZIV_OCJENE_RIZIKA[ocjena] ?? '')
+    : (NAZIV_OCJENE_KONTROLE[ocjena] ?? '');
+}
+
+// --- Odgovori na pitanja dijelova A i B -----------------------------------
+
+export const OPCIJE_DA_NE: { vrijednost: string; oznaka: string }[] = [
+  { vrijednost: 'DA', oznaka: 'Da' },
+  { vrijednost: 'NE', oznaka: 'Ne' },
+];
+
 // --- Bojenje ---------------------------------------------------------------
 // Jedina tačka u kojoj se inverzija skale pretvara u boju.
 

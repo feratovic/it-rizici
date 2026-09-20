@@ -1,8 +1,16 @@
 import { notFound } from 'next/navigation';
 
-import NavigacijaModula from '@/components/NavigacijaModula';
-import { dohvatiProcjenu, popunjenostCobit } from '@/lib/podaci';
+import NavigacijaModula, {
+  type StavkaModula,
+} from '@/components/NavigacijaModula';
+import {
+  dohvatiProcjenu,
+  popunjenostCobit,
+  popunjenostUpitnika,
+} from '@/lib/podaci';
 import { zahtijevajKorisnika, mozeVidjetiInstituciju } from '@/lib/ovlascenja';
+import { DOMENI, NAZIV_DOMENA } from '@/lib/cobit';
+import { NAZIV_DIJELA } from '@/lib/skale';
 
 export default async function LayoutProcjene({
   children,
@@ -18,20 +26,45 @@ export default async function LayoutProcjene({
   if (!procjena) notFound();
   if (!mozeVidjetiInstituciju(korisnik, procjena.institucijaId)) notFound();
 
-  const moduli: { putanja: string; oznaka: string; popunjeno?: string }[] = [
+  const moduli: StavkaModula[] = [
     { putanja: `/procjene/${id}`, oznaka: 'Pregled' },
   ];
 
   if (procjena.tip === 'COBIT') {
+    // Svaki domen je zaseban ekran, kao što je svaki dio upitnika zaseban —
+    // 15 procesa na jednoj listi ne pokazuje dokle se stiglo po fazama.
     const popunjenost = await popunjenostCobit(id);
-    const odgovoreno = popunjenost.reduce((a, p) => a + p.odgovoreno, 0);
-    const ukupno = popunjenost.reduce((a, p) => a + p.ukupno, 0);
 
-    moduli.push({
-      putanja: `/procjene/${id}/cobit`,
-      oznaka: 'COBIT samoprocjena',
-      popunjeno: `${odgovoreno}/${ukupno}`,
-    });
+    for (const domen of DOMENI) {
+      const uDomenu = popunjenost.filter((p) => p.domen === domen);
+      if (uDomenu.length === 0) continue;
+
+      moduli.push({
+        putanja: `/procjene/${id}/cobit/domen/${domen.toLowerCase()}`,
+        oznaka: `${domen} — ${NAZIV_DOMENA[domen]}`,
+        popunjeno: `${uDomenu.reduce((a, p) => a + p.odgovoreno, 0)}/${uDomenu.reduce((a, p) => a + p.ukupno, 0)}`,
+        // Ekran procesa je ispod domena po smislu, ali ne i po putanji.
+        podputanje: uDomenu.map((p) => `/procjene/${id}/cobit/${p.kod}`),
+      });
+    }
+  }
+
+  if (procjena.tip === 'IT_UPITNIK') {
+    // Svaki dio upitnika je zaseban ekran — dio C ima 227 pitanja, pa bi sva
+    // tri dijela na jednoj stranici bila neupotrebljiva.
+    for (const dio of await popunjenostUpitnika(id)) {
+      // Dio A se ne ocjenjuje, pa se popunjenost mjeri samo odgovorima.
+      const popunjeno =
+        dio.ukupnoOcjena > 0
+          ? `${dio.odgovoreno}/${dio.ukupnoPitanja} · ${dio.ocijenjeno}/${dio.ukupnoOcjena}`
+          : `${dio.odgovoreno}/${dio.ukupnoPitanja}`;
+
+      moduli.push({
+        putanja: `/procjene/${id}/upitnik/${dio.dio.toLowerCase()}`,
+        oznaka: `Dio ${dio.dio} — ${NAZIV_DIJELA[dio.dio]}`,
+        popunjeno,
+      });
+    }
   }
 
   return (

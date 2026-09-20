@@ -113,3 +113,81 @@ model CobitOdgovor {
   @@unique([procjenaId, izjavaKod])
   @@index([procjenaId])
 }
+
+// ---------------------------------------------------------------------------
+// IT upitnik — dijelovi A i B                                          [M3]
+// dio C                                                                [M4]
+// ---------------------------------------------------------------------------
+
+enum DioUpitnika {
+  A // Opšti podaci — samo prikupljanje podataka, bez ocjene
+  B // Indikatori IT rizika — ocjena rizika 1–4 po kategoriji
+  C // IT kontrole — ocjena nivoa zrelosti 1–4 po podoblasti
+}
+
+enum TipOdgovora {
+  BROJ
+  TEKST
+  DA_NE
+  IZBOR
+  DA_NE_DJELIMICNO
+}
+
+/// Pitanja se ugnježđuju u sekciju — isti razlog kao kod `CobitIzjava`:
+/// katalog je nepromjenljiv i čita se u cjelini po ekranu dijela.
+type UpitnikPitanje {
+  kod         String // stabilan čitljiv kod, npr. A1-1a, C4.7-117
+  redniBroj   Int
+  tekst       String
+  uputstvo    String // kolona G izvornog fajla; u dijelu C je prazno
+  tipOdgovora TipOdgovora
+  opcije      String[] // popunjeno samo za IZBOR
+}
+
+/// Sekcija je kategorija (A1–A4, B1–B5), oblast (C1–C10) ili podoblast (C1.1…).
+/// `roditeljKod` je kod nadređene oblasti, ne relacija: katalog se uvijek čita
+/// cijeli pa spajanje kolekcija ne bi ništa donijelo.
+model UpitnikSekcija {
+  id          String           @id @default(auto()) @map("_id") @db.ObjectId
+  kod         String           @unique // A1, B3, C4.7…
+  naziv       String
+  dio         DioUpitnika
+  roditeljKod String?
+  redniBroj   Int
+  pitanja     UpitnikPitanje[]
+
+  @@index([dio])
+}
+
+/// Odgovor na jedno pitanje. Zasebna kolekcija iz istog razloga kao
+/// `CobitOdgovor`: snimanje je automatsko, pa svaka promjena mora biti
+/// jedan `upsert`, a ne prepisivanje dokumenta od stotina stavki.
+model UpitnikOdgovor {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  procjenaId   String   @db.ObjectId
+  pitanjeKod   String
+  vrijednost   String? // kolona E izvornog fajla
+  objasnjenje  String? // kolona F; u dijelu C se ne koristi
+  izmijenjeno  DateTime @updatedAt
+
+  @@unique([procjenaId, pitanjeKod])
+  @@index([procjenaId])
+}
+
+/// Ocjena sekcije 1–4. U izvornom fajlu je to jedna spojena ćelija (kolona H)
+/// preko svih redova sekcije, zajedno sa obrazloženjima (kolone F i G dijela C) —
+/// zato ocjena i obrazloženja stoje uz sekciju, a ne uz pitanje.
+///
+/// ⚠ Skala je 1–4 i VEĆE JE GORE, suprotno od COBIT nivoa zrelosti.
+model UpitnikOcjena {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  procjenaId  String   @db.ObjectId
+  sekcijaKod  String
+  ocjena      Int // 1–4
+  prednosti   String? // kolona F dijela C
+  slabosti    String? // kolona G dijela C
+  izmijenjeno DateTime @updatedAt
+
+  @@unique([procjenaId, sekcijaKod])
+  @@index([procjenaId])
+}

@@ -38,6 +38,34 @@ npm run dev
 
 Lozinka za sve naloge: `lozinka123`
 
+## Demo podaci
+
+Redovni seed ostavlja procjene prazne. Za razgledanje aplikacije sa popunjenim
+sadržajem:
+
+```bash
+npm run db:seed:demo
+```
+
+Skripta dodaje pet institucija sa kontakt osobama (`kontakt@alfa.test`,
+`…@beta`, `…@gama`, `…@delta`, `…@epsilon`, ista lozinka) i po dvije COBIT
+procjene za svaku: **2024** zaključena i popunjena do kraja, **2025** u toku sa
+devet popunjenih procesa i desetim započetim. Odgovori se generišu
+deterministički oko ciljanog nivoa zrelosti po instituciji, pa se rezultati ne
+mijenjaju između pokretanja. Institucije su namjerno različite (Delta najslabija,
+Gama najjača), a Epsilon je jedina koja je nazadovala u odnosu na prethodnu
+godinu.
+
+Suvi prolaz — ispis bez upisa u bazu, radi i kada baza nije dostupna:
+
+```bash
+npm run db:seed:demo -- --dry
+```
+
+Procjene tipa **IT upitnik** kreiraju se prazne. Dio A traži brojčane podatke o
+instituciji koji nemaju smisleno sintetičko punjenje, pa se upitnik popunjava
+ručno kroz aplikaciju.
+
 ## Skripte
 
 | Komanda | Namjena |
@@ -46,6 +74,7 @@ Lozinka za sve naloge: `lozinka123`
 | `npm run build` | produkcioni build |
 | `npm run db:push` | primjena Prisma šeme na bazu |
 | `npm run db:seed` | punjenje baze (idempotentno) |
+| `npm run db:seed:demo` | demo procjene i COBIT odgovori (idempotentno) |
 
 ## Prateći dokumenti
 

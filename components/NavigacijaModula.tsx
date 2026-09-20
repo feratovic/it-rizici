@@ -8,6 +8,13 @@ export type StavkaModula = {
   oznaka: string;
   /** indikator popunjenosti, npr. "142/226" */
   popunjeno?: string;
+  /**
+   * Putanje koje pripadaju stavci, ali nisu ispod njene putanje — npr. ekran
+   * pojedinačnog COBIT procesa stoji na `/cobit/PO1`, a u navigaciji mu
+   * odgovara domen `/cobit/domen/po`. Bez ovoga nijedna stavka ne bi bila
+   * aktivna dok se popunjava proces.
+   */
+  podputanje?: string[];
 };
 
 export default function NavigacijaModula({
@@ -27,7 +34,8 @@ export default function NavigacijaModula({
           const aktivna =
             putanja === s.putanja ||
             (s.putanja !== stavke[0]?.putanja &&
-              putanja.startsWith(s.putanja + '/'));
+              putanja.startsWith(s.putanja + '/')) ||
+            (s.podputanje?.includes(putanja) ?? false);
 
           return (
             <li key={s.putanja}>

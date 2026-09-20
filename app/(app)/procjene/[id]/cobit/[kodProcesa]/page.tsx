@@ -53,7 +53,10 @@ export default async function StranicaProcesa({
             oznaka: `${procjena.institucija.naziv} — ${procjena.godina}`,
             putanja: `/procjene/${id}`,
           },
-          { oznaka: 'COBIT', putanja: `/procjene/${id}/cobit` },
+          {
+            oznaka: `${proces.domen} — ${NAZIV_DOMENA[proces.domen] ?? ''}`,
+            putanja: `/procjene/${id}/cobit/domen/${proces.domen.toLowerCase()}`,
+          },
           { oznaka: proces.kod },
         ]}
       />

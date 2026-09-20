@@ -23,7 +23,7 @@ stringu.
 | P3 | Bez code splittinga i `dynamic()` uvoza | mjesta označena `// [V2] kandidat za dynamic()` | TBT, veličina JS bundlea | izostavljeno |
 | P4 | Biblioteka za grafike u glavnom bundleu | `components/grafici/` | TBT, veličina JS bundlea | čeka M5 |
 | P5 | Bez keširanja i revalidacije | `lib/podaci.ts` | TTFB | izostavljeno |
-| P6 | Bez virtualizacije dugih lista — svih ~226 pitanja dijela C renderuje se odjednom | `components/upitnik/ListaPitanja.tsx` | TBT, CLS, vrijeme renderovanja | čeka M4 |
+| P6 | Bez virtualizacije dugih lista — svih 227 pitanja dijela C renderuje se odjednom | `components/upitnik/ListaPitanja.tsx` | TBT, CLS, vrijeme renderovanja | izostavljeno |
 | P7 | Slike u `public/` nisu optimizovane | `public/` | LCP, prenešeni bajt | izostavljeno |
 
 ## Sigurnost

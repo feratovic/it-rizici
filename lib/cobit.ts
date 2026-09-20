@@ -118,9 +118,17 @@ export function prosjecanNivoOrganizacije(nivoiProcesa: number[]): number {
   return zaokruzi2(suma / nivoiProcesa.length);
 }
 
+/** Domeni (faze) COBIT-a, redom kojim se prikazuju. */
+export const DOMENI = ['PO', 'AI', 'DS', 'ME'] as const;
+export type Domen = (typeof DOMENI)[number];
+
 export const NAZIV_DOMENA: Record<string, string> = {
   PO: 'Planiranje i organizacija',
   AI: 'Nabavka i implementacija',
   DS: 'Isporuka i podrška',
   ME: 'Nadzor i evaluacija',
 };
+
+export function jeDomen(vrijednost: string): vrijednost is Domen {
+  return (DOMENI as readonly string[]).includes(vrijednost);
+}

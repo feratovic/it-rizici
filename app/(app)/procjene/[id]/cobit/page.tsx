@@ -1,122 +1,17 @@
-import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { redirect } from 'next/navigation';
 
-import Breadcrumbs from '@/components/Breadcrumbs';
-import { dohvatiProcjenu, popunjenostCobit } from '@/lib/podaci';
-import { zahtijevajKorisnika, mozeVidjetiInstituciju } from '@/lib/ovlascenja';
-import { NAZIV_DOMENA } from '@/lib/cobit';
+import { DOMENI } from '@/lib/cobit';
 
-export const metadata = { title: 'COBIT samoprocjena' };
-
-export default async function ListaProcesa({
+/**
+ * COBIT modul više nema svoju listu — procesi se popunjavaju po domenima
+ * (fazama), a pregled svih 15 procesa sa ocjenama stoji na ekranu pregleda
+ * procjene. Putanja ostaje da bi stariji linkovi i dalje vodili nekuda.
+ */
+export default async function ModulCobit({
   params,
 }: {
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const korisnik = await zahtijevajKorisnika();
-  const procjena = await dohvatiProcjenu(id);
-
-  if (!procjena) notFound();
-  if (!mozeVidjetiInstituciju(korisnik, procjena.institucijaId)) notFound();
-
-  const procesi = await popunjenostCobit(id);
-
-  const domeni = ['PO', 'AI', 'DS', 'ME'];
-  const ukupno = procesi.reduce((a, p) => a + p.ukupno, 0);
-  const odgovoreno = procesi.reduce((a, p) => a + p.odgovoreno, 0);
-
-  return (
-    <>
-      <Breadcrumbs
-        stavke={[
-          { oznaka: 'Procjene', putanja: '/procjene' },
-          {
-            oznaka: `${procjena.institucija.naziv} — ${procjena.godina}`,
-            putanja: `/procjene/${id}`,
-          },
-          { oznaka: 'COBIT samoprocjena' },
-        ]}
-      />
-
-      <div className="mb-6 flex items-end justify-between">
-        <div>
-          <h1 className="text-xl font-bold text-gray-900">COBIT samoprocjena</h1>
-          <p className="mt-1 text-sm text-gray-500">
-            15 procesa · odgovoreno {odgovoreno} od {ukupno} izjava
-          </p>
-        </div>
-      </div>
-
-      {procesi.length === 0 ? (
-        <p className="text-sm text-gray-500">
-          Katalog COBIT procesa nije učitan. Pokrenite <code>npm run db:seed</code>.
-        </p>
-      ) : (
-        <div className="space-y-6">
-          {domeni.map((domen) => {
-            const uDomenu = procesi.filter((p) => p.domen === domen);
-            if (uDomenu.length === 0) return null;
-
-            return (
-              <section key={domen}>
-                <h2 className="mb-2 text-sm font-semibold text-gray-900">
-                  {domen} — {NAZIV_DOMENA[domen]}
-                </h2>
-
-                <div className="overflow-hidden rounded-lg border border-gray-200 bg-white">
-                  <table className="w-full text-sm">
-                    <tbody>
-                      {uDomenu.map((p) => {
-                        const procenat =
-                          p.ukupno > 0
-                            ? Math.round((p.odgovoreno / p.ukupno) * 100)
-                            : 0;
-                        const gotovo = p.odgovoreno === p.ukupno;
-
-                        return (
-                          <tr
-                            key={p.kod}
-                            className="border-b border-gray-100 last:border-0"
-                          >
-                            <td className="w-16 px-4 py-2 font-medium text-gray-900">
-                              {p.kod}
-                            </td>
-                            <td className="px-4 py-2">
-                              <Link
-                                href={`/procjene/${id}/cobit/${p.kod}`}
-                                className="text-gray-900 hover:underline"
-                              >
-                                {p.naziv}
-                              </Link>
-                            </td>
-                            <td className="w-48 px-4 py-2">
-                              <div className="flex items-center gap-2">
-                                <div className="h-1.5 w-24 overflow-hidden rounded-full bg-gray-200">
-                                  <div
-                                    className={
-                                      'h-full ' +
-                                      (gotovo ? 'bg-green-600' : 'bg-gray-500')
-                                    }
-                                    style={{ width: `${procenat}%` }}
-                                  />
-                                </div>
-                                <span className="text-xs tabular-nums text-gray-500">
-                                  {p.odgovoreno}/{p.ukupno}
-                                </span>
-                              </div>
-                            </td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
-                </div>
-              </section>
-            );
-          })}
-        </div>
-      )}
-    </>
-  );
+  redirect(`/procjene/${id}/cobit/domen/${DOMENI[0].toLowerCase()}`);
 }
