@@ -1,0 +1,72 @@
+// Šema baze — MongoDB (Prisma MongoDB konektor).
+// Prisma nad MongoDB nema migracije: evolucija šeme se vodi ručno u SEMA.md.
+// Primjena promjena: `npm run db:push`
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Osnovni entiteti                                                    [M1]
+// ---------------------------------------------------------------------------
+
+enum Uloga {
+  ADMIN
+  REVIZOR
+  KONTAKT_OSOBA
+}
+
+enum TipProcjene {
+  COBIT
+  IT_UPITNIK
+}
+
+enum StatusProcjene {
+  U_TOKU
+  ZAKLJUCENA
+}
+
+model Institucija {
+  id           String     @id @default(auto()) @map("_id") @db.ObjectId
+  naziv        String     @unique
+  kontaktOsoba String
+  email        String
+  telefon      String
+  kreiranoDana DateTime   @default(now())
+
+  korisnici    Korisnik[]
+  procjene     Procjena[]
+}
+
+model Korisnik {
+  id             String       @id @default(auto()) @map("_id") @db.ObjectId
+  email          String       @unique
+  lozinkaHash    String
+  ime            String
+  uloga          Uloga
+  institucijaId  String?      @db.ObjectId
+  institucija    Institucija? @relation(fields: [institucijaId], references: [id])
+  kreiranoDana   DateTime     @default(now())
+
+  kreiraneProcjene Procjena[] @relation("KreiraoProcjenu")
+}
+
+model Procjena {
+  id            String         @id @default(auto()) @map("_id") @db.ObjectId
+  institucijaId String         @db.ObjectId
+  institucija   Institucija    @relation(fields: [institucijaId], references: [id])
+  godina        Int
+  tip           TipProcjene
+  status        StatusProcjene @default(U_TOKU)
+  kreiraoId     String         @db.ObjectId
+  kreirao       Korisnik       @relation("KreiraoProcjenu", fields: [kreiraoId], references: [id])
+  kreiranoDana  DateTime       @default(now())
+  zakljucenoDana DateTime?
+
+  @@unique([institucijaId, godina, tip])
+}
