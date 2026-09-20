@@ -53,6 +53,31 @@ Lozinka za sve naloge: `lozinka123`
   (zamjena za migracionu istoriju)
 - [`NAPOMENE.md`](NAPOMENE.md) — spisak namjerno izostavljenih optimizacionih i
   sigurnosnih praksi u V1 baseline verziji
+- [`VERIFIKACIJA.md`](VERIFIKACIJA.md) — provjera agregacije prema izvornim
+  Excel fajlovima i popis utvrđenih defekata izvora
+- [`PROTOKOL-MJERENJA.md`](PROTOKOL-MJERENJA.md) — commit hash, URL i datum po
+  mjernoj tački
+
+## Katalozi
+
+Tekstovi izjava i pitanja čuvaju se kao JSON u `prisma/podaci/` i učitavaju iz
+seed skripte, da bi se mogli regenerisati bez diranja koda. Generišu se
+skriptama u `alati/` iz izvornih Excel fajlova (Python 3 + `openpyxl`):
+
+```bash
+python alati/izvuci-cobit.py "putanja/do/2.1 COBIT.xlsx"
+python alati/izvuci-upitnik.py "putanja/do/3.Samoprocjena nivoa IT rizika.xlsx"
+```
+
+Provjera agregacije:
+
+```bash
+python alati/provjeri-agregaciju-cobit.py "putanja/do/2.1 COBIT.xlsx"
+npx tsx alati/provjeri-cobit-ts.ts
+```
+
+`alati/` je build-time alat — ne ulazi u JS bundle aplikacije i ne utiče na
+mjerenja.
 
 ## Mjerne tačke
 

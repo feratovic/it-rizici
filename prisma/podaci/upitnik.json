@@ -1,0 +1,3796 @@
+[
+  {
+    "kod": "A1",
+    "naziv": "Organizacija",
+    "dio": "A",
+    "roditeljKod": null,
+    "redniBroj": 1,
+    "pitanja": [
+      {
+        "kod": "A1-1",
+        "redniBroj": 1,
+        "tekst": "Koliki je ukupan broj zaposlenih u kreditnoj instituciji na 31.12?",
+        "uputstvo": "Kolona E - Odnosi se na broj lica koja imaju sklopljen ugovor o radu sa KI.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-1a",
+        "redniBroj": 2,
+        "tekst": "Od tog broja koliki je ukupan broj stalno zaposlenih koji su angažovani na poslovima u IT-u, IT sigurnosti, upravljanju IT rizicima i IT reviziji?",
+        "uputstvo": "Kolona E - Odnosi se na broj lica koja imaju sklopljen ugovor o radu sa KI na neodređeno vrijeme.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-1b",
+        "redniBroj": 3,
+        "tekst": "Od tog broja koliki je ukupan broj zaposlenih na određeno vrijeme koji su angažovani na poslovima u IT-u, IT sigurnosti, upravljanju IT rizicima i IT reviziji?",
+        "uputstvo": "Kolona E - Odnosi se na broj lica koja imaju sklopljen ugovor o radu sa KI na određeno vrijeme.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-2",
+        "redniBroj": 4,
+        "tekst": "Koliki je broj upražnjenih pozicija na 31.12 predviđenih aktom o sistematizaciji, a koje se odnose na IT poslove u organizacionom dijelu za IT, IT sigurnost, upravljanje IT rizicima, IT reviziju itd?",
+        "uputstvo": "Kolona F - Navesti koje su pozicije u pitanju, koliko dugo su upražnjenje i razlog zbog kojih nisu popunjene.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-3",
+        "redniBroj": 5,
+        "tekst": "Koliko je bivših zaposlenih koji su bili angažovani na poslovima u IT-u, IT sigurnosti, upravljanju IT rizicima i IT reviziji napustilo KI u posmatranoj godini?",
+        "uputstvo": "Kolona F - Navesti koje su pozicije u pitanju.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-4",
+        "redniBroj": 6,
+        "tekst": "Koliki je broj zaposlenih koji su na poslovima u IT-u, IT sigurnosti, upravljanju IT rizicima i IT reviziji započeli radni odnosu u KI u toku posmatrane godine?",
+        "uputstvo": "Kolona F - Navesti koje su pozicije u pitanju.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-5",
+        "redniBroj": 7,
+        "tekst": "U toku posmatrane godine, koliko je zaposlenih interno preraspoređeno na neko radno mjesto iz oblasti IT-a, IT sigurnosti, upravljanja IT rizicima i IT revizije.",
+        "uputstvo": "Kolona F - Navesti koje su pozicije u pitanju.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-6",
+        "redniBroj": 8,
+        "tekst": "Po vašoj procjeni koliki je ukupan broja lica zaposlenih kod spoljnih partnera kreditne institucije angažovanih na poslovima IT-a, IT sigurnosti, upravljanju IT rizicima i IT reviziji?",
+        "uputstvo": "Kolona E - U broj uključiti i zaposlene kod matične KI, grupe kojoj KI pripada, lica angažovana preko agencija za ustupanje zaposlenih, agencija za pružanje konsultantskih usluga, pružaoca usluga eksternalizacije itd. Kolona F - Obrazložiti na koji je način procjena izvršena.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-6a",
+        "redniBroj": 9,
+        "tekst": "Od tog broja koliki je ukupan broj lica angažovanih preko agencija za ustupanje zaposlenih?",
+        "uputstvo": "Kolona F - Navesti tačne pozicije na kojima su ove osobe raspoređene.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-6b",
+        "redniBroj": 10,
+        "tekst": "Po vašoj procjeni od tog broja koliko je lica sa lokacijom izvan Crne Gore?",
+        "uputstvo": "Kolona F - Obrazložiti na koji je način procjena izvršena.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-7",
+        "redniBroj": 11,
+        "tekst": "Koliki je ukupan broj lica angažovanih preko programa stručnog osposobljavanja?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-7a",
+        "redniBroj": 12,
+        "tekst": "Od tog broja koliki je broj lica angažovanih na poslovima u IT-u, IT sigurnosti, upravljanju IT rizicima i IT reviziji?",
+        "uputstvo": "Kolona F - Navesti tačne pozicije na kojima su ove osobe raspoređene.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-8",
+        "redniBroj": 13,
+        "tekst": "Broj lokacija značajnih IT data centara i IT funkcija koje koristi KI a koje se nalaze izvan Crne Gore.",
+        "uputstvo": "Kolona F - Navesti o kojim IT data centrima i funkcijama je riječ kao i njihovu geografsku lokaciju.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-9",
+        "redniBroj": 14,
+        "tekst": "Da li postoji funkcionalna nezavisnost između 1. i 2. linije odbrane u upravljanju IT rizikom?",
+        "uputstvo": "Kolona F - Navesti kriterijume na osnovu kojih je nezavisnost obezbijeđena.",
+        "tipOdgovora": "DA_NE",
+        "opcije": []
+      },
+      {
+        "kod": "A1-9a",
+        "redniBroj": 15,
+        "tekst": "Navesti funkcije/odbore koje izvještava 2. linija odbrane.",
+        "uputstvo": "",
+        "tipOdgovora": "TEKST",
+        "opcije": []
+      },
+      {
+        "kod": "A1-10",
+        "redniBroj": 16,
+        "tekst": "Da li je funkcija zadužena za IT sigurnost objedinjena sa funkcijom zaduženom za koordinaciju, praćenje i nadziranje primjene pravila za upravljanje IT rizicima?",
+        "uputstvo": "Kolona F - Pojasniti na koji način je organizovana funkcija IT sigurnosti.",
+        "tipOdgovora": "DA_NE",
+        "opcije": []
+      },
+      {
+        "kod": "A1-10a",
+        "redniBroj": 17,
+        "tekst": "Navesti funkcije/odbore koje izvještava funkcija za IT sigurnost.",
+        "uputstvo": "",
+        "tipOdgovora": "TEKST",
+        "opcije": []
+      },
+      {
+        "kod": "A1-11",
+        "redniBroj": 18,
+        "tekst": "Koliki je broj IT zaposlenih u okviru 1. linije odbrane?",
+        "uputstvo": "Kolona F - Pored zaposlenih u organizacionoj jedinici za IT uzeti u obzir i IT stručnjake koji su eventualno zaposleni u drugim, poslovnim, organizacionim jedinicama KI.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-11a",
+        "redniBroj": 19,
+        "tekst": "Od tog broja koliko IT zaposlenih obavlja poslove u vezi razvoja softvera?",
+        "uputstvo": "Kolona F - Ukoliko postoje zaposleni van organizacione jedinice za IT koji obavljaju ove poslove navesti njihovu poziciju.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-11b",
+        "redniBroj": 20,
+        "tekst": "Od tog broja koliko IT zaposlenih obavlja poslove u vezi uspostavljanja i održavanja IT infrastrukture?",
+        "uputstvo": "Kolona F - Ukoliko postoje zaposleni van organizacione jedinice za IT koji obavljaju ove poslove navesti njihovu poziciju.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-12",
+        "redniBroj": 21,
+        "tekst": "Koliki je broj zaposlenih zaduženih za 2. liniju IT odbrane?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-12a",
+        "redniBroj": 22,
+        "tekst": "Od tog broja koliki je broj zaposlenih u IT rizicima?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-12b",
+        "redniBroj": 23,
+        "tekst": "Od tog broja koliki je broj zaposlenih zaduženih za IT sigurnost?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-13",
+        "redniBroj": 24,
+        "tekst": "Koliki je ukupan broj internih revizora?",
+        "uputstvo": "Kolana E - Uključujući IT revizore",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A1-14",
+        "redniBroj": 25,
+        "tekst": "Koliki je broj IT revizora?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "A2",
+    "naziv": "Budžet",
+    "dio": "A",
+    "roditeljKod": null,
+    "redniBroj": 2,
+    "pitanja": [
+      {
+        "kod": "A2-15",
+        "redniBroj": 1,
+        "tekst": "Koliko je iznosio ukupno realizovani IT budžet za godinu prije posmatrane godine (uključujući IT sigurnost, IT eksternalizaciju itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-15a",
+        "redniBroj": 2,
+        "tekst": "Od tog iznosa koliko je iznosio realizovani budžet za IT investicije i inovacije?",
+        "uputstvo": "Kolona E - Realizovani CAPEX za godinu prije posmatrane godine.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-15b",
+        "redniBroj": 3,
+        "tekst": "Od tog iznosa koliko je iznosio realizovani budžet za IT operativne troškove?",
+        "uputstvo": "Kolona E - Realizovani OPEX za godinu prije posmatrane godine.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-15c",
+        "redniBroj": 4,
+        "tekst": "Od tog iznosa koliko je iznosio planirani budžet za IT sigurnost?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-15d",
+        "redniBroj": 5,
+        "tekst": "Od tog iznosa koliko je iznosio realizovani budžet za IT eksternalizacije?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-16",
+        "redniBroj": 6,
+        "tekst": "Koliko je iznosio ukupno planirani IT budžet za posmatranu godinu (uključujući IT sigurnost, IT eksternalizaciju itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-16a",
+        "redniBroj": 7,
+        "tekst": "Od tog iznosa koliko iznose sredstva koja su prvobitno bila predviđena planom IT budžeta za godinu prije posmatrane godine?",
+        "uputstvo": "Kolona F - Navesti značajne IT investicije i inovacije (CAPEX) i IT operativne troškove (OPEX) koji su bili planirani za godinu prije posmatrane godine ali nisu realizovani u skladu sa planom IT budžeta za tu godinu i prenijeti su u plan IT budžeta za posmatranu godinu.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-16b",
+        "redniBroj": 8,
+        "tekst": "Od tog iznosa koliko je iznosio planirani budžet za IT investicije i inovacije?",
+        "uputstvo": "Kolona E - Planirani CAPEX za posmatranu godinu.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-16c",
+        "redniBroj": 9,
+        "tekst": "Od tog iznosa koliko je iznosio planirani budžet za IT operativne troškove?",
+        "uputstvo": "Kolona E - Planirani OPEX za posmatranu godinu.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-16d",
+        "redniBroj": 10,
+        "tekst": "Od tog iznosa koliko je iznosio planirani budžet za IT sigurnost?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-16e",
+        "redniBroj": 11,
+        "tekst": "Od tog iznosa koliko je iznosio planirani budžet za IT eksternalizacije?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-17",
+        "redniBroj": 12,
+        "tekst": "Koliko iznosi ukupno realizovani budžet KI za posmatranu godinu?",
+        "uputstvo": "Kolona E - Ukupano realizovani budžet KI (IT + non-IT).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-17a",
+        "redniBroj": 13,
+        "tekst": "Od tog iznosa koliko iznosi realizovani budžet KI za eksternalizacije?",
+        "uputstvo": "Kolona E - Ukupan realizovani budžet KI za eksternalizaciju (IT eksternalizacija + non-IT eksternalizacija).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-18",
+        "redniBroj": 14,
+        "tekst": "Koliko iznosi ukupno realizovani IT budžet za posmatranu godinu (uključujući IT sigurnost, IT eksternalizaciju itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-18a",
+        "redniBroj": 15,
+        "tekst": "Od tog iznosa koliko iznose sredstva koja su prvobitno bila predviđena planom IT budžeta za godinu prije posmatrane godine?",
+        "uputstvo": "Kolona F - Navesti značajne IT investicije i inovacije (CAPEX) i IT operativne troškove (OPEX) koji su bili planirani za godinu prije posmatrane godine ali nisu realizovani u skladu sa planom IT budžeta za tu godinu već su realizovani u toku posmatrane godine.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-18b",
+        "redniBroj": 16,
+        "tekst": "Od tog iznosa koliko iznose sredstva utrošena na neplanirane trоškove?",
+        "uputstvo": "Kolona F - Navesti značajne neplanirane troškove.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-18c",
+        "redniBroj": 17,
+        "tekst": "Od tog iznosa koliko je iznosio realizovani budžet za IT investicije i inovacije?",
+        "uputstvo": "Kolona E - Realizovani CAPEX za posmatranu godinu. Kolona F - navesti 5 najvećih realizovanih stavki IT budžeta koje se odnose na IT investicije i inovacije uz kratak opis na šta se odnose, odnosno dati vezu sa važećom IT strategijom.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-18d",
+        "redniBroj": 18,
+        "tekst": "Od tog iznosa koliko je iznosio realizovani budžet za IT operativne troškove?",
+        "uputstvo": "Kolona E - Realizovani OPEX za posmatranu godinu.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-18e",
+        "redniBroj": 19,
+        "tekst": "Od tog iznosa koliko je iznosio realizovani budžet za IT sigurnost?",
+        "uputstvo": "Kolona F - Navesti 5 najvećih realizovanih stavki IT budžeta koje se odnose na IT sigurnost uključujući i obezbjeđenje fizičke sigurnosti IT resursa (npr. data centra).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-18f",
+        "redniBroj": 20,
+        "tekst": "Od tog iznosa koliko je iznosio realizovani budžet za IT eksternalizacije?",
+        "uputstvo": "Kolona F - Navesti 5 najvećih realizovanih stavki IT budžeta koje se odnose na IT eksternalizacije uz navođenje naziva pružaoca usluge, kratkog opisa usluge i ukupnog godišnjeg troška.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-18g",
+        "redniBroj": 21,
+        "tekst": "Od tog iznosa koliko je iznosio realizovani budžet za IT eksternalizacije unutar grupe kojoj KI pripada?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-18h",
+        "redniBroj": 22,
+        "tekst": "Od tog iznosa koliko je iznosio realizovani budžet za IT eksternalizacije unutar grupe kojoj KI pripada, po principu računarstva u oblaku?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-18i",
+        "redniBroj": 23,
+        "tekst": "Od tog iznosa koliko je iznosio realizovani budžet za IT eksternalizacije van grupe kojoj KI pripada?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-18j",
+        "redniBroj": 24,
+        "tekst": "Od tog iznosa koliko je iznosio realizovani budžet za IT eksternalizacije van grupe kojoj KI pripada, po principu računarstva u oblaku?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-19",
+        "redniBroj": 25,
+        "tekst": "Koliko iznosi ukupno planirani budžet KI za godinu nakon posmatrane godine?",
+        "uputstvo": "Kolona E - Ukupan planirani budžet KI (IT + non-IT).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-19a",
+        "redniBroj": 26,
+        "tekst": "Od tog iznosa koliko iznosi ukupno planirani budžet KI za eksternalizaciju?",
+        "uputstvo": "Kolona E - Ukupan planirani budžet KI za eksternalizaciju (IT eksternalizacija + non-IT eksternalizacija).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-20",
+        "redniBroj": 27,
+        "tekst": "Koliko iznosi ukupno planirani IT budžet za godinu nakon posmatrane godine?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-20a",
+        "redniBroj": 28,
+        "tekst": "Od tog iznosa koliko iznose sredstva koja su prvobitno bila predviđena planom IT budžeta za posmatranu godinu?",
+        "uputstvo": "Kolona F - Navesti značajne IT investicije i inovacije (CAPEX) i IT operativne troškove (OPEX) čija je realizacija bila planirana u posmatranoj godini a koja nisu realizovana u skladu sa planom IT budžeta za tu godinu već su predviđena planom IT budžeta za godinu nakon posmatrane godine. Ukoliko u planu postoje značajne razlike u odnosu na realizovani budžet u posmatranoj godini navesti razloge.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-20b",
+        "redniBroj": 29,
+        "tekst": "Od tog iznosa koliko iznosi planirani budžet za IT investicije i inovacije?",
+        "uputstvo": "Kolona F - Navesti 5 najvećih stavki planiranog IT budžeta koje se odnose na IT investicije i inovacije uz kratak opis na šta se odnose, odnosno dati vezu sa važećom IT strategijom.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-20c",
+        "redniBroj": 30,
+        "tekst": "Od tog iznosa koliko iznosi planirani budžet za IT operativne troškove?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-20d",
+        "redniBroj": 31,
+        "tekst": "Od tog iznosa koliko iznosi planirani budžet za IT sigurnost?",
+        "uputstvo": "Kolona F - Navesti 5 najvećih stavki planiranog IT budžeta koje se odnose na IT sigurnost uključujući i obezbjeđenje fizičke sigurnosti IT resursa (npr. data centra).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-20e",
+        "redniBroj": 32,
+        "tekst": "Od tog iznosa koliko iznosi planirani budžet za IT eksternalizacije?",
+        "uputstvo": "Kolona F -Navesti 5 najvećih pružaoca usluga IT eksternalizovanih poslova sa aspekta troškova.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-20f",
+        "redniBroj": 33,
+        "tekst": "Od tog iznosa koliko iznosi planirani budžet za IT eksternalizacije unutar grupe kojoj KI pripada?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A2-20g",
+        "redniBroj": 34,
+        "tekst": "Od tog iznosa koliko iznosi planirani budžet za IT eksternalizacije van grupe kojoj KI pripada?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "A3",
+    "naziv": "Nadzor",
+    "dio": "A",
+    "roditeljKod": null,
+    "redniBroj": 3,
+    "pitanja": [
+      {
+        "kod": "A3-21",
+        "redniBroj": 1,
+        "tekst": "Koliko ima članova upravnog odbora?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-21a",
+        "redniBroj": 2,
+        "tekst": "Koliko članova upravnog odbora ima IT ekspertizu (npr. IT kvalifikacija i/ili IT sertifikacija)?",
+        "uputstvo": "Kolona F - Za svakog člana upravnog odbora koji ima IT ekstpertizu navesti funkciju koju pokriva.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-22",
+        "redniBroj": 3,
+        "tekst": "Koliko često upravni odbor raspravlja o IT temama iz nadležnosti 1. linije odbrane?",
+        "uputstvo": "Kolona F - Unijeti obrazloženje.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "više puta u mjesecu",
+          "mjesečno",
+          "kvartalno",
+          "polugodišnje",
+          "godišnje"
+        ]
+      },
+      {
+        "kod": "A3-23",
+        "redniBroj": 4,
+        "tekst": "Koliko često upravni odbor raspravlja o IT rizicima tj. temama iz nadležnosti 2. linije odbrane?",
+        "uputstvo": "Kolona F - Unijeti obrazloženje.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "više puta u mjesecu",
+          "mjesečno",
+          "kvartalno",
+          "polugodišnje",
+          "godišnje"
+        ]
+      },
+      {
+        "kod": "A3-24",
+        "redniBroj": 5,
+        "tekst": "Koliko često upravni odbor raspravlja o temi informacione sigurnosti?",
+        "uputstvo": "Kolona F - Unijeti obrazloženje.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "više puta u mjesecu",
+          "mjesečno",
+          "kvartalno",
+          "polugodišnje",
+          "godišnje"
+        ]
+      },
+      {
+        "kod": "A3-25",
+        "redniBroj": 6,
+        "tekst": "Koliko često više rukovodstvo / upravni odbor nadzire kvalitet pružanja eksternalizovanih IT usluga?",
+        "uputstvo": "Kolona E - Odnosi se na praćenje parametara kao što su ispunjenje KPI, SLA, dinamike rješavanja eventualnih problema i slično. Kolona F - Detaljnije obrazložiti.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "više puta u mjesecu",
+          "mjesečno",
+          "kvartalno",
+          "polugodišnje",
+          "godišnje"
+        ]
+      },
+      {
+        "kod": "A3-26",
+        "redniBroj": 7,
+        "tekst": "Postoji li proces kojim se obezbjeđuje provjera da li su grupna IT strategija i druga grupna akta kojima se uređuje oblast IT-a, usklađeni sa lokalnim propisima i operativnim ograničenjima?",
+        "uputstvo": "Kolona F - Ukoliko postoji, opisati postupak.",
+        "tipOdgovora": "DA_NE",
+        "opcije": []
+      },
+      {
+        "kod": "A3-27",
+        "redniBroj": 8,
+        "tekst": "Da li je tokom posmatrane godine bilo kašnjenja u realizaciji IT strategije, operativnih IT planova i IT projekata?",
+        "uputstvo": "Kolona E - Uzeti u obzir i kašnjenje aktivnosti za koje su planirane a za koja sredstva nisu predviđena CAPEX-om. Kolona F - Detaljno objasniti kašnjenja uz navođenje razloga.",
+        "tipOdgovora": "DA_NE",
+        "opcije": []
+      },
+      {
+        "kod": "A3-28",
+        "redniBroj": 9,
+        "tekst": "Da li je KI usklađena sa nekim od industrijski priznatih standarda informacione sigurnosti?",
+        "uputstvo": "Kolona F - Ukoliko jeste, navesti naziv standarda, periodiku provjere usklađenosti, izvještaj poslednje procjene usklađenosti.",
+        "tipOdgovora": "DA_NE",
+        "opcije": []
+      },
+      {
+        "kod": "A3-29",
+        "redniBroj": 10,
+        "tekst": "Koji je procenat sveobuhvatnog IT revizorskog univerzuma koji nije bio predmet interne IT revizije u prethodne tri godine?",
+        "uputstvo": "Kolona F - Uz opis načina na koji je definisan IT revizorski univerzum navesti područja koja nisu pokrivena u tom periodu.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-30",
+        "redniBroj": 11,
+        "tekst": "Koji je procenat revizorskog IT univerzuma koji je bio predmet interne IT revizije u posmatranoj godini?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-31",
+        "redniBroj": 12,
+        "tekst": "Koji je procenat IT funkcija (uključujući eksternalizovane) koje nisu bile predmet interne IT revizije u prethodne tri godine?",
+        "uputstvo": "Kolona F - Navesti 5 najbitnijih funkcija koje nisu obuhvaćene internom IT revizijom.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-32",
+        "redniBroj": 13,
+        "tekst": "Koji je procenat IT funkcija (uključujući eksternalizovane) koje su bile predmet interne IT revizije u posmatranoj godini?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-33",
+        "redniBroj": 14,
+        "tekst": "Koji je procenat eksternalizovanih IT funkcija koje nisu bile predmet interne IT revizije u prethodne tri godine?",
+        "uputstvo": "Kolona F - Navesti 5 najbitnijih eksternalizovanih IT funkcija koje nisu obuhvaćene internom IT revizijom.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-34",
+        "redniBroj": 15,
+        "tekst": "Koji je procenat eksternalizovanih IT funkcija koje su bile predmet interne IT revizije u posmatranoj godini?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-35",
+        "redniBroj": 16,
+        "tekst": "Koliko je IT revizija bilo predviđeno godišnjim planom interne revizije za posmatranu godinu?",
+        "uputstvo": "Kolana F - Navesti IT revizije koje nisu realizovane u skladu sa planom.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-36",
+        "redniBroj": 17,
+        "tekst": "Koji je broj sprovedenih internih IT revizija u posmatranoj godini?",
+        "uputstvo": "Kolona F - Navesti sprovedene interne IT revizije.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-37",
+        "redniBroj": 18,
+        "tekst": "Koji je ukupan broj nalaza/preporuka IT interne revizije identifikovanih u toku posmatrane godine?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-37a",
+        "redniBroj": 19,
+        "tekst": "Od toga, koji je broj identifikovanih nalaza visokog rizika?",
+        "uputstvo": "Kolona F - Navedite tri oblasti u kojima je identifikovano najviše nalaza/preporuka visokog rizika.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-38",
+        "redniBroj": 20,
+        "tekst": "Koji je ukupan broj otvorenih nalaza IT interne revizije na 31.12?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-38a",
+        "redniBroj": 21,
+        "tekst": "Od toga, koliko je nalaza visokog rizika?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-38b",
+        "redniBroj": 22,
+        "tekst": "Od toga, koliko je nalaza visokog rizika koji nisu otklonjeni u periodu dužem od godinu dana?",
+        "uputstvo": "Kolona F - Navesti detalje",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-39",
+        "redniBroj": 23,
+        "tekst": "Sa stanjem na dan 31.12 koliko je nalaza IT interne revizije sa isteklim rokom za zatvaranje/realizaciju?",
+        "uputstvo": "Kolona E - Pod isteklim rokom se smatra probijanje posljednjeg definisanog krajnjeg roka realizacije, kojim su uzeta u obzir sva dozvoljena i usaglašena odlaganja.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-39a",
+        "redniBroj": 24,
+        "tekst": "Od toga, koliko je nalaza visokog rizika?",
+        "uputstvo": "Kolona F - Navesti detalje",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-40",
+        "redniBroj": 25,
+        "tekst": "Koliko je nalaza/preporuka IT interne revizije zatvoreno/riješeno u posmatranoj godini?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-40a",
+        "redniBroj": 26,
+        "tekst": "Od toga, koliko je nalaza/preporuka visokog rizika?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-40b",
+        "redniBroj": 27,
+        "tekst": "Od toga, koliko je nalaza/preporuka visokog rizika koje su zatvorene sa prolongiranjem incijalno defenisanog roka za zatvarajne/riješavanje?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-41",
+        "redniBroj": 28,
+        "tekst": "Koji je broj eksternih IT revizija sprovedenih tokom posmatrane godine (npr.revizije informacionih sistema za potrebe supervizora, revizije na inicijativu trećih lica, klijenata KI, revizije za potrebne sertifikacije, itd.)?",
+        "uputstvo": "Kolona F - Spisak eksternih IT revizija",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-41a",
+        "redniBroj": 29,
+        "tekst": "Koji je ukupan broj nalaza eksternih IT revizija identifikovanih u toku posmatrane godine?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A3-41b",
+        "redniBroj": 30,
+        "tekst": "Od toga, koliko je nalaza visokog rizika?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "A4",
+    "naziv": "IT okruženje",
+    "dio": "A",
+    "roditeljKod": null,
+    "redniBroj": 4,
+    "pitanja": [
+      {
+        "kod": "A4-42",
+        "redniBroj": 1,
+        "tekst": "Da li je bilo spajanja, akvizicija, razdvajanja ili drugih velikih organizacionih promjena u posmatranoj godini?",
+        "uputstvo": "Kolona F - Ukoliko je bilo, navesti detalje a naročito kako su te promjene uticale na promjenu IT/IS landscape-a?",
+        "tipOdgovora": "DA_NE",
+        "opcije": []
+      },
+      {
+        "kod": "A4-43",
+        "redniBroj": 2,
+        "tekst": "Koliki je broj kritičnih projekata sa značajnim učešćem IT-a, koji su planirani/završeni u posmatranoj godini ili koji su u toku na 31.12?",
+        "uputstvo": "Kolona F - Navesti spisak projekata sa informacijama: ime projekta, opis, planirani i ostvareni budžet u EUR, početak projekta, datum završetka projekta, status projekta na 31.12.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-43a",
+        "redniBroj": 3,
+        "tekst": "Od toga, koji je broj kritičnih projekata koji imaju uticaj na promjenu IT arhitekture?",
+        "uputstvo": "Kolona F - Navesti spisak projekata sa informacijama: ime projekta, opis, planirani i stvarni budžet u EUR, početak projekta, datum završetka projekta, status projekta na 31.12. , detalje o uticaju na IT arhitekturu.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-43b",
+        "redniBroj": 4,
+        "tekst": "Od toga, koji je broj projekata koji su vezani za zamjenu ili migraciju zastarjelih sistema (eng. \"EOL\")?",
+        "uputstvo": "Kolona F - Navesti spisak projekata sa informacijama: ime projekta, opis, planirani i stvarni budžet u EUR, početak projekta i datum završetka projekta, status projekta na 31.12. , cilj (zamjena ili migracija).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-43c",
+        "redniBroj": 5,
+        "tekst": "Od toga, koji je broj projekata koji su vezani za uvođenje novih ili značajnih izmjena postojećih kritičnih aplikacija dostupnih na Internetu?",
+        "uputstvo": "Kolona F - Navesti spisak projekata sa informacijama: ime projekta, opis, planirani i stvarni budžet u EUR, početak projekta i datum završetka projekta, status projekta na 31.12. , cilj (nova aplikacija ili izmjena postojeće).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-44",
+        "redniBroj": 6,
+        "tekst": "Koliki je bio ukupan iznos direktnih i indirektnih troškova (npr. gubici, nastale kazne ili naknade, troškovi za odgovor i oporavak od incidenta, uključivanje spoljnih stručnjaka, prekovremeni rad zaposlenih, itd.) zbog nastalih IT incidenata, uključujući i incidente u dijelu informacionog sistema koji je eksternalizovan?",
+        "uputstvo": "Kolona E - Uzeti u obzir sve direktne i indirektne troškove nastale zbog incidenata koji su narušili fukcionalnost ili sigurnost informacionog sistema. Kolona F - Analitički obrazložiti ukupni trošak po najznačajnijim stavkama. Navesti glavne uzroke IT incidenata.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-44a",
+        "redniBroj": 7,
+        "tekst": "Od toga koliki je bio ukupan iznos direktnih i indirektnih troškova zbog uspješnih malicioznih napada?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-44b",
+        "redniBroj": 8,
+        "tekst": "Od toga koliki je bio ukupan iznos direktnih i indirektnih troškova zbog incidenata koji nisu nastali kao rezultat malicioznih aktivnosti?",
+        "uputstvo": "Kolona E - Primjeri ovih incidenata su nedostupnost sistema zbog isteka licence, nedostatka performansi i kapaciteta sistema, zastarjelosti opreme i slično.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-44c",
+        "redniBroj": 9,
+        "tekst": "Od toga koliki je bio ukupan iznos direktnih i indirektnih troškova zbog incidenata u dijelu informacionog sistema koji je eksternalizovan?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-45",
+        "redniBroj": 10,
+        "tekst": "Koliki je ukupan broj uspješnih malicioznih napada na informacioni sistem (uključujući i dio informacionog sistema koji je eksternalizovan) u posmatranoj godini?",
+        "uputstvo": "Kolona F - Ukratko objasniti tipove uspješnih napada kojima je KI bila izložena (ATP, DDoS, SQL injection,itd.), afektirane sisteme/procese, uticaj koji je napad imao (npr. gubitak dostupnosti, izvršenje lažnih plaćanja, neovlašćeni pristup, itd.).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-45a",
+        "redniBroj": 11,
+        "tekst": "Koje je bilo prosječno vrijeme detekcije u satima?",
+        "uputstvo": "Kolona E - Za sve tipove napada uključujući i DDoS.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-45b",
+        "redniBroj": 12,
+        "tekst": "Koje je bilo prosječno vrijeme oporavka u satima?",
+        "uputstvo": "Kolona E - Za sve tipove napada uključujući i DDoS.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-45c",
+        "redniBroj": 13,
+        "tekst": "Koje je bilo prosječno vrijeme detekcije u satima, ne računajući DDoS napade?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-45d",
+        "redniBroj": 14,
+        "tekst": "Koje je bilo prosječno vrijeme oporavka u satima, ne računajući DDoS napade?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "A4-46",
+        "redniBroj": 15,
+        "tekst": "Da li je KI korisnik polise osiguranja od sajber napada?",
+        "uputstvo": "Kolona F - Ukoliko jeste, navesti detalje uz informaciju o osiguranoj sumi i IT rizicima pokrivenih polisom.",
+        "tipOdgovora": "DA_NE",
+        "opcije": []
+      },
+      {
+        "kod": "A4-47",
+        "redniBroj": 16,
+        "tekst": "Da li je tokom posmatrane godine bilo značajnih promjena IT procesa i procedura?",
+        "uputstvo": "Kolona F - Navesti i opisati promjene.",
+        "tipOdgovora": "DA_NE",
+        "opcije": []
+      },
+      {
+        "kod": "A4-48",
+        "redniBroj": 17,
+        "tekst": "Da li koristite inovativne IT tehnologije u poslovanju (big data, blockchain, vještačka inteligencija i slično)?",
+        "uputstvo": "Kolona F - Navesti inovativne tehnologije koje se koriste i oblast u kojoj se koriste.",
+        "tipOdgovora": "DA_NE",
+        "opcije": []
+      },
+      {
+        "kod": "A4-49",
+        "redniBroj": 18,
+        "tekst": "Koji je vaš glavni aktuelni operativni model za upravljanje IT projektima?",
+        "uputstvo": "Kolona F - Navesti dodatne detalje, kao što su standardi na kojima se zasniva vaš aktuelni operativni model. U slučaju da je odgovor u koloni E - Ostalo, navesti i pojašnjenje operativnog modela koji je u upotrebi.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "Agile",
+          "Waterfall",
+          "DevOps",
+          "Ostalo"
+        ]
+      }
+    ]
+  },
+  {
+    "kod": "B1",
+    "naziv": "IT sigurnost",
+    "dio": "B",
+    "roditeljKod": null,
+    "redniBroj": 5,
+    "pitanja": [
+      {
+        "kod": "B1-1",
+        "redniBroj": 1,
+        "tekst": "Koliko trećih strana (svih koje nisu dio kreditne institucije) ima pristup internim sistemima/aplikacijama koje sadrže informacije klasifikovane kao povjerljive ili strogo povjerljive?",
+        "uputstvo": "Kolona E - Broj trećih strana (stanje na dan 31.12.) Kolona F - Navesti koje treće strane obično imaju pristup vašim internim sistemima ili podacima uz navođenje razloga za pristup. Navesti broj zaposlenih kod trećih strana koji imaju bilo kakav pristup internim sistemima ili podacima.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-2",
+        "redniBroj": 2,
+        "tekst": "Koliko je u posmatranoj godini bilo sigurnosnih incidenata koji su rezultirali neželjenim odlivom podataka, nastalih zbog upotrebe mobilnih / prenosivih uređaja (laptopovi, USB memorija, pametni telefoni, tableti, itd.) koji su imali pristup korporativnoj mreži?",
+        "uputstvo": "Kolona E - Uzeti u obzir sve incidente a ne samo one sa najvećim nivoom kritičnosti. Kolona F - Ukratko objasniti uzrok tih incidenata (izgubljeni/ukradeni uređaj, neautorizovani pristup korporativnoj mreži itd.).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-3",
+        "redniBroj": 3,
+        "tekst": "Koliko je različitih softverskih rješenja (firmware, sistemski i aplikativni softver) koja su pri kraju ili sa isteklim periodom podrške proizvođača, tzv. EOL softver ( eng. \"end-of-life\"), koja podržavaju/omogućavaju kritične IT i poslovne procese?",
+        "uputstvo": "Kolona E - Broj različitih softverskih rješenja (stanje na dan 31.12.). Kolona F - Navesti koji kritični IT i poslovni procesi zavise od EOL softvera i u kojoj mjeri ta zavisnost postoji. Navesti koji su softveri EOL (ukoliko je previše navesti po ključnim kategorijama). Navesti predviđene planove i rokove za zamjenu EOL softvera.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-3a",
+        "redniBroj": 4,
+        "tekst": "Od toga, koliko EOL softvera je planirano da se zamijeni tokom godine koja slijedi nakon posmatrane godine?",
+        "uputstvo": "Kolona E - Uzeti u obzir samo projekte sa formalno odobrenim planom zamjene. Kolona F - Navesti koji EOL softver će biti zamijenjen u toj godini, u okviru kojih projekata i u kojem roku.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-3b",
+        "redniBroj": 5,
+        "tekst": "Od toga, koliko EOL softvera nije planirano da se zamijeni tokom godine koja slijedi nakon posmatrane godine?",
+        "uputstvo": "Kolona F - Navedite EOL softver čija zamjena nije planirana u toj godini sa opisom razloga.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-4",
+        "redniBroj": 6,
+        "tekst": "Koliki je broj sistema na kojima je instaliran EOL softver a koji imaju pristup bilo kojoj eksternoj mreži?",
+        "uputstvo": "Kolona E - Broj sistema (stanje na dan 31.12.). Kolona F - Navesti listu sistema na kojima je instaliran EOL softver a koji imaju pristup eksternoj mreži. Za posebne kategorije EOL sistema u procentima navesti njihovo učešće u ukupnom broju (npr. laptopovi, radne stanice, bankomati, serveri, virtuelne mašine, mrežni uređaji itd.).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-5",
+        "redniBroj": 7,
+        "tekst": "Koji je ukupan broj instanci instaliranog EOL softvera? (npr. broj laptop uređaja sa Windows XP).",
+        "uputstvo": "Kolona F - Navesti broj instanci za svaku kategoriju sistema (npr. laptopovi, radne stanice, bankomati, serveri, virtuelne mašine, mrežni uređaji itd.) na kojima je instaliran EOL softver i procentualno učešće te kategorije sistema u ukupnom broju instanci.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-6",
+        "redniBroj": 8,
+        "tekst": "Koliko je u posmatranoj godini detektovano sigurnosnih incidenata (uključujući sajber napade) koji su se odnosili na neautorizovan pristup podacima (narušavanje povjerljivosti podataka)?",
+        "uputstvo": "Kolona F - Navesti glavne uzroke ovih sigurnosnih incidenata. Navesti broj sigurnosnih incidenata po načinu detekcije: a) prijava od strane unutrašnjih korisnika; b)incident uočen u okviru procesa kontinuiranog internog praćenja informacione sigurnosti; c) incident prijavljen od strane spoljnih korisnika sistema uključujući i klijente.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-6a",
+        "redniBroj": 9,
+        "tekst": "Od toga, koliko je incidenata imalo materijalno značajan uticaj?",
+        "uputstvo": "Kolona F - Navesti da li je neki od tih incidenata prijavljen Centralnoj banci Crne Gore.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-6b",
+        "redniBroj": 10,
+        "tekst": "Navedite prosječno vrijeme otkrivanja sigurnosnih incidenata povezanih sa povredom poverljivosti podataka.",
+        "uputstvo": "Kolona F - Navesti pojedinačno najkraće i najduže vrijeme detekcije incidenta uz opis načina na koji su detektovani.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-6c",
+        "redniBroj": 11,
+        "tekst": "Navedite prosječno vrijeme rješavanja sigurnosnih incidenata povezanih sa povredom poverljivosti podataka.",
+        "uputstvo": "Kolona F - Navesti pojedinačno najkraće i najduže vrijeme rješavanja incidenta uz navođenje informacije o utrošenim čovjek danima (8 sati po danu za jednu osobu).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-7",
+        "redniBroj": 12,
+        "tekst": "Koliko je utvrđenih različitih softverskih ranjivosti (identifikovanih prilikom penetracionih testiranja ili skeniranja sistema na ranjivosti) koje su planirane da se otklone u periodu dužem od godinu dana ili sa čijim otklanjem se kasni duže od godinu dana?",
+        "uputstvo": "Kolona E - Odnosi se na ukupan broj ranjivosti nezavisno od njihove kritičnosti (stanje na dan 31.12.). Uzeti u obzir samo jedinstvene ranjivosti tj. ukoliko je jedna ista ranjivost prisutna na više sistema (isti CVE) potrebno je računati samo jednom. Kolona F - U procentima navesti učešće ranjivosti sa određenim nivoom kritičnosti (npr. nizak, srednji, visok, kritičan) u ukupnom broju ranjivosti.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-7a",
+        "redniBroj": 13,
+        "tekst": "Od toga, koji je broj različitih softverskih ranjivosti (identifikovanih prilikom penetracionih testiranja ili skeniranja sistema na ranjivosti) sa čijim otklanjanjem se kasni duže od godinu dana?",
+        "uputstvo": "Kolona E - Odnosi se na ukupan broj ranjivosti sa čijim otklanjanjem se kasni nezavisno od njihove kritičnosti (stanje na dan 31.12.). Kolona F - U procentima navesti učešće ranjivosti sa čijim otklanjanjem se kasni sa određenim nivoom kritičnosti (npr. nizak, srednji, visok, kritičan) u ukupnom broju ranjivosti. Navesti glavne razloge kašnjenja i planirane inicijative za njihovo saniranje.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B1-8",
+        "redniBroj": 14,
+        "tekst": "Koliko je nalaza visokog rizika nezavisnih inspekcija/kontrola/revizija, koji se odnose na IT sigurnost, a koji nisu riješeni u periodu dužem od godinu dana?",
+        "uputstvo": "Kolona E - Ukupan broj (stanje na dan 31.12.) Kolona F - Navesti najbitnije nalaze koji nisu riješeni, razloge zbog kojih nisu riješeni i rok u kojem će biti riješeni.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "B2",
+    "naziv": "IT raspoloživost i kontinuitet",
+    "dio": "B",
+    "roditeljKod": null,
+    "redniBroj": 6,
+    "pitanja": [
+      {
+        "kod": "B2-9",
+        "redniBroj": 1,
+        "tekst": "Koliko različitih lokacija ili data centara (uključujući i DRS lokacije za oporavak sistema) podržava/omogućava sprovođenje kritičnih IT i poslovnih aktivnosti?",
+        "uputstvo": "Kolona F - Navesti naziv i geografsku lokaciju kritičnih operativnih/data centara uz obrazloženje zbog čega se smatraju kritičnim. Navesti definiciju \"kritičnosti\" koja se koristila u tom kontekstu. Napomena: Uključiti lokacije/centre eksternih i internih kritičnih aplikacija i IT infrastrukture (produkcione, i za IT oporavak), lokacije/centre podataka, kao i kolocirane resurse informacionog sistema.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B2-9a",
+        "redniBroj": 2,
+        "tekst": "Od toga, koliko je lokacija ili data centara koje KI koristi po principu eksternalizacije?",
+        "uputstvo": "Kolona F - Navesti naziv, geografsku lokaciju i pružaoca usluge.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B2-10",
+        "redniBroj": 3,
+        "tekst": "Koliko je u posmatranoj godini bilo vanrednih događaja zbog kojih su pokrenute aktivnosti u skladu sa planovima za obezbjeđenje kontinuiteta i oporavak informacionog sistema (ne računati redovna testiranja plana)?",
+        "uputstvo": "Kolona F - Navesti datume i opis situacije/razloga za pokretanje planova.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B2-11",
+        "redniBroj": 4,
+        "tekst": "Koliko puta je tim za odgovor na krizne situacije bio aktiviran u toku posmatrane godine (ne računajući vježbe za potrebe testiranja)?",
+        "uputstvo": "Kolona F - Navesti datume uz opis razloga za aktivaciju tima.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B2-12",
+        "redniBroj": 5,
+        "tekst": "Koliko su važni online kanali distribucije (uključujući i mobilne) za poslovanje kreditne institucije?",
+        "uputstvo": "Kolona F - Navesti koji online kanali distribucije se koriste kao i koji su parametri korišćeni prilikom određivanja njihove važnosti za sveobuhvatno poslovanje KI.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "1 - nisu važni (samo internet prezentacija)",
+          "2 - njihova važnost se povećava",
+          "3 - već sada su veoma važni",
+          "4 - od kritične su važnosti (gotovo samo se koriste ovi kanali distribucije)"
+        ]
+      },
+      {
+        "kod": "B2-13",
+        "redniBroj": 6,
+        "tekst": "Da li isporučujete kritične IT/IS usluge drugim institucijama čija bi nedostupnost mogla imati negativan uticaj na finansijski sektor (npr. procesiranje kartičnih plaćanja) na domaćem i međunarodnom nivou?",
+        "uputstvo": "Kolona F - Navesti opis servisa koji se isporučuju i spisak institucija/korisnika. Za usluge koje se pružaju u Crnoj Gori navesti procjenu tržišnog udjela.",
+        "tipOdgovora": "DA_NE",
+        "opcije": []
+      },
+      {
+        "kod": "B2-14",
+        "redniBroj": 7,
+        "tekst": "Koliko je trajala ukupna neplanirana nedostupnost (u satima) kritičnih IT servisa/IT sistema tokom posmatrane godine (uključujući nedostupnost izazvanu od strane spoljnih pružalaca usluga)?",
+        "uputstvo": "Kolona F - Po sistemima/servisima navesti detalje o nedostupnostima i uzrocima zbog kojih su nastale. (npr. sistem za autentifikaciju klijenata 2x3 sata + 1x1 sat).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B2-14a",
+        "redniBroj": 8,
+        "tekst": "Od toga, koliko je trajala ukupna neplanirana nedostupnost (u satima) koja prelazi poslovni dogovor (npr. SLA, RTO)?",
+        "uputstvo": "Kolona F - Navesti sisteme/servise za koje je prekoračen SLA, RTO i slično.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B2-14b",
+        "redniBroj": 9,
+        "tekst": "Navesti razlog broj 1 koji je uzrokovao nedostupnost.",
+        "uputstvo": "Kolona F - Objasniti izabrani razlog. Opcija „Spoljni pružalac usluga“ znači da je razlog incidenta bio na strani spoljnih pružalaca usluga.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "Sajber incidenti/napadi",
+          "Hardverske greške",
+          "Problemi sa kapacitetom",
+          "Problemi sa mrežom",
+          "Spoljni pružalac usluga",
+          "Ostalo"
+        ]
+      },
+      {
+        "kod": "B2-14c",
+        "redniBroj": 10,
+        "tekst": "Navesti razlog broj 2 koji je uzrokovao nedostupnost.",
+        "uputstvo": "Kolona F - Objasniti izabrani razlog. Opcija „Spoljni pružalac usluga“ znači da je razlog incidenta bio na strani spoljnih pružalaca usluga.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "Sajber incidenti/napadi",
+          "Hardverske greške",
+          "Problemi sa kapacitetom",
+          "Problemi sa mrežom",
+          "Spoljni pružalac usluga",
+          "Ostalo"
+        ]
+      },
+      {
+        "kod": "B2-14d",
+        "redniBroj": 11,
+        "tekst": "Navesti razlog broj 3 koji je uzrokovao nedostupnost.",
+        "uputstvo": "Kolona F - Objasniti izabrani razlog. Opcija „Spoljni pružalac usluga“ znači da je razlog incidenta bio na strani spoljnih pružalaca usluga.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "Sajber incidenti/napadi",
+          "Hardverske greške",
+          "Problemi sa kapacitetom",
+          "Problemi sa mrežom",
+          "Spoljni pružalac usluga",
+          "Ostalo"
+        ]
+      },
+      {
+        "kod": "B2-15",
+        "redniBroj": 12,
+        "tekst": "Koliki je bio broj neplaniranih nedostupnosti kritičnih IT servisa/IT sistema tokom posmatrane godine (uključujući nedostupnost izazvanu od strane spoljnih pružalaca usluga)?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B2-15a",
+        "redniBroj": 13,
+        "tekst": "Od toga, koliki je bio broj neplaniranih nedostupnosti koje su prešle poslovni dogovor (npr. SLA, RTO)?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B2-16",
+        "redniBroj": 14,
+        "tekst": "Koliko iznose gubici (direktni i indirektni) ostvareni zbog neplanirane nedostupnosti kritičnih IT servisa/IT sistema tokom posmatrane godine (uključujući nedostupnost izazvanu od strane spoljnih pružalaca usluga)?",
+        "uputstvo": "Kolona E - Naročito razmotriti na koji način su se te nedstuposti negativno odrazile na odnos sa klikentima KI (npr. propuštena dobit, žalbe, sporovi itd.).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B2-17",
+        "redniBroj": 15,
+        "tekst": "Koliko je trajala ukupna neplanirana nedostupnost (u satima) bitnih korisničkih servisa uzrokovanih IT ispadima/problemima tokom posmatrane godine (uključujući nedostupnost izazvanu od strane spoljnih pružalaca usluga)?",
+        "uputstvo": "Kolona F - Po korisničkim servisima navesti detalje o nedostupnostima i uzrocima zbog kojih su nastale. (npr. Mreža bankomata 2x3 sata + 1x2 sata, Call centar 2x1 sat, mobilno bankarstvo 1x1 sat).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B2-18",
+        "redniBroj": 16,
+        "tekst": "Koliki je bio broj neplaniranih nedostupnosti kritičnih korisničkih servisa uzrokovanih IT ispadima/problemim tokom prethodne godine (uključujući nedostupnost izazvanu od strane spoljnih pružalaca usluga)?",
+        "uputstvo": "Kolona F - Navesti broj ispada/problema po korisničkim servisima.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B2-19",
+        "redniBroj": 17,
+        "tekst": "Koliko je nalaza visokog rizika nezavisnih inspekcija/kontrola/revizija, koji se odnose na raspoloživost i kontinuitet, a koji nisu riješeni u periodu dužem od godinu dana?",
+        "uputstvo": "Kolona E - Ukupan broj (stanje na dan 31.12.) Kolona F - Navesti najbitnije nalaze koji nisu riješeni, razloge zbog kojih nisu riješeni i rok u kojem će biti riješeni.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "B3",
+    "naziv": "IT promjene",
+    "dio": "B",
+    "roditeljKod": null,
+    "redniBroj": 7,
+    "pitanja": [
+      {
+        "kod": "B3-20",
+        "redniBroj": 1,
+        "tekst": "Kako biste, na skali od 1-4, ocijenili ukupnu kompleksnost IT arhitekture vaše institicije uzimajući u obzir mrežnu topologiju, fizičke i logičke platforme, aplikacije, heterogenost i međusobnu povezanost različitih verzija softverskih i hardverskih rješenja i slično?",
+        "uputstvo": "Kolona E - Dati ocjenu sa stanjem na dan 31.12. Kolona F - Dati objašnjenje za izabranu kompleksnost i pojasniti na koji način ta kompleksnost stvara ili može stvoriti probleme za kreditnu instituciju. Navesti i eventualne planove za smanjenje te kompleksnosti.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "kod": "B3-21",
+        "redniBroj": 2,
+        "tekst": "Koliki je broj uređaja?",
+        "uputstvo": "Kolona E - Stanje na dan 31.12. Kolona F - Navesti broj uređaja po najbitnijim kategorijama (npr. radne stanice, serveri, mrežni uređaji, bankomati itd.).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B3-22",
+        "redniBroj": 3,
+        "tekst": "Koliki je broj IT sistema?",
+        "uputstvo": "Kolona E - Služiti se definicijom IT sistema iz Odluke o minimalnim standardima za upavljanje rizikama u kreditnim institucijama. Dati stanje na dan 31.12.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B3-22a",
+        "redniBroj": 4,
+        "tekst": "Od toga, koliko je IT sistema koji podržavaju kritične IT i poslovne procese?",
+        "uputstvo": "Kolona F - Navedite 5 najkritičnijih IT sistema.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B3-23",
+        "redniBroj": 5,
+        "tekst": "Koliki je broj instanci IT sistema?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B3-24",
+        "redniBroj": 6,
+        "tekst": "Koliki je broj promjena u produkcionim okruženjima (npr. mreži, infrastrukturi, kritičnim aplikacijama i tehnologijama koje podržavaju ključne proizvode i usluge) kritičnih IT sistema nastalih u posmatranoj godini?",
+        "uputstvo": "Kolona F - Navesti broj promjena po ključnim kategorijama tj. po cilju zbog kojeg je promjena izvršena (npr. sigurnosna ažuriranja -200, unaprjeđenje funkcionalnosti 100, promjene nastale zbog novih regulatornih zahtjeva - 20).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B3-24a",
+        "redniBroj": 7,
+        "tekst": "Od toga, koji je broj promjena koje su primijenjenje po hitnom postupku?",
+        "uputstvo": "Kolona F - Navesti broj promjena po ključnim kategorijama tj. po cilju zbog kojeg je promjena izvršena (npr. sigurnosna ažuriranja -200, unaprjeđenje funkcionalnosti 100, promjene nastale zbog novih regulatornih zahtjeva - 20).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B3-24b",
+        "redniBroj": 8,
+        "tekst": "Od toga, koji je broj promjena koje su uzrokovale probleme?",
+        "uputstvo": "Kolona F - Navesti najčešće uzroke, npr: neočekivana zavisnost između aplikacija / pogrešna konfiguracija ili podešavanja / neusklađenost između testnog i produkcionog okruženja, neadekvatno ili nedovoljno testiranje i slično.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B3-24c",
+        "redniBroj": 9,
+        "tekst": "Od tri glavna razloga problema sa promjenama, koji je broj 1?",
+        "uputstvo": "Kolona F - Navesti objašnjenje izabranog razloga.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "Neočekivana međuzavisnost između aplikacija",
+          "Pogrešna konfiguracija",
+          "Neusklađenost između testnog i produkcionog okruženja",
+          "Neadekvatna pokrivenost testom",
+          "Zakrpe vendora koje su uzrokovale probleme",
+          "Ostalo - objasniti"
+        ]
+      },
+      {
+        "kod": "B3-24d",
+        "redniBroj": 10,
+        "tekst": "Od tri glavna razloga problema sa promjenama, koji je broj 2?",
+        "uputstvo": "Kolona F - Navesti objašnjenje izabranog razloga.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "Neočekivana međuzavisnost između aplikacija",
+          "Pogrešna konfiguracija",
+          "Neusklađenost između testnog i produkcionog okruženja",
+          "Neadekvatna pokrivenost testom",
+          "Zakrpe vendora koje su uzrokovale probleme",
+          "Ostalo - objasniti"
+        ]
+      },
+      {
+        "kod": "B3-24e",
+        "redniBroj": 11,
+        "tekst": "Od tri glavna razloga problema sa promjenama, koji je broj 3?",
+        "uputstvo": "Kolona F - Navesti objašnjenje izabranog razloga.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "Neočekivana međuzavisnost između aplikacija",
+          "Pogrešna konfiguracija",
+          "Neusklađenost između testnog i produkcionog okruženja",
+          "Neadekvatna pokrivenost testom",
+          "Zakrpe vendora koje su uzrokovale probleme",
+          "Ostalo - objasniti"
+        ]
+      },
+      {
+        "kod": "B3-25",
+        "redniBroj": 12,
+        "tekst": "Koliko je nalaza visokog rizika nezavisnih inspekcija/kontrola/revizija, koji se odnose na upravljanje IT promjenama, a koji nisu riješeni u periodu dužem od godinu dana?",
+        "uputstvo": "Kolona E - Ukupan broj (stanje na dan 31.12.) Kolona F - Navesti najbitnije nalaze koji nisu riješeni, razloge zbog kojih nisu riješeni i rok u kojem će biti riješeni.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "B4",
+    "naziv": "IT eksternalizacija",
+    "dio": "B",
+    "roditeljKod": null,
+    "redniBroj": 8,
+    "pitanja": [
+      {
+        "kod": "B4-26",
+        "redniBroj": 1,
+        "tekst": "Kako biste na skali od 1-4 ocijenili stepen eksternalizacije kritičnih aktivnosti u vezi IT operacija, IT razvoja i IT sigurnosti?",
+        "uputstvo": "Kolona E - Uzeti u obzir i eksternalizacije unutar grupe kojoj KI pripada. Kolona F - Navesti koje kritične aktivnosti izvršava sama KI a koje su eksternalizovane i na koje pružaoce usluga.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "kod": "B4-26a",
+        "redniBroj": 2,
+        "tekst": "U kojoj mjeri su na skali od 1-4 te eksternalizacije izvršene unutar grupe kojoj KI pripada?",
+        "uputstvo": "Kolona F - Navesti koje kritične aktivnosti su eksternalizovane unutar grupe kojoj KI pripada i na kojeg pružaoca usluge eksternalizacije.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "kod": "B4-26b",
+        "redniBroj": 3,
+        "tekst": "U kojoj mjeri su na skali od 1-4 te eksternalizacije izvršene van grupe kojoj KI pripada?",
+        "uputstvo": "Kolona F - Navesti koje kritične aktivnosti su eksternalizovane van grupe kojoj KI pripada i na kojeg pružaoca usluge eksternalizacije.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "kod": "B4-27",
+        "redniBroj": 4,
+        "tekst": "Koliki udio u procentima ima vrijednost svih ugovora o eksternalizaciji sklopljenih sa pojedinačno najznačajnijim van-grupnim pružaocem IT usluga/servisa, u ukupnoj vrijednosti van-grupnih ugovora o pružanju IT usluga/servisa?",
+        "uputstvo": "Kolona E - U kontekstu ovog pitanja, najznačajnijim pružaocem usluga se smatra onaj pružalac usluga za čije usluge kumulativno KI izdvaja najviše sredstava. Kolona F - Navedite koji je pojedinačno najznačajniji van-grupni pružalac usluga i koje usluge pruža KI.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B4-28",
+        "redniBroj": 5,
+        "tekst": "Koliki udio u procentima ima vrijednost svih ugovora o eksternalizaciji slopljenih sa pojedinačno najznačajnijim unutar-grupnim pružaocem IT usluga/servisa, u ukupnoj vrijednosti unutar-grupnih ugovora o pružanju IT usluga/servisa?",
+        "uputstvo": "Kolona E - U kontekstu ovog pitanja, najznačajnijim pružaocem usluga se smatra onaj pružalac usluga za čije usluge kumulativno KI izdvaja najviše sredstava. Kolona F - Navedite koji je pojedinačno najznačajniji unutar-grupni pružalac usluga i koje usluge pruža KI.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B4-29",
+        "redniBroj": 6,
+        "tekst": "Koliki je ukupan broj ugovora o eksternalizaciji (unutar-grupe i van-grupe, IT i ne IT)?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B4-29a",
+        "redniBroj": 7,
+        "tekst": "Od toga, koliki je broj ugovora o IT eksternalizaciji?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B4-29b",
+        "redniBroj": 8,
+        "tekst": "Od toga, koliki je broj ugovora o IT eksternalizaciji unutar grupe kojoj KI pripada?",
+        "uputstvo": "",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B4-30",
+        "redniBroj": 9,
+        "tekst": "Koji je najbitniji tip usluga IT eksternalizacije koju kreditnoj instituciji pružaju unutar grupni pružaoci usluga?",
+        "uputstvo": "Kolona F - Objasniti zbog čega je u koloni E izabran određeni tip usluga. U slučaju da je izabran tip „Ostalo“, objasniti na šta se to odnosi, tj. opisati vrstu tih usluga.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "Razvoj aplikacija",
+          "Web razvoj/hostovanje",
+          "Aplikativna podrška/upravljanje",
+          "Tehnička podrška",
+          "Upravljanje bazama podataka",
+          "Infrastruktura",
+          "Računarstvo u oblaku",
+          "Oporavak informacionog sistema",
+          "Računarska mreža",
+          "Ostalo"
+        ]
+      },
+      {
+        "kod": "B4-31",
+        "redniBroj": 10,
+        "tekst": "Koji je najbitniji tip usluga IT eksternalizacije koju kreditnoj instituciji pružaju van grupni pružaoci usluga?",
+        "uputstvo": "Kolona F - Objasniti zbog čega je u kolni E izabran određeni tip usluga. U slučaju da je izabran tip „Ostalo“, objasniti na šta se to odnosi, tj. opisati vrstu tih usluga.",
+        "tipOdgovora": "IZBOR",
+        "opcije": [
+          "Razvoj aplikacija",
+          "Web razvoj/hostovanje",
+          "Aplikativna podrška/upravljanje",
+          "Tehnička podrška",
+          "Upravljanje bazama podataka",
+          "Infrastruktura",
+          "Računarstvo u oblaku",
+          "Oporavak informacionog sistema",
+          "Računarska mreža",
+          "Ostalo"
+        ]
+      },
+      {
+        "kod": "B4-32",
+        "redniBroj": 11,
+        "tekst": "Koja je najznačajnija aktivnost kreditne institucije koja se izvršava u računarskom oblaku?",
+        "uputstvo": "Kolona F - Obrazložiti na koji način je izvršena procjena.",
+        "tipOdgovora": "TEKST",
+        "opcije": []
+      },
+      {
+        "kod": "B4-33",
+        "redniBroj": 12,
+        "tekst": "Koji je ukupan broj različitih IT usluga koje po principu eksternalizacije koristi KI a koje podržavaju/omogućavaju kritične funkcije KI?",
+        "uputstvo": "Kolona E - Stanje na da 31.12. Kolona F - Navesti te usluge i izdvojiti 5 najbitnijih.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B4-33a",
+        "redniBroj": 13,
+        "tekst": "Od toga, koliko je različitih IT usluga koje KI koristi po principu računarstva u oblaku?",
+        "uputstvo": "Kolona E - Stanje na da 31.12. Kolona F - Navesti te usluge uz informacije o tome koja je vrsta računarskog oblaka u pitanju (public/hybrid/community/private) i koji je servisni model računarskog oblika u pitanju (IaaS, PaaS, SaaS). Izdvojiti 5 najbitnijih usluga.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B4-33b",
+        "redniBroj": 14,
+        "tekst": "Od toga, koliko je različitih IT usluga koje KI koristi po principu računarstva u oblaku a koje pružaju van-grupni pružaoci usluga?",
+        "uputstvo": "Kolona E - Stanje na da 31.12. Kolona F - Navesti te usluge uz informacije o tome koja je vrsta računarskog oblaka u pitanju (public/hybrid/community/private) i koji je servisni model računarskog oblika u pitanju (IaaS, PaaS, SaaS). Izdvojiti 5 najbitnijih usluga.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B4-34",
+        "redniBroj": 15,
+        "tekst": "Da li je u referentnoj godini bilo promjene ugovorenih servisa, raskida ugovora o IT eksternalizaciji, zamjena pružaoca usluge, i sl. ?",
+        "uputstvo": "Kolona F - U slučaju potvrdnog odgovora, navedite pružaoca usluge, vrstu usluge i razlog promjene.",
+        "tipOdgovora": "DA_NE",
+        "opcije": []
+      },
+      {
+        "kod": "B4-35",
+        "redniBroj": 16,
+        "tekst": "Koliki je iznos ukupnih gubitaka u posmatranoj godini zbog neraspoloživosti ili slabog kvaliteta eksternalizovanih IT servisa?",
+        "uputstvo": "Kolona F - Navesti zbog kojih pružalaca usluga je nastao najveći trošak i ukratko objasniti razloge.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B4-36",
+        "redniBroj": 17,
+        "tekst": "Koliko je nalaza visokog rizika nezavisnih inspekcija/kontrola/revizija, koji se odnose na upravljanje IT eksternalizacijom i povezanim rizima, a koji nisu riješeni u periodu dužem od godinu dana?",
+        "uputstvo": "Kolona E - Ukupan broj (stanje na dan 31.12.) Kolona F - Navesti najbitnije nalaze koji nisu riješeni, razloge zbog kojih nisu riješeni i rok u kojem će biti riješeni.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "B5",
+    "naziv": "IT - integritet podataka",
+    "dio": "B",
+    "roditeljKod": null,
+    "redniBroj": 9,
+    "pitanja": [
+      {
+        "kod": "B5-37",
+        "redniBroj": 1,
+        "tekst": "Da li je u toku posmatrane godine bilo značajnih promjena u modelima podataka ili arhitekturi podataka?",
+        "uputstvo": "Kolona F - U slučaju potvrdnog odgovora opisati promjene.",
+        "tipOdgovora": "DA_NE",
+        "opcije": []
+      },
+      {
+        "kod": "B5-38",
+        "redniBroj": 2,
+        "tekst": "Koliko je u posmatranoj godini bilo značajnih incidenata u vezi sa narušavanjem integriteta podataka (npr. pogrešna izmjena podataka u bazama podataka na kritičnim sistemima, i sl)?",
+        "uputstvo": "Kolona F - Obrazložiti najznačajnije incidente u vezi sa narušavanjem integriteta podataka.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B5-39",
+        "redniBroj": 3,
+        "tekst": "Koliko je aplikacija razvijenih od strane krajnjih korisnika uključujući i one razvijene u MS Excel-u, MS Access-u i drugim razvojnim alatima dostupnim krajnjim korisnicima?",
+        "uputstvo": "Kolona E - Stanje na dan 31.12. (eng. \"End-User-Computing\" - EUC poznate i kao end user-developed applications - EUDA) Kolona F - Navesti ime aplikacije, ko je razvio, razvojni alat i upotrebu aplikacije.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B5-39a",
+        "redniBroj": 4,
+        "tekst": "Od toga, koliko ovih aplikacija podržava kritične aktivnosti (npr. izvještavanje prema regulatoru kao što je FINREP/COREP i sl.)?",
+        "uputstvo": "Kolona E - Stanje na dan 31.12. Kolona F - Navesti ime aplikacije, ko je razvio, razvojni alat i upotrebu aplikacije.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B5-40",
+        "redniBroj": 5,
+        "tekst": "Koji je broj slučajeva u kojima su regulatorima dostavljeni netačni podaci u okviru regulatornog izvještavanja tokom posmatrane godine?",
+        "uputstvo": "Kolona F - Navesti slučajeve uz opis ključnih razloga (npr. nedovoljna automatizacija procesa, ručna obrada podataka, neadekvatan kvalitet podataka, neadekvatna validacija podataka na ulazu ili izlazu, sistemska greška itd.).",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B5-40a",
+        "redniBroj": 6,
+        "tekst": "Od toga, u koliko slučajeva su greške nastale zbog IT problema?",
+        "uputstvo": "Kolona F - Navesti slučajeve uz opis IT problema.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B5-41",
+        "redniBroj": 7,
+        "tekst": "Koliko je u toku posmatrane godine bilo interno prijavljenih problema sa kvalitetom podataka, čiji su uzrok bili IT problemi?",
+        "uputstvo": "Kolona F - Navesti relevantne IT probleme",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      },
+      {
+        "kod": "B5-42",
+        "redniBroj": 8,
+        "tekst": "Koliko je nalaza visokog rizika nezavisnih inspekcija/kontrola/revizija, koji se odnose na upravljanje integritetom podataka, a koji nisu riješeni u periodu dužem od godinu dana?",
+        "uputstvo": "Kolona E - Ukupan broj (stanje na dan 31.12.) Kolona F - Navesti najbitnije nalaze koji nisu riješeni, razloge zbog kojih nisu riješeni i rok u kojem će biti riješeni.",
+        "tipOdgovora": "BROJ",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C1",
+    "naziv": "IT upravljanje",
+    "dio": "C",
+    "roditeljKod": null,
+    "redniBroj": 10,
+    "pitanja": []
+  },
+  {
+    "kod": "C1.1",
+    "naziv": "IT Strategija",
+    "dio": "C",
+    "roditeljKod": "C1",
+    "redniBroj": 11,
+    "pitanja": [
+      {
+        "kod": "C1.1-1",
+        "redniBroj": 1,
+        "tekst": "Da li je usvojena strategija razvoja informacionog sistema koja je usklađena sa opštom strategijom za vremenski period od najmanje tri godine?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.1-2",
+        "redniBroj": 2,
+        "tekst": "Da li je više rukovodstvo poslovnih linija uključeno u definisanje strateških IT prioriteta?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.1-3",
+        "redniBroj": 3,
+        "tekst": "Da li strategija razvoja informacionog sistema sadrži prikaz postojećeg i željenog stanja IS uključujući promjene u vezi sa IT sistemima, IT arhitekturom, organizacionom i operativnom strukturom i korišćenjem usluga trećih strana?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.1-4",
+        "redniBroj": 4,
+        "tekst": "Da li strategija razvoja informacionog sistema definiše jasne i mjerljive ciljeve po pitanju informacione sigurnosti u domenu IT sistema, IT servisa, zaposlenih i procesa?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.1-5",
+        "redniBroj": 5,
+        "tekst": "Da li strategija razvoja informacionog sistema sadrži opis načina na koji će kreditna institucija upravljati informacionim sistemom u cilju očuvanja kontinuiteta poslovanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.1-6",
+        "redniBroj": 6,
+        "tekst": "Da li je uspostavljen proces usklađivanja strategija razvoja informacionog sistema sa poslovnom strategijom u slučaju izmjena te strategije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.1-7",
+        "redniBroj": 7,
+        "tekst": "Da li je uspostavljen proces planiranja implementacije ciljeva strategije kroz donošenje godišnjih operativnih planova aktivnosti sa mjerama za realizaciju postavljenih ciljeva?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.1-8",
+        "redniBroj": 8,
+        "tekst": "Da li je IT rukovodstvo pravovremeno upoznato sa izmjenama poslovne strategije, organizacije, regulatornih zahtjeva, itd. koje utiču na planiranje/izmjenu IT strategije i godišnjih operativnih planova radi usklađenosti sa poslovnim potrebama?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.1-9",
+        "redniBroj": 9,
+        "tekst": "Da li godišnji operativni plan aktivnosti sadrži: a) opis aktivnosti i projekata b) izvođače i odgovorna lica c) budžet za pojedine projekte d) rokove izvršenja planiranih aktivnosti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.1-10",
+        "redniBroj": 10,
+        "tekst": "Da li je uspostavljen proces kontinuiranog mjerenja i nadgledanja efikasnosti sprovođenja IT strategije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C1.2",
+    "naziv": "IT politike, procedure, uputstva",
+    "dio": "C",
+    "roditeljKod": "C1",
+    "redniBroj": 12,
+    "pitanja": [
+      {
+        "kod": "C1.2-11",
+        "redniBroj": 1,
+        "tekst": "Da li je kreditna institucija razvila set politika, smjernica i procedura zasnovanih na međunarodno priznatim standardima za podršku IT strategiji?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.2-12",
+        "redniBroj": 2,
+        "tekst": "Da li svaka IT/IS politika sadrži obuhvat i ciljeve politike, uloge i odgovornosti, obradu izuzetaka, obim primjene, mjere u slučaju nepoštovanja, reference na druge relevantne politike, smjernice, standarde i procedure?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.2-13",
+        "redniBroj": 3,
+        "tekst": "Da li su jasno definisane uloge i odgovornosti za preispitivanje i ažuriranje politika, standarda i procedura?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.2-14",
+        "redniBroj": 4,
+        "tekst": "Da li politike, procedure, uputstva pregledaju i 1. i 2. linija odbrane kako bi se potvrdila njihova relevantnost?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.2-15",
+        "redniBroj": 5,
+        "tekst": "Da li je propisan minimalni period za redovno preispitivanje IT internih akata?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.2-16",
+        "redniBroj": 6,
+        "tekst": "Da li se IT interna akta po potrebi ažuriraju i prije isteka propisanog perioda?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.2-17",
+        "redniBroj": 7,
+        "tekst": "Da li se prilikom izrade politika, procedura, uputstava, standarda uzimaju u obzir industrijski priznati standardi i dobre prakse?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.2-18",
+        "redniBroj": 8,
+        "tekst": "Da li se na poštovanje internih akata obavezuju: a) relevantno zaposleno osoblje b) spoljni saradnici?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.2-19",
+        "redniBroj": 9,
+        "tekst": "Da li se okvir/politike upravljanja rizicima informacinog sistema pregledaju i odobravaju najmanje jednom godišnje od strane organa upravljanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.2-20",
+        "redniBroj": 10,
+        "tekst": "Da li okvir/politike upravljanja rizicima infomacionog sistema predviđaju zahtjeve za: a) upravljanje i nadzor rizika b) vlasništvo i odgovornost za rizike c) obezbjeđuju IT otpornost?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C1.3",
+    "naziv": "IT budžet",
+    "dio": "C",
+    "roditeljKod": "C1",
+    "redniBroj": 13,
+    "pitanja": [
+      {
+        "kod": "C1.3-21",
+        "redniBroj": 1,
+        "tekst": "Da li KI prioritizuje alokaciju IT resursa u svim domenima (tj. za operacije, projekte, održavanje, sigurnost, upravljanje rizicima) u skladu sa IT strategijom?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.3-22",
+        "redniBroj": 2,
+        "tekst": "Da li IT budžet reflektuje prioritete postavljene strategijom razvoja informacionog sistema?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.3-23",
+        "redniBroj": 3,
+        "tekst": "Da li se sprovodi analiza troškova i koristi (eng. \"cost benefit analysis\")?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.3-24",
+        "redniBroj": 4,
+        "tekst": "Da li se redovno prati realizacija IT budžeta?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C1.3-25",
+        "redniBroj": 5,
+        "tekst": "Da li je proces IT budžetiranja transparentan i omogućava li donošenje odluka na osnovu adekvatnih informacija?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C2",
+    "naziv": "IT Organizacija i IT eksternalizacija",
+    "dio": "C",
+    "roditeljKod": null,
+    "redniBroj": 14,
+    "pitanja": []
+  },
+  {
+    "kod": "C2.1",
+    "naziv": "Jasne uloge i odgovornosti i podjela dužnosti u IT",
+    "dio": "C",
+    "roditeljKod": "C2",
+    "redniBroj": 15,
+    "pitanja": [
+      {
+        "kod": "C2.1-26",
+        "redniBroj": 1,
+        "tekst": "Da li postoji usvojena organizaciona struktura sa jasno definisanim ulogama i odgovornostima, uključujući organe upravljanja, koja se odnosi na upravljanje informacionim sistemom (IT razvojem, IT operacijama, informaciona sigurnost, itd.), rizikom IS i kontinuitetom poslovanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.1-27",
+        "redniBroj": 2,
+        "tekst": "Da li je obezbijeđena adekvatna i jasna podjela uloga i odgovornosti u IT?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.1-28",
+        "redniBroj": 3,
+        "tekst": "Da li je obezbijeđena adekvatna segregacija funkcija u pogledu sukoba interesa (naročito razdvajanje dužnosti koje se odnose na IT sigurnost i IT administraciju)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.1-29",
+        "redniBroj": 4,
+        "tekst": "Da li postoje nezavisne funkcije kontrole IT rizika i informacione sigurnosti kako bi se osiguralo da se IT rizici identifikuju, procjenjuju i da se njima efikasno upravlja u skladu sa sklonošću institucije za preuzimanje rizika?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.1-30",
+        "redniBroj": 5,
+        "tekst": "Da li ključne IT funkcije (npr. rukovodilac organizacionog dijela za IT, šef informacione sigurnosti, itd. ) imaju podršku i adekvatan pristup organima upravljanja u cilju eskalacije IT tema, ukoliko je potrebno?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C2.2",
+    "naziv": "Zaposleni, kvalifikacije, obuke",
+    "dio": "C",
+    "roditeljKod": "C2",
+    "redniBroj": 16,
+    "pitanja": [
+      {
+        "kod": "C2.2-31",
+        "redniBroj": 1,
+        "tekst": "Da li institucija raspolaže odgovarajućim brojem lica sa potrebnim kvalifikacijama i kompetencijama za sigurno upravljanje i održavanje informacionog sistema, upravljanje rizikom informacionog sistema, upravljanje kontinuitetom poslovanja, kao i sprovođenje strategije razvoja informacionog sistema?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.2-32",
+        "redniBroj": 2,
+        "tekst": "Da li institucija redovno preispituje kadrovske potrebe, a naročito nakon velikih promjena u poslovnom, operativnom ili IT okruženju?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.2-33",
+        "redniBroj": 3,
+        "tekst": "Da li IT osoblje, uključujući spoljne saradnike, ima odgovarajuće kompetencije za ispunjavanje dodijeljenih uloga i odgovornosti po pitanju obrazovanja, obuke, iskustva itd?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.2-34",
+        "redniBroj": 4,
+        "tekst": "Da li su definisani zahtjevi za IT kompetencije, uključujući kompetencije za upravljanje IT rizikom i upravljanje informacionom sigurnosti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.2-35",
+        "redniBroj": 5,
+        "tekst": "Da li svi zaposleni (uključujući nosioce ključnih funkcija) prolaze odgovarajuću obuku o rizicima informacionog sistema, uključujući sigurnost informacija, najmanje na godišnjem nivou?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C2.3",
+    "naziv": "IT eksternalizacija",
+    "dio": "C",
+    "roditeljKod": "C2",
+    "redniBroj": 17,
+    "pitanja": [
+      {
+        "kod": "C2.3-36",
+        "redniBroj": 1,
+        "tekst": "Da li organ upravljanja donosi odluku o eksternalizaciji na osnovu dokumentovane procjene rizika eksternalizacije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.3-37",
+        "redniBroj": 2,
+        "tekst": "Da li svi ugovori sa spoljnim pružaocima IT usluga sadrže klauzulu kojom se Centralnoj banci omogućava nesmetano vršenje kontrole njihovog poslovanja u dijelu koji se odnosi na obavljanje eksternalizovanih poslova?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.3-38",
+        "redniBroj": 3,
+        "tekst": "Da li je za svaku IT eksternalizaciju ugovorom definisan: a) nivo usluga b) zahtjevi za informacionu sigurnost, odnosno standardi kojima se obezbjeđuje potreban nivo zaštite povjerljivosti, integriteta i dostupnosti podataka, kontinuiteta eksternalizovanih aktivnosti i mogućnosti kreiranja tragova korišćenja podataka i sistema c) procedure za upravljanje operativnim i sigurnosnim incidentima uključujući eskalaciju i izvještavanje d) obezbjeđenje kontinuiteta obavljanja poslovanja u slučaju prijevremenog raskida ugovora?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.3-39",
+        "redniBroj": 4,
+        "tekst": "Da li politika eksternalizacije propisuje ovlašćenja i odgovornosti organizacionih jedinica za kontinuirano praćenje eksternalizovanih IT poslova i upravljanje rizicima povezanim sa eksternalizacijom?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.3-40",
+        "redniBroj": 5,
+        "tekst": "Da li je internim aktima institucije propisana obaveza obavještavanja Centralne banke o eksternalizaciji kritičnih i značajnih poslova ili o promijeni pružaoca usluge kojem je povjereno obavljanje tih poslova?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.3-41",
+        "redniBroj": 6,
+        "tekst": "Da li su internim aktima institucije definisani kriterijumi i procesi za identifikaciju, procjenu i praćenje rizika eksternalizovanih IT poslova, uključujući analizu rizika koncentracije i analizu agregiranih rizika koji proizilaze iz eksternalizacije više poslova institucije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.3-42",
+        "redniBroj": 7,
+        "tekst": "Da li je uspostavljen proces praćenja eksternalizovanih IT poslova (npr. praćenje učinka i kvaliteta obavljanja eksternalizovanih poslova, usklađenost trećih strana sa obavezama definisanim u ugovoru i sl.)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.3-43",
+        "redniBroj": 8,
+        "tekst": "Da li proces praćenja eksternalizovanih IT poslova obuhvata nadzor nad upravljanjem rizika sajber bezbjednosti kod pružalaca usluga?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.3-44",
+        "redniBroj": 9,
+        "tekst": "Da li se sprovodi redovna procjena rizika za sve IT eksternalizacije i da li se o njima izvještava nadležan organ upravljanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.3-45",
+        "redniBroj": 10,
+        "tekst": "Da li za sve kritične i značajne eksternalizovane IT poslove/usluge postoji plan aktivnosti u slučaju prestanka aranžmana eksternalizacije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.3-46",
+        "redniBroj": 11,
+        "tekst": "Da li 2. i 3. linija odbrane imaju adekvatne kompetencije i resurse i da li redovno i u potpunosti obuhvataju proces upravljanja eksternalizacijom, uključujući i eksternalizovane poslove (tj. putem kontrolnih mehanizama, kao i internih revizija)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C2.3-47",
+        "redniBroj": 12,
+        "tekst": "Da li se redovno održava evidencija IT eksternalizovanih usluga?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C3",
+    "naziv": "Upravljanje IT rizikom",
+    "dio": "C",
+    "roditeljKod": null,
+    "redniBroj": 18,
+    "pitanja": []
+  },
+  {
+    "kod": "C3.1",
+    "naziv": "Okvir za upravljanje IT rizicima",
+    "dio": "C",
+    "roditeljKod": "C3",
+    "redniBroj": 19,
+    "pitanja": [
+      {
+        "kod": "C3.1-48",
+        "redniBroj": 1,
+        "tekst": "Da li postoji definisan okvir upravljanja IT rizicima i da li je on integrisan u okvir upravljanja rizicima na nivou kreditne institucije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.1-49",
+        "redniBroj": 2,
+        "tekst": "Da li je institucija definisala sklonost ka preuzimanju IT rizika, u skladu sa sklonošću ka preuzimanju rizika kreditne institucije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.1-50",
+        "redniBroj": 3,
+        "tekst": "Da li je okvir upravljanja IT rizicima odobren od strane organa upravljanja, da li se redovno pregleda i po potrebi ažurira?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.1-51",
+        "redniBroj": 4,
+        "tekst": "Da li su propisane uloge i odgovornosti u procesu upravljanja IT rizicima?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C3.2",
+    "naziv": "Identifikacija i procjena IT rizika",
+    "dio": "C",
+    "roditeljKod": "C3",
+    "redniBroj": 20,
+    "pitanja": [
+      {
+        "kod": "C3.2-52",
+        "redniBroj": 1,
+        "tekst": "Da li su propisane uloge i odgovornosti za identifikaciju i procjenu IT rizika?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.2-53",
+        "redniBroj": 2,
+        "tekst": "Da li je propisana metodologija za utvrđivanje i mjerenje IT rizika kojima je kreditna institucija izložena?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.2-54",
+        "redniBroj": 3,
+        "tekst": "Da li se IT rizici procjenjuju prema uticaju koje mogu imati na poslovanje (uključujući finansijski uticaj, potencijalni uticaj na prekid poslovanja, reputaciju, regulatorni i strateški uticaj, itd.) i vjerovatnoću njihovog ostvarenja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.2-55",
+        "redniBroj": 4,
+        "tekst": "Da li se vodi ažurna evidencija svih identifikovanih IT rizika, uključujući nalaze internih i eksternih revizija/kontrola?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.2-56",
+        "redniBroj": 5,
+        "tekst": "Da li se identifikacija prijetnji za resurse informacionog sistema sprovodi redovno?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.2-57",
+        "redniBroj": 6,
+        "tekst": "Da li se periodično sprovodi sveobuhvatno utvrđivanje i procjena IT rizika?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.2-58",
+        "redniBroj": 7,
+        "tekst": "Da li se analiza i procjena IT rizika sprovodi: a) nakon svake veće promjene IT sistema b) nakon značajnog operativnog i sigurnosnog incidenta c) u okviru procesa upravljanja IT projekatima d) prilikom inicijativa za IT eksternalizaciju?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.2-59",
+        "redniBroj": 8,
+        "tekst": "Da li postoji i da li se redovno ažurira mapa poslovnih funkcija, procesa, IT sistema i servisa?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.2-60",
+        "redniBroj": 9,
+        "tekst": "Da li institucija klasifikuje i dokumentuje poslovne funkcije, procese, informacionu imovinu, IT sisteme, IT servise, zaposlene i spoljne pružaoce usluga prema njihovoj važnosti, odnosno kritičnosti (tj. zahtjeva po pitanju njihove dostupnosti, povjerljivosti i integriteta)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C3.3",
+    "naziv": "Odgovor na IT rizik",
+    "dio": "C",
+    "roditeljKod": "C3",
+    "redniBroj": 21,
+    "pitanja": [
+      {
+        "kod": "C3.3-61",
+        "redniBroj": 1,
+        "tekst": "Da li su definisane strategije odgovora na IT rizik (npr. izbjegavanje, prihvatanje, ublažavanje, smanjenje, dijeljenje/prenos)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.3-62",
+        "redniBroj": 2,
+        "tekst": "Da li se za ublažavanje IT rizika, odnosno za svođenje rizika na prihvatljiv nivo, utvrđuju korektivne mjere, odgovorne osobe i rokovi za realizaciju?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.3-63",
+        "redniBroj": 3,
+        "tekst": "Da li se kreiraju akcioni planovi prema prioritetu odgovora na IT rizike?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.3-64",
+        "redniBroj": 4,
+        "tekst": "Da li je prihvatanje IT rizika formalizovano i dokumentovano (npr. dokumentovano odobrenje odgovarajućeg nivoa odobravanja, zavisno od kategorije/nivoa rizika, itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.3-65",
+        "redniBroj": 5,
+        "tekst": "Da li se preostali (rezidualni) rizik prihvata i ostaje u okviru definisanog prihvatljivog nivoa rizika, i da li je njegovo prihvatanje formalno dokumentovano?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C3.4",
+    "naziv": "Praćenje IT rizika i 2. linija odbrane",
+    "dio": "C",
+    "roditeljKod": "C3",
+    "redniBroj": 22,
+    "pitanja": [
+      {
+        "kod": "C3.4-66",
+        "redniBroj": 1,
+        "tekst": "Da li postoji nezavisna funkcija za koordinaciju, praćenje i nadziranje primjene pravila za upravljanje rizicima informacionog sistema (2. linija odbrane) sa potrebnim stručnim kvalifikacijama i kompetencijama i direktnom linijom izveštavanja prema organu upravljanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.4-67",
+        "redniBroj": 2,
+        "tekst": "Da li su propisani postupci praćenja realizacije mjera za kontrolisanje rizika?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.4-68",
+        "redniBroj": 3,
+        "tekst": "Da li je propisana odgovornost za praćenje i izvještavanje organa uprave o IT riziku?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.4-69",
+        "redniBroj": 4,
+        "tekst": "Da li se redovno prati i pregleda efikasnost tretmana IT rizika?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.4-70",
+        "redniBroj": 5,
+        "tekst": "Da li se redovno prati rezidualni rizik?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C3.4-71",
+        "redniBroj": 6,
+        "tekst": "Da li se izuzeci od primjene internih pravila i politika koji se odnose na IT rizike, dokumentuju i eskaliraju prema organu upravljanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C4",
+    "naziv": "IT sigurnost",
+    "dio": "C",
+    "roditeljKod": null,
+    "redniBroj": 23,
+    "pitanja": []
+  },
+  {
+    "kod": "C4.1",
+    "naziv": "Politike i procedure",
+    "dio": "C",
+    "roditeljKod": "C4",
+    "redniBroj": 24,
+    "pitanja": [
+      {
+        "kod": "C4.1-72",
+        "redniBroj": 1,
+        "tekst": "Da li postoji politika informacione sigurnosti, usvojena od strane organa upravljanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.1-73",
+        "redniBroj": 2,
+        "tekst": "Da li su politikom propisana pravila informacione sigurnosti koja su primjenljiva na sve zaposlene i treća lica koja pristupaju informacionom sistemu institucije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.1-74",
+        "redniBroj": 3,
+        "tekst": "Da li je institucija upoznala sve zaposlene i treća lica sa odgovornostima koje propisuje politika informacione sigurnosti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.1-75",
+        "redniBroj": 4,
+        "tekst": "Da li su u politici informacione sigurnosti definisana opšta načela koja je potrebno detaljnije razraditi u internim aktima (politike i procedure) koja se odnose na: a) pravila za periodično testiranje informacione sigurnosti b) program podizanja svijesti o informacionoj sigurnosti c) upravljanje fizičkom sigurnošću IS d) upravljanje identitetima i pravima pristupa u IS e) upravljanje ranjivostima i zakrpama f) sigurnost mreže g) upravljanje operativnim i sistemskim zapisima h) klasifikacija informacionih resursa uključujući klasifikaciju podataka?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.1-76",
+        "redniBroj": 5,
+        "tekst": "Da li politike i procedure informacione sigurnosti defini[u pravila za zaštitu resursa informacionog sistema, u skladu sa sklonošću ka preuzimanju rizika kreditne institucije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.1-77",
+        "redniBroj": 6,
+        "tekst": "Da li su internim aktima kreditne institucije definisane i da li su primijenjene mjere informacione sigurnosti za sve identifikovane resurse informacionog sistema u njenom inventaru (uključujući softver, hardver i mrežne konekcije) i da li se prati njihova efikasnost kako bi se te mjere uskladile sa sklonošću ka preuzimanju rizika kreditne institucije i umanjili identifikovani potencijalni rizici (npr. rizik od prevare i/ili moguće zloupotrebe i/ili zloupotrebe povjerljivih podataka)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C4.2",
+    "naziv": "Testiranje informacione sigurnosti",
+    "dio": "C",
+    "roditeljKod": "C4",
+    "redniBroj": 25,
+    "pitanja": [
+      {
+        "kod": "C4.2-78",
+        "redniBroj": 1,
+        "tekst": "Da li su internim aktima definisana pravila za periodično testiranje informacione sigurnosti (najmanje jednom godišnje za sve kritične IT sisteme, odnosno najmanje jednom u 3 godine za IT sisteme koji se ne smatraju kritičnim)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.2-79",
+        "redniBroj": 2,
+        "tekst": "Da li se testiranje informacione sigurnosti sprovodi od strane nezavisnih lica koja nijesu uključena u razvoj mjera informacione sigurnosti i koja posjeduju dovoljno znanja, vještina i iskustva u vezi sa testiranjem tih mjera?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.2-80",
+        "redniBroj": 3,
+        "tekst": "Da li su u referentnoj godini sprovedeni penetracioni testovi i skeniranja IT sistema u cilju pronalaženja ranjivosti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.2-81",
+        "redniBroj": 4,
+        "tekst": "Da li se najmanje jednom godišnje testiraju mjere informacione sigurnosti za sve kritične IT sisteme?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.2-82",
+        "redniBroj": 5,
+        "tekst": "Da li testiranje informacione sigurnosti obuhvata testiranje logičke sigurnosti (npr. nivo aplikacija i operativnih sistema), uključujući penetraciono testiranje interfejsa ili aplikacija koje obrađuju kritične informacije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.2-83",
+        "redniBroj": 6,
+        "tekst": "Da li testiranje informacione sigurnosti obuhvata testiranje fizičke sigurnosti (uključujući odgovarajući nivo redudantnosti) u skladu sa najboljim praksama u ovoj oblasti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.2-84",
+        "redniBroj": 7,
+        "tekst": "Da li su u referentnoj godini sprovedena vanredna testiranja mjera informacione sigurnosti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C4.3",
+    "naziv": "Obuka i podizanje svijesti o informacionoj sigurnosti",
+    "dio": "C",
+    "roditeljKod": "C4",
+    "redniBroj": 26,
+    "pitanja": [
+      {
+        "kod": "C4.3-85",
+        "redniBroj": 1,
+        "tekst": "Da li je usvojen program podizanja svijesti o informacionoj sigurnosti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.3-86",
+        "redniBroj": 2,
+        "tekst": "Da li se redovno održavaju obuke u cilju podizanja svijesti o informacionoj sigurnosti za zaposlene i druga fizička lica koja pristupaju informacionom sistemu institucije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.3-87",
+        "redniBroj": 3,
+        "tekst": "Da li se sprovode testiranja za potrebe procjene nivoa razumijevanja mjera informacione sigurnosti kako bi se identifikovale oblasti za dodatne obuke?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.3-88",
+        "redniBroj": 4,
+        "tekst": "Da li je u referentnoj godini održana obuka sa ciljem upoznavanja sa sajber prijetnjama?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.3-89",
+        "redniBroj": 5,
+        "tekst": "Da li novozaposleni prolaze obaveznu obuku o informacionoj sigurnosti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.3-90",
+        "redniBroj": 6,
+        "tekst": "Da li IT zaposleni prolaze specifične obuke o informacionoj sigurnosti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.3-91",
+        "redniBroj": 7,
+        "tekst": "Da li se na intranet sajtu redovno objavljuje dokumentacija, informacije i interna akta kako bi se zaposleni upoznali sa temama iz informacione sigurnosti, smjernicama i najboljim praksama u ovoj oblasti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C4.4",
+    "naziv": "Fizička sigurnost",
+    "dio": "C",
+    "roditeljKod": "C4",
+    "redniBroj": 27,
+    "pitanja": [
+      {
+        "kod": "C4.4-92",
+        "redniBroj": 1,
+        "tekst": "Da li su internim aktima propisane kontrole fizičke sigurnosti za zaštitu prostorija, data centara i osjetljivih područja od neovlašćenog pristupa i opasnosti povezanih sa okolinom (npr. statički elektricitet, poplava, požar, itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.4-93",
+        "redniBroj": 2,
+        "tekst": "Da li postoji procedura za odobravanje/povlačenje/izmjenu prava fizičkog pristupa prostorijama data centrima i osetljivim područjima u skladu sa poslovnim potrebama?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.4-94",
+        "redniBroj": 3,
+        "tekst": "Da li su implementirani sistemi za kontinuirano praćenje fizičke sigurnosti prostorija, data centara i osjetljivih područja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.4-95",
+        "redniBroj": 4,
+        "tekst": "Da li su implementirane kontrole fizičke zaštite proporcionalne važnosti zgrada i prostorija, kritičnosti IT sistema koji se u njima nalaze, odnosno operacija koje se u njima obavljaju?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.4-96",
+        "redniBroj": 5,
+        "tekst": "Da li se fizički pristup IT sistemima odobrava samo ovlašćenim licima, da li se prati, evidentira i nadgleda za zaposlene, treća lica i izvođače radova?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.4-97",
+        "redniBroj": 6,
+        "tekst": "Da li se sprovodi redovno preispitivanje dodijeljenih prava fizičkog pristupa?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.4-98",
+        "redniBroj": 7,
+        "tekst": "Da li su u data centrima implementirane adekvatne fizičke mjere zaštite od opasnosti vezanih za okolinu (klimatizacija, sistemi za gašenje požara, detektori poplava, izvori dodatnog neprekidnog i napajanja itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.4-99",
+        "redniBroj": 8,
+        "tekst": "Da li se implementirani sistemi zaštite redovno održavaju i testiraju?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C4.5",
+    "naziv": "Logička sigurnost",
+    "dio": "C",
+    "roditeljKod": "C4",
+    "redniBroj": 28,
+    "pitanja": [
+      {
+        "kod": "C4.5-100",
+        "redniBroj": 1,
+        "tekst": "Da li postoji politika i procedura upravljanja korisničkim pristupom informacionom sistemu?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.5-101",
+        "redniBroj": 2,
+        "tekst": "Da li su internim aktima propisani i da li se u praksi primjenjuju sljedeći principi i pravila za dodjelu prava pristupa informacionom sistemu: a) princip neophodnosti (eng. \"need to know\") b) dodjela prava pristupa na osnovu poslovne potrebe (eng. \"least privilege principle\") c) dodijeljena prava pristupa omogućavaju adekvatnu segregaciju dužnosti d) nalozi su personalizovani gdje god je to moguće, jedan nalog koristi jedan korisnik e) prava pristupa se blagovremeno odobravaju/povlače i mijenjanju u skladu sa formalno definisanim procesom (engl. \"approval workflow\"), a u slučaju prestanka radnog odnosa prava pristupa se povlače bez odlaganja f) vlasnici informacija su uključeni u odobravanje prava pristupa g) primjenjuju se metode autentifikacije koje su u dovoljnoj mjeri robusne h) kompleksnost metoda autentifikacije proporcionalna je kritičnosti IT resursa kome se pristupa i procijenjenom riziku i) prava pristupa koje IT sistemi i aplikacije koriste da elektronski pristupe podacima i IT sistemima ograničena su na minimalni nivo neophodan za pružanje odgovarajuće usluge ili IT servisa j) aktivnosti korisnika, naročito sve aktivnosti privilegovanih korisničkih naloga se evidentiraju u sistemskim i operativnim zapisima, prate i čuvaju u skladu sa kritičnošću resursa IS k) preispitivanje dodijeljenih prava pristupa vrši se najmanje jednom godišnje?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.5-102",
+        "redniBroj": 3,
+        "tekst": "Da li se redovno sprovode preispitivanja dodijeljenih prava pristupa na nivou informacinog sistema?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.5-103",
+        "redniBroj": 4,
+        "tekst": "Da li su za privilegovani pristup definisani specifični i jači sigurnosni zahtjevi (npr. pristup preko tzv. jump servera uz snimanje administratorskih sesija, i sl.)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.5-104",
+        "redniBroj": 5,
+        "tekst": "Da li se korišćenje privilegovanog pristupa ograničava i da li se aktivnosti naloga sa povišenim pravima pristupa prate?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.5-105",
+        "redniBroj": 6,
+        "tekst": "Da li institucija koristi rješenje koje je specijalizovano za kontrolu privilegovanog pristupa (eng. \"Privileged Access Monitoring\" - PAM)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.5-106",
+        "redniBroj": 7,
+        "tekst": "Da li se privilegovani pristup na daljinu odobrava samo na osnovu principa neophodnosti pristupa informacijama i uz upotrebu pouzdanog rješenja za jaku autentifikaciju (dvofaktorska autentifikacija)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C4.6",
+    "naziv": "Upravljanje ranjivostima i zakrpama",
+    "dio": "C",
+    "roditeljKod": "C4",
+    "redniBroj": 29,
+    "pitanja": [
+      {
+        "kod": "C4.6-107",
+        "redniBroj": 1,
+        "tekst": "Da li postoje interna akta za upravljanje ranjivostima i zakrpama?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.6-108",
+        "redniBroj": 2,
+        "tekst": "Da li je upravljanje ranjivostima i zakrpama implementirano u praksi?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.6-109",
+        "redniBroj": 3,
+        "tekst": "Da li se zakrpe implementiraju blagovremeno?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.6-110",
+        "redniBroj": 4,
+        "tekst": "Da li se vrši identifikacija, dokumentovanje, analiza i klasifikacija tehničkih ranjivosti (uključujući skeniranje sistema na ranjivosti) i u skladu sa tim primjena zakrpa u prihvatljivom vremenskom okviru, u skladu sa kritičnošću IT sistema?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C4.7",
+    "naziv": "Sigurnost mreže",
+    "dio": "C",
+    "roditeljKod": "C4",
+    "redniBroj": 30,
+    "pitanja": [
+      {
+        "kod": "C4.7-111",
+        "redniBroj": 1,
+        "tekst": "Da li su propisane i primijenjene mjere sigurnosti radi zaštite od napada koji dolaze iz interne ili spoljne mreže (firewall uređaji, IDS/IPS, sistemi za filtriranje Internet i email sadržaja, antivirus skeneri i skeneri sadržaja, itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.7-112",
+        "redniBroj": 2,
+        "tekst": "Da li su implementirane sigurnosne kontrole kriptovanja za zaštitu kritičnih podataka u tranzitu?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.7-113",
+        "redniBroj": 3,
+        "tekst": "Da li se vodi evidencija o svim krajnjim mrežnim tačkama kroz koje treća lica mogu neovlašćeno pristupiti internom dijelu informacionog sistema, kao i o svim uređajima koji imaju pristup Internetu?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.7-114",
+        "redniBroj": 4,
+        "tekst": "Da li se ograničava udaljeni pristup informacionom sistemu KI samo na korisnike kojima je potreban takav pristup i da li se on ostvaruje u okviru minimalnih prava pristupa?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.7-115",
+        "redniBroj": 5,
+        "tekst": "Da li se za udaljeni pristup koriste metode autentifikacije čija je kompleksnost proporcionalna kritičnosti informacija kojima se pristupa?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.7-116",
+        "redniBroj": 6,
+        "tekst": "Da li se kreiraju operativni zapisi o privilegovanom pristupu mrežnim uređajima, uključujući i udaljeni pristup?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.7-117",
+        "redniBroj": 7,
+        "tekst": "Da li je interna mreža adekvatno segmentirana?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C4.8",
+    "naziv": "Zaštita od virusa i zlonamjernog koda",
+    "dio": "C",
+    "roditeljKod": "C4",
+    "redniBroj": 31,
+    "pitanja": [
+      {
+        "kod": "C4.8-117",
+        "redniBroj": 1,
+        "tekst": "Da li su implementirane kontrole za zaštitu od virusa i zlonamjernog koda?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.8-118",
+        "redniBroj": 2,
+        "tekst": "Da li zaštita od virusa i zlonamjernog koda obuhvata sve krajnje mrežne tačke (npr. desktop računare, laptopove, mobilne uređaje, servere, itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.8-119",
+        "redniBroj": 3,
+        "tekst": "Da li se softver za zaštitu od virusa i zlonamjernog koda redovno ažurira?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C4.9",
+    "naziv": "Evidencija i praćenje sigurnosnih događaja",
+    "dio": "C",
+    "roditeljKod": "C4",
+    "redniBroj": 32,
+    "pitanja": [
+      {
+        "kod": "C4.9-120",
+        "redniBroj": 1,
+        "tekst": "Da li su propisane i implementirane efikasne mjere za evidenciju i praćenje sigurnosnih događaja i blagovremenu reakciju u slučaju upozorenja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.9-121",
+        "redniBroj": 2,
+        "tekst": "Da li je propisan period čuvanja sistemskih i operativnih zapisa?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.9-122",
+        "redniBroj": 3,
+        "tekst": "Da li se izrađuju zapisi o svim aktivnostima korisnika sa privilegovanim pristupom IS?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.9-123",
+        "redniBroj": 4,
+        "tekst": "Da li je u upotrebi centralizovano rješenje za prikupljanje, čuvanje, analizu, korelaciju i nadgledanje sigurnosnih događaja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.9-124",
+        "redniBroj": 5,
+        "tekst": "Da li je u instituciji uspostavljen bezbjednosno-operativni centar (eng. „Security Operations Center“ - SOC) za kontinuirano praćenje, analiziranje, otkrivanje i reagovanje na sigurnosne prijetnje i događaje, i tim za odgovor i ublažavanje efekata velikih sigurnosnih incidenata (engl. \"Computer Emergency Response Team\" - CERT)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.9-125",
+        "redniBroj": 6,
+        "tekst": "Da li se sigurnosni događaji koji generišu upozorenja tretiraju kao sigurnosni incidenti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.9-126",
+        "redniBroj": 7,
+        "tekst": "Da li postoji plan odgovora na sajber incidente i da li se redovno ažurira?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.9-127",
+        "redniBroj": 8,
+        "tekst": "Da li je više rukovodstvo blagovremeno upoznato sa detektovanim sigurnosnim incidentima, njihovim posljedicama, odgovorom na incidente i kontrolama koje su dodatno implementirane?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C4.10",
+    "naziv": "Klasifikacija podataka",
+    "dio": "C",
+    "roditeljKod": "C4",
+    "redniBroj": 33,
+    "pitanja": [
+      {
+        "kod": "C4.10-128",
+        "redniBroj": 1,
+        "tekst": "Da li postoje politike i procedure za klasifikaciju podataka koje definišu postupak klasifikuje na osnovu zahtjeva za poverljivost, integritet, dostupnost i zakonskih/regulatornih zahtjeva (npr. zaštita ličnih podataka, bankarske tajne, osljetljivih podataka o plaćanju itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.10-129",
+        "redniBroj": 2,
+        "tekst": "Da li politike i procedure za klasifikaciju podataka definišu mjere zaštite u skladu sa rezultatom klasifikacije, uzimajući u obzir kompletan životni ciklus hardverskih i softverskih resursa koji se koriste za njihovu obradu i skladištenje (npr. mjere za zamjenu, arhiviranje, povlačenje ili uništavanje)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.10-130",
+        "redniBroj": 3,
+        "tekst": "Da li su određeni vlasnici podataka?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.10-131",
+        "redniBroj": 4,
+        "tekst": "Da li je izvršena klasifikacija podataka?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C4.10-132",
+        "redniBroj": 5,
+        "tekst": "Da li su implementirane mjere za zaštitu podataka u skladu sa njihovom klasifikacijom uključujući upotrebu sistema za sprečavanje gubitka\\odliva podataka (eng. „Data Loss\\Leakage Prevention System“ - DLP)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C5",
+    "naziv": "Upravljanje IT operacijama",
+    "dio": "C",
+    "roditeljKod": null,
+    "redniBroj": 34,
+    "pitanja": []
+  },
+  {
+    "kod": "C5.1",
+    "naziv": "Upravljanje imovinom i konfiguracijama",
+    "dio": "C",
+    "roditeljKod": "C5",
+    "redniBroj": 35,
+    "pitanja": [
+      {
+        "kod": "C5.1-133",
+        "redniBroj": 1,
+        "tekst": "Da li postoji ažuran spisak svih IT resursa/konfiguracionih elemenata (softvera i hardvera) sa najmanje sledećim nivoom detalja: naziv, opis, lokacija, status, aktuelna konfiguracija, vlasništvo, kritičnost resursa, povezanost sa drugim IT resursima ?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.1-134",
+        "redniBroj": 2,
+        "tekst": "Da li su identifikovani kritični resursi, odgovarajući zahtjevi za oporavak, međuzavisnosti/tokovi podataka između različitih resursa, itd?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.1-135",
+        "redniBroj": 3,
+        "tekst": "Da li je definisan skup standardnih konfiguracija (eng. configuration baselines) za konfiguracione elemente uključujući pravila za sigurnosno ojačane konfiguracije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C5.2",
+    "naziv": "Rezervne kopije podataka",
+    "dio": "C",
+    "roditeljKod": "C5",
+    "redniBroj": 36,
+    "pitanja": [
+      {
+        "kod": "C5.2-136",
+        "redniBroj": 1,
+        "tekst": "Da li je internim aktima propisana politika izrade rezervnih kopija podataka koja najmanje obuhvata: a) vrstu, obim, način i frekvenciju izrade b) način i frekvenciju odlaganja na udaljenu lokaciju c) način vođenja evidencije c) period čuvanja rezervnih kopija podataka d) način i frekvenciju testiranja rezervnih kopija podataka?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.2-137",
+        "redniBroj": 2,
+        "tekst": "Da li se rezervne kopije podataka izrađuju u skladu sa zahtjevima institucije za oporavak poslovanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.2-138",
+        "redniBroj": 3,
+        "tekst": "Da li su rezervne kopije smještene na najmanje jednoj sigurnoj \"off- site\" lokaciji koja nije izložena istim rizicima kojima su izloženi izvorni podaci?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.2-139",
+        "redniBroj": 4,
+        "tekst": "Da li se redovno sprovodi testiranje restauracije rezervnih kopija podataka?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.2-140",
+        "redniBroj": 5,
+        "tekst": "Da li su rezervne kopije podataka adekvatno zaštićene u zavisnosti od kritičnosti obuhvaćenih podataka (npr. kriptovanjem)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C5.3",
+    "naziv": "Planiranje i praćenje performansi i kapaciteta",
+    "dio": "C",
+    "roditeljKod": "C5",
+    "redniBroj": 37,
+    "pitanja": [
+      {
+        "kod": "C5.3-141",
+        "redniBroj": 1,
+        "tekst": "Da li su dokumentovane i implementirane standardne operativne procedure za praćenje IT sistemima i opreme, a koje najmanje obuhvataju: a) postupke upravljanja job-ovima b) evidenciju operativnih i sistemskih zapisa (vrsta, sadržaj, period čuvanja, način zaštite), frekvencija analize i način nadzora operativnih i sistemskih zapisa sa IT sistema i opreme u cilju otkrivanja problema u njihovom radu c) praćenje performansi i kapaciteta IT sistema, radi pravovremenog otkrivanja značajnih odstupanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.3-142",
+        "redniBroj": 2,
+        "tekst": "Da li se vrši praćenje performansi i kapaciteta kritičnih IT sistema i opreme (npr. CPU, RAM, prostor na disku, linkovi, itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.3-143",
+        "redniBroj": 3,
+        "tekst": "Da li se potrebne performanse i kapaciteti IT sistema blagovremeno planiraju?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C5.4",
+    "naziv": "Upravljanje incidentima i problemima",
+    "dio": "C",
+    "roditeljKod": "C5",
+    "redniBroj": 38,
+    "pitanja": [
+      {
+        "kod": "C5.4-144",
+        "redniBroj": 1,
+        "tekst": "Da li je formalno uspostavljen proces upravljanja incidentima i problemima koji jasno razdvaja operativni od sigurnosnog incidenta?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.4-145",
+        "redniBroj": 2,
+        "tekst": "Da li su u procesu jasno definisane uloge i odgovornosti u raznim fazama upravljanja incidentima?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.4-146",
+        "redniBroj": 3,
+        "tekst": "Da li je uspostavljena kategorizacija i klasifikacija incidenata u skladu sa negativnim uticajem koji mogu imati na poslovanje?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.4-147",
+        "redniBroj": 4,
+        "tekst": "Da li se incidenti evidentiraju u bazi incidenata sa svim potrebnim detaljima za svaku od faza upravljanja incidentom?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.4-148",
+        "redniBroj": 5,
+        "tekst": "Da li se u bazi incidenata evidentira vrijeme odgovora (eng.response time) i vrijeme rješavanja incidenta (eng. resolution time)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.4-149",
+        "redniBroj": 6,
+        "tekst": "Da li su propisani i implementirani postupci interne komunikacije, uključujući komunikaciju u vezi sa prijavljivanjem i eskalacijom incidenata na viši nivo upravljanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.4-150",
+        "redniBroj": 7,
+        "tekst": "Da li se značajni incidenti blagovremeno eskaliraju na više nivoe upravljanja u cilju pravovremenog upravljanja rizikom i po potrebi donošenja odluke o aktivaciji plana oporavka informacionog sistema, odnosno plana kontinuiteta poslovanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.4-151",
+        "redniBroj": 8,
+        "tekst": "Da li se nadzorni i upravni odbor izvještava o svim značajnim incidentima?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.4-152",
+        "redniBroj": 9,
+        "tekst": "Da li su propisani i implementirani postupci spoljne komunikacije u vezi sa kritičnim poslovnim funkcijama i procesima (saradnja sa spoljnim akterima koji mogu doprinijeti rješavanju incidenta, informisanje klijenata i drugih strana)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.4-153",
+        "redniBroj": 10,
+        "tekst": "Da li je u slučaju značajnih incidenata propisano obavještavanje Centralne banke?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.4-154",
+        "redniBroj": 11,
+        "tekst": "Da li se notifikacije sa sistema za detekciju analiziraju (ukljući i forenziku) blagovremeno i da li se u skladu sa tim analizama primjenjuju panovi odgovora na incidente?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.4-155",
+        "redniBroj": 12,
+        "tekst": "Da li je uspostavljen dokumentovani proces upravljanja problemima, kako bi se identifikovao i riješio zajednički osnovni uzrok pojave incidenata i spriječila pojava budućih incidenata (na primjer korišćenjem indikatora ranog upozorenja, itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C5.5",
+    "naziv": "Upravljanje promjenama",
+    "dio": "C",
+    "roditeljKod": "C5",
+    "redniBroj": 39,
+    "pitanja": [
+      {
+        "kod": "C5.5-156",
+        "redniBroj": 1,
+        "tekst": "Da li je uspostavljen i formalizovan proces upravljanja promjenama hardverskih i softverskih komponenti informacionog sistema?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.5-157",
+        "redniBroj": 2,
+        "tekst": "Da li proces upravljanja promjenama, najmanje obuhvata: definisanje promjene, davanje prioriteta, procjenu uticaja promjene, autorizaciju, plan implementacije, testiranje, implementaciju promjene, dokumentovanje i zatvaranje?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.5-158",
+        "redniBroj": 3,
+        "tekst": "Da li plan implementacije promjene sadrži i planove vraćanja na prethodno stanje?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.5-159",
+        "redniBroj": 4,
+        "tekst": "Da li značajne promjene odobrava odbor za promjene ili slično tijelo i da li se njihova implementacija unaprijed zakazuje i odobrava od strane tog tijela?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.5-160",
+        "redniBroj": 5,
+        "tekst": "Da li se zahtjevi za promjenom kategorizuju i autorizuju u skladu sa uticajem promjene i značajem resursa/komponenti na koje se promjena odnosi?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.5-161",
+        "redniBroj": 6,
+        "tekst": "Da li za sve kritične IT sisteme postoji razvojno i testno okruženje koje je odvojeno od produkcionog?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.5-162",
+        "redniBroj": 7,
+        "tekst": "Da li razvojno i testno okruženje sadrže povjerljive produkcione podatke?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.5-163",
+        "redniBroj": 8,
+        "tekst": "Da li testno okruženje adekvatno odgovara produkcionom okruženju?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.5-164",
+        "redniBroj": 9,
+        "tekst": "Da li postoje procedure za hitne promjene (promjene koje zahtijevaju bržu implementaciju npr. u vanrednoj situaciji)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.5-165",
+        "redniBroj": 10,
+        "tekst": "Da li promjene IT sigurnosnih kontrola (npr. promjena pravila na firewall-u, itd.) odobrava osoba koja rukovodi IT/informacionom sigurnošću na osnovu analize uticaja promjene?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C5.5-166",
+        "redniBroj": 11,
+        "tekst": "Da li se promjene evidentiraju u bazi promjena sa svim potrebnim detaljima za svaku od faza upravljanja promjenom?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C6",
+    "naziv": "Nabavka i razvoj IT sistema, upravljanje IT projektima",
+    "dio": "C",
+    "roditeljKod": null,
+    "redniBroj": 40,
+    "pitanja": []
+  },
+  {
+    "kod": "C6.1",
+    "naziv": "Upravljanje IT projektima",
+    "dio": "C",
+    "roditeljKod": "C6",
+    "redniBroj": 41,
+    "pitanja": [
+      {
+        "kod": "C6.1-167",
+        "redniBroj": 1,
+        "tekst": "Da li je uspostavljen proces upravljanja IT projektima koji podržava sprovođenje strategije razvoja informacionog sistema?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.1-168",
+        "redniBroj": 2,
+        "tekst": "Da li se svi IT projekti definišu u skladu sa IT strategijom?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.1-169",
+        "redniBroj": 3,
+        "tekst": "Da li postoji politika za upravljanje IT projektima koja najmanje obuhvata : a) ciljeve projekta; b) uloge i odgovornosti; c) procjenu rizika projekta; d) plan, vremenski okvir i aktivnosti; e) ključne etape projekta (eng. milestones); f) zahtjeve po pitanju upravljanja promjenama?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.1-170",
+        "redniBroj": 4,
+        "tekst": "Da li se procjena rizika projekta vrši u skladu sa internim aktima kojima je propisano upravljanje IS rizicima?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.1-171",
+        "redniBroj": 5,
+        "tekst": "Da li su zahtjevi informacione sigurnosti sastavni dio svakog IT projekta?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.1-172",
+        "redniBroj": 6,
+        "tekst": "Da li je uspostavljeno redovno praćenje realizacije IT projekata, odnosno projektnog portfolija (npr. praćenje od strane \"kancelarije za upravljanje projektima\", IT steering komiteta i sl.) i da li se redovno pripremaju izveštaji o napretku IT projekata i povezanih rizika za organe upravljanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.1-173",
+        "redniBroj": 7,
+        "tekst": "Da li IT Steering komitet vrši nadzor projekata u vezi razvoja svakog kritičnog sistema?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.1-174",
+        "redniBroj": 8,
+        "tekst": "Da li se projekti iniciraju u skladu sa odobrenim obimom, koristima, ciljevima i identifikovanim ključnim zainteresovanim stranama?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.1-175",
+        "redniBroj": 9,
+        "tekst": "Da li se analiziraju i ublažavaju rizici koji proizilaze iz projektnog portfolija, uzimajući u obzir i rizike koji mogu biti rezultat međuzavisnosti između različitih projekata i zavisnosti više projekata od istih resursa i/ili stručnosti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.1-176",
+        "redniBroj": 10,
+        "tekst": "Da li je implementiran proces kojim se obezbjeđuje nezavisna provjera kvaliteta projekta (eng. \"Project Independent Quality Assurance\")?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C6.2",
+    "naziv": "Upravljanje životnim ciklusom IT sistema",
+    "dio": "C",
+    "roditeljKod": "C6",
+    "redniBroj": 42,
+    "pitanja": [
+      {
+        "kod": "C6.2-177",
+        "redniBroj": 1,
+        "tekst": "Da li su definisani i implementirani IT standardi i metodologije za upravljanje nabavkom, razvojem, implementacijom i održavanjem IT sistema i povezanih tehnologija (uključujući tehnološku infrastrukturu)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.2-178",
+        "redniBroj": 2,
+        "tekst": "Da li su zahtjevi za informacionu sigurnost (uključujući sajber sigurnost) uključeni u zahtjeve definisane za nove IT sisteme ili poboljšanja postojećih IT sistema?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.2-179",
+        "redniBroj": 3,
+        "tekst": "Da li su IT sigurnosne kontrole implementirane za sve faze životnog ciklusa IT sistema, počev od projektovanja, razvoja (uključujući mjere zaštite integriteta izvornog koda IT sistema koji se razvijaju u instituciji), u fazi nabavke i testiranja i kontinuirano kroz fazu operativnog rada?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.2-180",
+        "redniBroj": 4,
+        "tekst": "Da li su uspostavljene mjere za smanjenje rizika od nenamjernih izmjena i/ili namjernog manipulisanja IT sistemom tokom razvoja i/ili stavljanja u produkciono okruženje?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.2-181",
+        "redniBroj": 5,
+        "tekst": "Da li se standardi životnog ciklusa IT sistema, metodologije i mjere zaštite takođe primenjuju i na aplikacije/rješenja razvijena od strane krajnjih internih korisnika (eng. \"end user computing\")?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C6.2-182",
+        "redniBroj": 6,
+        "tekst": "Da li su definisana i primijenja pravila za upravljanje hardverskom i softverskom imovinom u skladu sa preporukama proizvođača, kako bi se umanjili rizici koji proizilaze iz upotrebe imovine koja je zastarjela ili više nema podršku proizvođača?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C7",
+    "naziv": "Upravljanje kvalitetom podataka",
+    "dio": "C",
+    "roditeljKod": null,
+    "redniBroj": 43,
+    "pitanja": []
+  },
+  {
+    "kod": "C7.1",
+    "naziv": "Opšti aspekt",
+    "dio": "C",
+    "roditeljKod": "C7",
+    "redniBroj": 44,
+    "pitanja": [
+      {
+        "kod": "C7.1-183",
+        "redniBroj": 1,
+        "tekst": "Da li su definisane, dokumentovane i testirane procedure upravljanja kvalitetom podataka? *Procedure upravljanja kvalitetom podataka uključuju odgovarajuće IT kontrole (npr. automatizovane kontrole validacije unosa, kontrole prenosa podataka, kontrole za usaglašavanje, itd.) za različite faze životnog ciklusa IT podataka (npr. dizajniranje arhitekture podataka, razvoj modela podataka i/ili rječnika podataka, validacija unosa podataka, kontrola ekstrakcije podataka, prenosa i obrade, itd.).",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C7.1-184",
+        "redniBroj": 2,
+        "tekst": "Da li su definisane uloge i odgovornosti za upravljanje kvalitetom podataka i da li su implementirane u praksi, uključujući uloge i odgovornosti vlasnika podataka?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C7.1-185",
+        "redniBroj": 3,
+        "tekst": "Da li je formalno uspostavljena funkcija upravljanja kvalitetom podataka odgovorna za: (a) kreiranje politika i smjernica (b) nadgledanje pravilne implementacije okvira upravljanja podacima i kvaliteta podataka u cijeloj instituciji (c) obezbjeđivanje evaluacije i praćenja kvaliteta podataka kroz procese upravljanja kvalitetom podataka (d) učešće u relevantnim promjenama procesa upravljanja (kao što su spajanja ili akvizicije, eksternalizacija usluga trećim licima, lansiranje novih proizvoda, inicijative za IT promjene, itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C7.1-186",
+        "redniBroj": 4,
+        "tekst": "Da li KI posjeduje dovoljno ljudskih i tehničkih resursa za obezbjeđenje adekvatnog nivoa kvaliteta podataka?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C7.1-187",
+        "redniBroj": 5,
+        "tekst": "Da li se kreiraju i usvajaju izvještaji o upravljanju kvalitetom podataka?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C7.1-188",
+        "redniBroj": 6,
+        "tekst": "Da li se dokumentuje rešavanje kritičnih problema u vezi sa kvalitetom podataka?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C7.1-189",
+        "redniBroj": 7,
+        "tekst": "Da li se procedure upravljanja kvalitetom podataka primjenjuju i na aplikacije razvijene od strane krajnjih internih korisnika (eng. \"end user computing\")?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C7.2",
+    "naziv": "Arhitektura podataka i izvještavanje",
+    "dio": "C",
+    "roditeljKod": "C7",
+    "redniBroj": 45,
+    "pitanja": [
+      {
+        "kod": "C7.2-190",
+        "redniBroj": 1,
+        "tekst": "Da li je definisana i dokumentovana arhitektura podataka, modeli podataka i tokovi podataka i da li su validirani od strane relevantnih poslovnih i IT učesnika?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C7.2-191",
+        "redniBroj": 2,
+        "tekst": "Da li se arhitektura podataka redovno pregleda i po potrebi ažurira?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C7.2-192",
+        "redniBroj": 3,
+        "tekst": "Da li su za sve kritične poslovne aplikacije definisani izvori podataka (skup relevantnih baza podataka)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C7.2-193",
+        "redniBroj": 4,
+        "tekst": "Da li model arhitekture podataka uključuje taksonomiju podataka / rječnik glavnih poslovnih koncepata i repozitorijum metapodataka, koji pokrivaju sva materijalna pravna lica, poslovne linije, materijalne rizike i pokazatelje materijalnih rizika, izveštaje i modele?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C8",
+    "naziv": "Upravljanje kontinuitetom poslovanja",
+    "dio": "C",
+    "roditeljKod": null,
+    "redniBroj": 46,
+    "pitanja": []
+  },
+  {
+    "kod": "C8.1",
+    "naziv": "Analiza uticaja na poslovanje",
+    "dio": "C",
+    "roditeljKod": "C8",
+    "redniBroj": 47,
+    "pitanja": [
+      {
+        "kod": "C8.1-194",
+        "redniBroj": 1,
+        "tekst": "Da li je formalno dokumentovan i uspostavljen proces za analizu, odobravanje i tretman rizika IT kontinuiteta?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.1-195",
+        "redniBroj": 2,
+        "tekst": "Da li je sprovedena analiza uticaja na poslovanje?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.1-196",
+        "redniBroj": 3,
+        "tekst": "Da li su u okviru analize uticaja na poslovanje identifikovane kritične poslovne aktivnosti, procesi, IT sistemi i servisi, uključujući i one koji su povjereni trećim stranama?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.1-197",
+        "redniBroj": 4,
+        "tekst": "Da li su analizom uticaja na poslovanje utvrđeni nivoi usluga koje je institucija treba da održava ili blagovremeno obnovi?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.1-198",
+        "redniBroj": 5,
+        "tekst": "Da li su analizom uticaja na poslovanje utvrđena ciljna vremena oporavka (Eng. Recovery Time Objective - RTO) i ciljne tačke oporavka (Eng. Recovery Point Objective - RPO)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.1-199",
+        "redniBroj": 6,
+        "tekst": "Da li se prilikom nabavke rješenja ili usluga koje su (ili će postati) važne za kontinuitet kritičnih aktivnosti /usluga, tokom procesa selekcije provjerava da li su ispunjeni zahtjevi po pitanju kontinuiteta?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C8.2",
+    "naziv": "Planovi, procesi i procedure",
+    "dio": "C",
+    "roditeljKod": "C8",
+    "redniBroj": 48,
+    "pitanja": [
+      {
+        "kod": "C8.2-200",
+        "redniBroj": 1,
+        "tekst": "Da li je formalno dokumentovan i uspostavljen okvir za upravljanje u kriznim situacijama, procesi za izradu i redovno ažuriranje planova i procedura za kontinuitet poslovanja i oporavak kritičnih IT sistema i usluga (uključujući eksternalizovane sisteme i usluge) za niz različitih scenarija kojima bi institucija mogla biti izložena (npr. gubitak osoblja, gubitak zgrada(e), gubitak spoljnog(ih) provajdera(a), gubitak IT sistema(a), sajber-napadi, itd.), kao i efikasna komunikacija u takvom scenariju?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.2-201",
+        "redniBroj": 2,
+        "tekst": "Da li je na osnovu analize uticaja na poslovanje definisan i usvojen plan kontinuiteta poslovanja institucije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.2-202",
+        "redniBroj": 3,
+        "tekst": "Da li su u planu kontinuiteta poslovanja obuhvaćeni različiti scenariji kojima bi institucija mogla biti izložena?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.2-203",
+        "redniBroj": 4,
+        "tekst": "Da li je prilikom izrade plana kontinuiteta poslovanja uzeta u obzir zavisnost institucije od trećih strana i usluga koje pružaju?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.2-204",
+        "redniBroj": 5,
+        "tekst": "Da li plan kontinuiteta sadrži spisak prioriteta po kojima će se postupiti u slučaju potrebe oporavka više poslovnih aktivnosti?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.2-205",
+        "redniBroj": 6,
+        "tekst": "Da li je usvojen plan oporavka informacionog sistema (Eng. \"disaster recovery plan\" - DRP)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.2-206",
+        "redniBroj": 7,
+        "tekst": "Da li plan oporavka obuhvata procedure oporavka informacionog sistema za svaki pojedinačni scenario?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.2-207",
+        "redniBroj": 8,
+        "tekst": "Da li plan oporavka informacionog sistema obuhvata: 1) uslove za primjenu plana 2) detaljan opis postupaka za oporavak IT sistema i servisa u skladu sa definisanim zahtjevima 3) spisak prioriteta po kojima će se postupiti u slučaju da je potrebno oporaviti više IT sistema i/ili servisa 4) informacije o timovima odgovornim za oporavak pojedinih IT sistema ili servisa i članovima tih timova, uključujući jasno utvrđene dužnosti i odgovornosti 5) podatke o lokaciji za oporavak informacionog sistema 6) podatke o ključnim pružaocima usluga?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.2-208",
+        "redniBroj": 9,
+        "tekst": "Da li se planovi kontinuiteta poslovanja i oporavka informacionog sistema redovno ažuriraju i odobravaju od strane nadležnog tijela institucije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.2-209",
+        "redniBroj": 10,
+        "tekst": "Da li se planovi kontinuiteta poslovanja i oporavka informacionog sistema takođe ažuriraju na ad-hoc osnovi kada je to potrebno (npr. u slučaju strukturnih promjena IT sistema ili na osnovu lekcija naučenih iz velikih incidenata - bilo da su interni incidenti u instituciji ili eksterni incidenti)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C8.3",
+    "naziv": "Tehnička infrastruktura i rješenja",
+    "dio": "C",
+    "roditeljKod": "C8",
+    "redniBroj": 49,
+    "pitanja": [
+      {
+        "kod": "C8.3-210",
+        "redniBroj": 1,
+        "tekst": "Da li su u skladu sa rezultatima analize uticaja na poslovanje primijenjene dodatne mjere obezbjeđenja dostupnosti kritičnih sistema kroz dupliranje kritičnih komponenti, implementaciju rješenja za praćenje kapaciteta itd, kako bi se spriječili prekidi izazvani događajima koji utiču na te komponente?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.3-211",
+        "redniBroj": 2,
+        "tekst": "Da li su implementirane procedure i rešenja za redundantno i sigurno skladištenje i kreiranje rezervnih kopija IT sistema i podataka?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C8.4",
+    "naziv": "Testiranje i ažuriranje planova",
+    "dio": "C",
+    "roditeljKod": "C8",
+    "redniBroj": 50,
+    "pitanja": [
+      {
+        "kod": "C8.4-212",
+        "redniBroj": 1,
+        "tekst": "Da li se redovno sprovodi testiranje usvojenih planova kontinuiteta poslovanja i planova oporavka informacionog sistema za ključne/kritične poslovne aktivnosti, procese, IT sisteme i servise (uključujući one koje pružaju spoljni pružaoci usluga, gde je primenljivo)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.4-213",
+        "redniBroj": 2,
+        "tekst": "Da li su u testiranje uključeni svi učesnici, uključujući upravljačka tijela i više rukovodstvo u dijelu informisanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.4-214",
+        "redniBroj": 3,
+        "tekst": "Da li su rezultati testova dokumentovani i da li se koriste za unapređenje efikasnosti upravljanja kontinuitetom poslovanja?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.4-215",
+        "redniBroj": 4,
+        "tekst": "Da li se izvještaji sa testiranja prezentuju nadležnim organima institucije uključujući analizu nedostataka utvrđenih testiranjem?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C8.4-216",
+        "redniBroj": 5,
+        "tekst": "Da li su za eksternalizovane kritične aktivnosti i procese planovi kontinuiteta izrađeni u saradnji sa pružaocima usluga?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C9",
+    "naziv": "IT izvještavanje",
+    "dio": "C",
+    "roditeljKod": null,
+    "redniBroj": 51,
+    "pitanja": [
+      {
+        "kod": "C9-217",
+        "redniBroj": 1,
+        "tekst": "Da li je proces IT izveštavanja formalizovan na način da sadrži operativna pravila za izvještavanje, definisane odgovornosti, predmet izveštavanja, rokove, kanale komunikacije itd. i da li obezbjeđuje da se IT izvještavanje vrši blagovremeno, tačno i sveobuhvatno?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C9-218",
+        "redniBroj": 2,
+        "tekst": "Da li se IT izvještaji distribuiraju sigurnim kanalima?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C9-219",
+        "redniBroj": 3,
+        "tekst": "Da li sistem IT izvještavanja uključuje izvještavanje od strane pružaoca IT usluga eksternalizacije (npr. dobavljača usluga u oblaku, itd.)?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C9-220",
+        "redniBroj": 4,
+        "tekst": "Da li se IT izvještavanje obavlja redovno kako bi nadležni menadžment blagovremeno identifikovao, procijenio, pratio i upravljao IT rizikom u skladu sa odobrenim apetitom?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  },
+  {
+    "kod": "C10",
+    "naziv": "Interna IT revizija",
+    "dio": "C",
+    "roditeljKod": null,
+    "redniBroj": 52,
+    "pitanja": [
+      {
+        "kod": "C10-221",
+        "redniBroj": 1,
+        "tekst": "Da li je definisan sveobuhvatan IT revizorski univerzum?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C10-222",
+        "redniBroj": 2,
+        "tekst": "Da li se okvir kontrole IT rizika revidira sa potrebnim kvalitetom, dubinom i učestalošću?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C10-223",
+        "redniBroj": 3,
+        "tekst": "Da li plan revizije uključuje kritične IT rizike identifikovane od strane institucije (uključujući aktivnosti spoljnih pružaoca usluga) i uzima li u obzir rezultate prethodnih revizija?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C10-224",
+        "redniBroj": 4,
+        "tekst": "Da li se nalazi IT revizije, uključujući dogovorene mjere za umanjenje rizika redovno prate, i da li se izveštaji o napretku periodično dostavljaju organima upravljanja i odboru za reviziju?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C10-225",
+        "redniBroj": 5,
+        "tekst": "Da li postoji procedura za ad hoc izvještavanje organa upravljanja na osnovu kritičnosti nalaza IT revizije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      },
+      {
+        "kod": "C10-226",
+        "redniBroj": 6,
+        "tekst": "Da li funkcija interne revizije ima adekvatne resurse (odgovarajući broj zaposlenih sa potrebnim kompetencijama i vještinama) za pravilno obavljanje aktivnosti IT revizije?",
+        "uputstvo": "",
+        "tipOdgovora": "DA_NE_DJELIMICNO",
+        "opcije": []
+      }
+    ]
+  }
+]

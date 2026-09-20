@@ -1,0 +1,2450 @@
+[
+  {
+    "kod": "PO1",
+    "naziv": "Strateško planiranje IS",
+    "domen": "PO",
+    "redniBroj": 1,
+    "izjave": [
+      {
+        "kod": "PO1-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Strateško planiranje informatike se ne sprovodi."
+      },
+      {
+        "kod": "PO1-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "U upravi ne postoji svjest o potrebi strateškog planiranja IT-a"
+      },
+      {
+        "kod": "PO1-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Potreba za strateškim planiranjem IT-a je poznata menadžmentu."
+      },
+      {
+        "kod": "PO1-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Planiranje informatike se zasniva na rješavanju tekućih pitanja, kako se problemi pojavljuju."
+      },
+      {
+        "kod": "PO1-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Pitanje planiranja IT-a se ponekad spominje na sastancima IT odjela."
+      },
+      {
+        "kod": "PO1-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Rizik od neuspjelog projekta se ponekad spominje u okviru projekta."
+      },
+      {
+        "kod": "PO1-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Usklađenost informatike i poslovnih funkcija događa se više zbog slučajnosti"
+      },
+      {
+        "kod": "PO1-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Planiranje informatike se sprovodi u saradnji sa upravom organizacije samo kada je to nužno (npr. velike investicije)."
+      },
+      {
+        "kod": "PO1-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Izmjene i dopune plana nabavka informatike i usluga vezanih uz informatiku događaju se zbog naloga uprave."
+      },
+      {
+        "kod": "PO1-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Odluke o ulaganju u IT donose se zbog rješavanja trenutnih problema."
+      },
+      {
+        "kod": "PO1-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Rizici i koristi od ulaganja u IT su prepoznati (na intuitivan način)."
+      },
+      {
+        "kod": "PO1-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Planiranje informatike se zasniva na unaprijed definisanim pristupima i metodama."
+      },
+      {
+        "kod": "PO1-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Zapošljeni IT službe poznaju postupke planiranja vezane za IT."
+      },
+      {
+        "kod": "PO1-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "IT menadžeri imaju mogućnost samostalnog određivanja načina implementacije informacionih rješenja, ne postoje procedure koje bi provjerile jesu li ti postupci ispravni."
+      },
+      {
+        "kod": "PO1-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Implementiraju se nove tehnologije, iako je rizik njihove implementacije ponekad veći."
+      },
+      {
+        "kod": "PO1-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "O planiranju informatike i informatičkih usluga raspravlja se u menadžmentu organizacije."
+      },
+      {
+        "kod": "PO1-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Planiranje informatike je standardna praksa, a izostanak planiranja menadžment organizacije bi primjetio."
+      },
+      {
+        "kod": "PO1-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Menadžment organizacije je u mogućnosti nadzirati planiranje vezano uz informatiku, i mjeriti konkretnu efektivnost informatike."
+      },
+      {
+        "kod": "PO1-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Strategija razvoja informatike i strategija razvoja poslovanja organizacije postaju sve više povezani kako bi omogućili nove poslovne mogućnosti."
+      },
+      {
+        "kod": "PO1-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Postoje dobro definisani načini utvrđivanja iskorišćavanja internih i eksternih usluga potrebnih za razvoj sistema i njegovo održavanje."
+      },
+      {
+        "kod": "PO1-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Sve faze planiranja IT-a su dokumentovane."
+      },
+      {
+        "kod": "PO1-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Planiranje informatike je živi proces koji se zasniva isključivo na poslovnim ciljevima organizacije."
+      },
+      {
+        "kod": "PO1-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Sva planiranja informatike direktno su povezana sa povećanjem poslovne vrijednosti cjelokupne organizacije."
+      },
+      {
+        "kod": "PO1-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji realistično i dugoročno planiranje informatike na nivou organizacije, a koje se konstantno dopunjuje uzimajući u obzir stallne tehnološke ali i poslovne promjene u organizaciji."
+      },
+      {
+        "kod": "PO1-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Postoji stalno upoređivanje IT-a organizacije sa IT-om najboljih visokoškolskih ustanova u CG."
+      },
+      {
+        "kod": "PO1-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Planiranje informatike uključuje istraživanje kako razvoj novih tehnologija može ostvariti nove poslovne mogućnosti i povećati konkurentsku prednost."
+      }
+    ]
+  },
+  {
+    "kod": "PO3",
+    "naziv": "Određivanje tehnoloških smjernica",
+    "domen": "PO",
+    "redniBroj": 2,
+    "izjave": [
+      {
+        "kod": "PO3-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Tehnološke smjernice se ne određuju."
+      },
+      {
+        "kod": "PO3-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Uprava nije svjesna potrebe za tehnološkim smjernicama."
+      },
+      {
+        "kod": "PO3-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Uprava je svjesna potrebe za tehnološkim smjernicama"
+      },
+      {
+        "kod": "PO3-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Tehnološke smjernice se donose ad hoc."
+      },
+      {
+        "kod": "PO3-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Rizik od neusklađenosti s tehnoškim smjernicama se ne spominje."
+      },
+      {
+        "kod": "PO3-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Tehnološke smjernice se donose samo pri velikim investicijama."
+      },
+      {
+        "kod": "PO3-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Izmjene u tehnološkim smjernicama se donose prema nalogu uprave."
+      },
+      {
+        "kod": "PO3-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Odluke o ulaganju u IT se donose ad hoc."
+      },
+      {
+        "kod": "PO3-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Rizici i koristi ulaganja u IT nisu jasno prepoznati."
+      },
+      {
+        "kod": "PO3-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Tehnološke smjernice se donose prema definisanim pristupima i metodama."
+      },
+      {
+        "kod": "PO3-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Zapošljeni IT službe poznaju postupke planiranja za tehno. smjernice."
+      },
+      {
+        "kod": "PO3-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "IT menadžeri mogu samostalno određivati način implementacije informacijskih rješenja."
+      },
+      {
+        "kod": "PO3-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Implementiraju se nove tehnologije uprkos riziku."
+      },
+      {
+        "kod": "PO3-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Rasprava o tehno. smjernicama postoji u menadžmentu."
+      },
+      {
+        "kod": "PO3-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Planiranje tehnoloških smjernica je standardna praksa."
+      },
+      {
+        "kod": "PO3-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Uprava može nadzirati planiranje tehno. smjernica."
+      },
+      {
+        "kod": "PO3-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Strategija razvoja IT-a povezana s poslovnom strategijom."
+      },
+      {
+        "kod": "PO3-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Postoje definisani načini za utvrđivanje iskorišćavanja internih i eksternih usluga."
+      },
+      {
+        "kod": "PO3-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Sve tehno. smjernice su dokumentovane"
+      },
+      {
+        "kod": "PO3-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Planiranje tehno. smjernica je usklađeno s poslovnim ciljevima."
+      },
+      {
+        "kod": "PO3-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Tehno. smjernice povezane s povećanjem poslovne vrijednosti organizacije."
+      },
+      {
+        "kod": "PO3-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji dugoročno planiranje koje se kontinuirano ažurira."
+      },
+      {
+        "kod": "PO3-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Poređenje IT-a s najboljim visokoškolskim ustanovama"
+      },
+      {
+        "kod": "PO3-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Planiranje uključuje istraživanje novih tehnologija."
+      }
+    ]
+  },
+  {
+    "kod": "PO5",
+    "naziv": "Upravljanje IT investicijama i troškovima",
+    "domen": "PO",
+    "redniBroj": 3,
+    "izjave": [
+      {
+        "kod": "PO5-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Upravljanje IT investicijama i troškovima se ne sprovodi."
+      },
+      {
+        "kod": "PO5-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Uprava nije svjesna potrebe za upravljanjem IT investicijama i troškovima."
+      },
+      {
+        "kod": "PO5-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Potreba za upravljanjem IT investicijama i troškovima je poznata menadžmentu."
+      },
+      {
+        "kod": "PO5-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "IT investicije i troškovi se rješavaju ad hoc"
+      },
+      {
+        "kod": "PO5-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Postoje rasprave o rizicima IT investicija."
+      },
+      {
+        "kod": "PO5-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Upravljanje troškovima se ponekad spominje u okviru projekata."
+      },
+      {
+        "kod": "PO5-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "IT investicije su često rezultat slučajnosti."
+      },
+      {
+        "kod": "PO5-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Upravljanje IT investicijama se provodi samo pri velikim investicijama"
+      },
+      {
+        "kod": "PO5-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Izmjene u planiranju IT investicija i troškova se događaju zbog naloga uprave"
+      },
+      {
+        "kod": "PO5-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Odluke o ulaganju u IT se donose ad hoc."
+      },
+      {
+        "kod": "PO5-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Rizici i koristi IT investicija su rijetko prepoznati"
+      },
+      {
+        "kod": "PO5-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Upravljanje IT investicijama se zasniva na unaprijed definisanim pristupima i metodama."
+      },
+      {
+        "kod": "PO5-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Zapošljeni IT službe poznaju postupke upravljanja IT investicijama i troškovima"
+      },
+      {
+        "kod": "PO5-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "IT menadžeri imaju mogućnost samostalnog određivanja načina implementacije investicija"
+      },
+      {
+        "kod": "PO5-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Implementiraju se nove tehnologije, iako je rizik veći."
+      },
+      {
+        "kod": "PO5-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "O upravljanju IT investicijama raspravlja se u menadžmentu organizacije."
+      },
+      {
+        "kod": "PO5-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Upravljanje IT investicijama je standardna praksa, a izostanak upravljanja se primjećuje."
+      },
+      {
+        "kod": "PO5-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Uprava može nadzirati upravljanje IT investicijama i mjeriti efektivnost"
+      },
+      {
+        "kod": "PO5-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Strategija razvoja IT i poslovne strategije su povezane."
+      },
+      {
+        "kod": "PO5-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Postoje dobro definisani načini utvrđivanja iskorišćavanja internih i eksternih usluga potrebnih za razvoj sistema i njegovo održavanje."
+      },
+      {
+        "kod": "PO5-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Sve faze upravljanja IT investicijama su dokumentovane."
+      },
+      {
+        "kod": "PO5-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Upravljanje IT investicijama se usklađuje s poslovnim ciljevima."
+      },
+      {
+        "kod": "PO5-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Upravljanje IT investicijama je usmjereno na povećanje poslovne vrijednosti."
+      },
+      {
+        "kod": "PO5-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji realistično i dugoročno planiranje koje se konstantno ažurira."
+      },
+      {
+        "kod": "PO5-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Postoji stalno poređenje IT-a s najboljim visokoškolskim ustanovama."
+      },
+      {
+        "kod": "PO5-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Upravljanje uključuje istraživanje kako nove tehnologije mogu povećati konkurentsku prednost."
+      }
+    ]
+  },
+  {
+    "kod": "PO9",
+    "naziv": "Upravljanje i procjena rizika",
+    "domen": "PO",
+    "redniBroj": 4,
+    "izjave": [
+      {
+        "kod": "PO9-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Ustanova nema formalno definisan proces za upravljanje i procjenu rizika"
+      },
+      {
+        "kod": "PO9-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Rizici se identifikuju i dokumentuju,"
+      },
+      {
+        "kod": "PO9-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Institucija je svjesna važnosti upravljanja i procjene rizika, i ima sveobuhvatan okvir"
+      },
+      {
+        "kod": "PO9-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Postoje osnovni postupci za identifikaciju rizika, ali nisu formalno dokumentovani"
+      },
+      {
+        "kod": "PO9-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Postoji osoba ili tim odgovoran za praćenje i upravljanje rizicima."
+      },
+      {
+        "kod": "PO9-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Rizici se razmatraju ad-hoc, bez sistemskog planiranja."
+      },
+      {
+        "kod": "PO9-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Povremeno se sprovode evaluacije rizika."
+      },
+      {
+        "kod": "PO9-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Ustanova ima formalno definisan okvir za upravljanje i procjenu rizika."
+      },
+      {
+        "kod": "PO9-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Rizici se sistemski identifikuju, dokumentuju i ocjenjuju."
+      },
+      {
+        "kod": "PO9-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Postoji jasno definisan proces za upravljanje rizicima s odgovornim osobama ili timovima."
+      },
+      {
+        "kod": "PO9-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Postoji plan za upravljanje rizicima i kontinuitetom poslovanja koji su integrisani testirani."
+      },
+      {
+        "kod": "PO9-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Institucija primjenjuje učinkovit okvir za upravljanje i procjenu rizika."
+      },
+      {
+        "kod": "PO9-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Rizici se kontinuirano revidiraju i optimizuju."
+      },
+      {
+        "kod": "PO9-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "Postoji tim za upravljanje rizicima s jasno definisanim ulogama i odgovornostima."
+      },
+      {
+        "kod": "PO9-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Planovi za upravljanje rizicima i kontinuitetom poslovanja su integrisani u proces donošenja odluka i strategiju"
+      },
+      {
+        "kod": "PO9-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Evaluacija rizika je integrisana u proces donošenja odluka i strategiju."
+      },
+      {
+        "kod": "PO9-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Institucija je lider u upravljanju i procjeni rizika i primjenjuje inovativne prakse."
+      },
+      {
+        "kod": "PO9-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Upravljanje rizicima je integrisano u sve aspekte strategije i operacija institucije."
+      },
+      {
+        "kod": "PO9-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Postoje automatizovani sistemi za identifikaciju, praćenje i analizu rizika."
+      },
+      {
+        "kod": "PO9-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Saradnja s drugim institucijama i industrijom za razmjenu najboljih praksi u upravljanju rizicima"
+      },
+      {
+        "kod": "PO9-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Institucija je transformisala svoje poslovanje kroz inovacije u upravljanju i procjeni rizika."
+      },
+      {
+        "kod": "PO9-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Institucija koristi napredne tehnologije poput vještačke inteligencije i analitike za dinamičku identifikaciju i upravljanje rizicima."
+      },
+      {
+        "kod": "PO9-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Upravljanje rizicima nije samo funkcionalni proces, već i izvor inovacija i konkurentske prednosti."
+      },
+      {
+        "kod": "PO9-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji globalna saradnja kako bi se pratili najnoviji trendovi i tehnologije u upravljanju rizicima."
+      },
+      {
+        "kod": "PO9-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Transformacija i inovacija u upravljanju i procjeni rizika postale su ključni elementi uspjeha institucije."
+      },
+      {
+        "kod": "PO9-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Upravljanje rizicima je usmjereno prema budućnosti, s prediktivnom analizom koja omogućuje brzo reagovanje na potencijalne prijetnje i prilike."
+      }
+    ]
+  },
+  {
+    "kod": "PO10",
+    "naziv": "Upravljanje projektima",
+    "domen": "PO",
+    "redniBroj": 5,
+    "izjave": [
+      {
+        "kod": "PO10-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Ustanova ima neformalno definisan proces za upravljanje projektima."
+      },
+      {
+        "kod": "PO10-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Projekti se sprovode bez strukturiranog planiranja ili kontrolisanja."
+      },
+      {
+        "kod": "PO10-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Institucija ima sveobuhvatan okvir upravljanja projektima."
+      },
+      {
+        "kod": "PO10-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Postoje osnovni postupci za pokretanje i izvođenje projekata."
+      },
+      {
+        "kod": "PO10-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Postoji osoba ili tim odgovoran za koordinaciju projekata."
+      },
+      {
+        "kod": "PO10-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Projekti se pokreću na temelju dugoročnih potreba."
+      },
+      {
+        "kod": "PO10-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Povremeno se sprovode evaluacije učinka projekata."
+      },
+      {
+        "kod": "PO10-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Ustanova ima formalno definisan okvir za upravljanje projektima."
+      },
+      {
+        "kod": "PO10-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Potrebe za projektima su detaljno dokumentovane i analizirane."
+      },
+      {
+        "kod": "PO10-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Postoji jasno definisan proces za pokretanje, planiranje i izvođenje projekata."
+      },
+      {
+        "kod": "PO10-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Postoji sistem komunikacije s relevantnim steakholderima o projektima."
+      },
+      {
+        "kod": "PO10-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Institucija primjenjuje učinkovit okvir za upravljanje projektima."
+      },
+      {
+        "kod": "PO10-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Projekti su kontinuirano revidirani i optimizovani."
+      },
+      {
+        "kod": "PO10-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "Postoji tim za upravljanje projektima s jasno definisanim ulogama i odgovornostima."
+      },
+      {
+        "kod": "PO10-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Komunikacija s relevantnim steakholderima o projektima je redovna i proaktivna."
+      },
+      {
+        "kod": "PO10-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Evaluacija učinka projekata je integrisana u proces i koristi se za kontinuirano unaprjeđenje."
+      },
+      {
+        "kod": "PO10-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Institucija je lider u upravljanju projektima i primjenjuje inovativne prakse."
+      },
+      {
+        "kod": "PO10-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Projekti su integrisani u sve aspekte strategije institucije."
+      },
+      {
+        "kod": "PO10-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Postoje automatizovani sistemi za praćenje napretka projekata i upravljanje resursima."
+      },
+      {
+        "kod": "PO10-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Saradnja s drugim institucijama za razmjenu najboljih praksi."
+      },
+      {
+        "kod": "PO10-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Institucija je transformisala svoje poslovanje kroz inovacije u upravljanju projektima."
+      },
+      {
+        "kod": "PO10-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Institucija koristi napredne tehnologije poput vještačke inteligencije za dinamičko planiranje i upravljanje projektima."
+      },
+      {
+        "kod": "PO10-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Projekti nisu samo izvršenje, već i izvor inovacija i konkurentske prednosti."
+      },
+      {
+        "kod": "PO10-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji globalna saradnja kako bi se dijelile najbolje prakse u upravljanju projektima."
+      },
+      {
+        "kod": "PO10-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Transformacija i inovacija u upravljanju projektima postale su ključni elementi uspjeha institucije."
+      },
+      {
+        "kod": "PO10-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Institucija je uspostavila saradnju s vodećim istraživačkim institucijama kako bi razvila projekte visokog nivoa složenosti i doprinijela naprednim inovacijama na globalnom nivou."
+      }
+    ]
+  },
+  {
+    "kod": "AI1",
+    "naziv": "Određivanje mogućih rješenja",
+    "domen": "AI",
+    "redniBroj": 6,
+    "izjave": [
+      {
+        "kod": "AI1-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Institucija nema formalno definisan proces za određivanje mogućih rješenja."
+      },
+      {
+        "kod": "AI1-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Odluke se donose uz struktuiranu analizu ili razmatranje alternativa."
+      },
+      {
+        "kod": "AI1-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Institucija je svjesna važnosti određivanja mogućih rješenja, ali nema sveobuhvatan okvir."
+      },
+      {
+        "kod": "AI1-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Postoje osnovni postupci za razmatranje alternativa pri donošenju odluka."
+      },
+      {
+        "kod": "AI1-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Postoji osoba ili tim odgovoran za proces određivanja mogućih rješenja."
+      },
+      {
+        "kod": "AI1-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Razmatranje alternativa je povremeno, a odluke se donose na osnovu trenutnih potreba."
+      },
+      {
+        "kod": "AI1-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Povremeno se sprovode evaluacije učinka odabranih rješenja."
+      },
+      {
+        "kod": "AI1-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Institucija ima formalno definisan okvir za određivanje mogućih rješenja."
+      },
+      {
+        "kod": "AI1-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Razmatranje alternativa je detaljno dokumentovano i analizirano."
+      },
+      {
+        "kod": "AI1-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Postoji jasno definisan proces za razmatranje alternativa i donošenje odluka."
+      },
+      {
+        "kod": "AI1-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Razmatranje alternativa je uobičajena praksa, ali može biti ograničeno na određene odluke."
+      },
+      {
+        "kod": "AI1-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Institucija primjenjuje učinkovit okvir za određivanje mogućih rješenja."
+      },
+      {
+        "kod": "AI1-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Razmatranje alternativa je kontinuirano i temeljno, uz analizu rizika i koristi."
+      },
+      {
+        "kod": "AI1-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "Postoji tim za određivanje mogućih rješenja s jasno definisanim ulogama i odgovornostima."
+      },
+      {
+        "kod": "AI1-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Razmatranje alternativa je integrisano u sve važne odluke, uključujući strategijske."
+      },
+      {
+        "kod": "AI1-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Evaluacija učinka odabranih rješenja je standardna praksa i koristi se za kontinuirano unaprjeđenje."
+      },
+      {
+        "kod": "AI1-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Institucija je lider u određivanju mogućih rješenja i primjenjuje inovativne prakse."
+      },
+      {
+        "kod": "AI1-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Razmatranje alternativa je integralni dio svih procesa odlučivanja i strategijskog planiranja."
+      },
+      {
+        "kod": "AI1-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Postoje automatizovani sistemi i alati za podršku određivanju mogućih rješenja"
+      },
+      {
+        "kod": "AI1-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Saradnja s drugim institucijama za razmjenu najboljih praksi."
+      },
+      {
+        "kod": "AI1-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Institucija je transformisala svoje poslovanje kroz inovacije u određivanju mogućih rješenja."
+      },
+      {
+        "kod": "AI1-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Koristi napredne tehnologije poput vještačke inteligencije i analitike za analizu i predviđanje rješenja."
+      },
+      {
+        "kod": "AI1-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Određivanje mogućih rješenja nije samo proces, već i izvor inovacija i konkurentske prednosti."
+      },
+      {
+        "kod": "AI1-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji globalna saradnja kako bi se pratile najnovije tehnologije i prakse u određivanju mogućih rješenja."
+      },
+      {
+        "kod": "AI1-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Transformacija i inovacija u određivanju mogućih rješenja postale su ključni elementi uspjeha institucije."
+      },
+      {
+        "kod": "AI1-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Institucija uspostavlja partnerske odnose s vodećim tehnološkim inovatorima i startapima kako bi kontinuirano razvijala nove ideje i rješenja koja nadmašuju standarde."
+      }
+    ]
+  },
+  {
+    "kod": "AI2",
+    "naziv": "Nabavka i održavanje aplikacijskog programa",
+    "domen": "AI",
+    "redniBroj": 7,
+    "izjave": [
+      {
+        "kod": "AI2-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Institucija ima formalno definisan proces za nabavku i održavanje aplikacijskog programa."
+      },
+      {
+        "kod": "AI2-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Nabavka se odvija ad-hoc, bez planiranja ili strategije."
+      },
+      {
+        "kod": "AI2-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Institucija je svjesna važnosti upravljanja nabavkom i održavanjem aplikacijskog programa, ali nema sveobuhvatan okvir."
+      },
+      {
+        "kod": "AI2-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Postoje osnovni postupci za naručivanje i održavanje aplikacijskih programa."
+      },
+      {
+        "kod": "AI2-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Postoji osoba ili tim odgovoran za koordinaciju nabavke i održavanja."
+      },
+      {
+        "kod": "AI2-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Nabavka aplikacijskih programa se zasniva na trentnim potrebama, ali nema dugoročnog planiranja."
+      },
+      {
+        "kod": "AI2-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Povremeno se sprovode evaluacije učinka nabavke i održavanja aplikacijskih programa."
+      },
+      {
+        "kod": "AI2-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Institucija ima formalno definisan okvir za upravljanje nabavkom i održavanjem aplikacijskog programa."
+      },
+      {
+        "kod": "AI2-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Potrebe za aplikacijskim programima su detaljno dokumentovane i analizirane."
+      },
+      {
+        "kod": "AI2-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Postoji jasno definisan proces za naručivanje, odobrenje i održavanje aplikacijskih programa."
+      },
+      {
+        "kod": "AI2-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Postoji sistem komunikacije s odjelima i korisnicima o planiranim nabavkama i održavanju."
+      },
+      {
+        "kod": "AI2-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Institucija primjenjuje efikasan okvir za upravljanje nabavkom i održavanjem aplikacijskog programa."
+      },
+      {
+        "kod": "AI2-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Potrebe za aplikacijskim programima su kontinuirano revidirane i optimizovane"
+      },
+      {
+        "kod": "AI2-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "Postoji tim za upravljanje nabavkom i održavanjem aplikacijskih programa s jasno definisanim ulogama i odgovornostima."
+      },
+      {
+        "kod": "AI2-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Komunikacija s odjelima i korisnicima o nabavkama i održavanju je redovna i proaktivna."
+      },
+      {
+        "kod": "AI2-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Evaluacija učinka nabavke i održavanja aplikacijskih programa je integrisana u proces i koristi se za kontinuirano unapređenje."
+      },
+      {
+        "kod": "AI2-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Institucija je lider u upravljanju nabavkom i održavanjem aplikacijskog programa i primjenjuje inovativne prakse."
+      },
+      {
+        "kod": "AI2-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Nabavka i održavanje aplikacijskih programa su integrisani u sve aspekte strategije institucije."
+      },
+      {
+        "kod": "AI2-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Postoje automatizovani sistemi za praćenje potreba i optimizaciju nabavke i održavanja."
+      },
+      {
+        "kod": "AI2-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Saradnja s drugim institucijama i industrijom za razmjenu najboljih praksi."
+      },
+      {
+        "kod": "AI2-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Institucija je transformisala svoje poslovanje kroz inovacije u upravljanju nabavkom i održavanjem aplikacijskog programa."
+      },
+      {
+        "kod": "AI2-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Koristi napredne tehnologije poput vještačke inteligencije za predviđanje potreba i optimizaciju nabavke i održavanja."
+      },
+      {
+        "kod": "AI2-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Nabavka i održavanje aplikacijskih programa nisu samo procesi, već i izvor inovacija i konkurentske prednosti."
+      },
+      {
+        "kod": "AI2-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji globalna saradnja kako bi se pratile najnovije tehnologije i prakse u nabavci i održavanju aplikacijskih programa."
+      },
+      {
+        "kod": "AI2-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Transformacija i inovacija u upravljanju nabavkom i održavanjem aplikacijskog programa postale su ključni elementi uspjeha institucije."
+      },
+      {
+        "kod": "AI2-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Institucija kontinuirano sarađuje s vodećim softverskim i tehnološkim kompanijama kako bi razvila prilagođena rješenja i usluge koja potpomažu nastavu, istraživanje i administraciju, postavljajući tako nove standarde u sektoru obrazovanja."
+      }
+    ]
+  },
+  {
+    "kod": "AI5",
+    "naziv": "Nabavka IT resursa",
+    "domen": "AI",
+    "redniBroj": 8,
+    "izjave": [
+      {
+        "kod": "AI5-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Institucija nema formalno defisan proces za nabavku IT resursa."
+      },
+      {
+        "kod": "AI5-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Nabavka se događa ad-hoc, bez planiranja ili strategije."
+      },
+      {
+        "kod": "AI5-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Institucija je svjesna važnosti upravljanja nabavkom IT resursa, ali nema sveobuhvatan okvir."
+      },
+      {
+        "kod": "AI5-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Postoje osnovni postupci za naručivanje i dobavljanje IT resursa."
+      },
+      {
+        "kod": "AI5-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Postoji osoba ili tim odgovoran za koordinaciju nabavke IT resursa."
+      },
+      {
+        "kod": "AI5-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Nabavka se zasniva na trenutnim potrebama, ali nema dugoročnog planiranja."
+      },
+      {
+        "kod": "AI5-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Povremeno se sprovode evaluacije učinka nabavke IT resursa."
+      },
+      {
+        "kod": "AI5-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Institucija ima formalno definisan okvir za upravljanje nabavkom IT resursa."
+      },
+      {
+        "kod": "AI5-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Potrebe za IT resursima su detaljno dokumentovane i analizirane."
+      },
+      {
+        "kod": "AI5-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Postoji jasno definisani proces za naručivanje, odobrenje i dobavljanje IT resursa."
+      },
+      {
+        "kod": "AI5-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Postoji sistem komunikacije s odjelima i korisnicima o planiranim nabavkama."
+      },
+      {
+        "kod": "AI5-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Institucija primjenjuje učinkovit okvir za upravljanje nabavkom IT resursa."
+      },
+      {
+        "kod": "AI5-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Potrebe za IT resursima su kontinuirano revidirane i optimizovane."
+      },
+      {
+        "kod": "AI5-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "Postoji tim za upravljanje nabavkom IT resursa s jasno definisanim ulogama i odgovornostima."
+      },
+      {
+        "kod": "AI5-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Komunikacija s odjelima i korisnicima o nabavkama je redovna i proaktivna."
+      },
+      {
+        "kod": "AI5-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Evaluacija učinka nabavke IT resursa je integrisana u proces i koristi se za kontinuirano unaprjeđenje."
+      },
+      {
+        "kod": "AI5-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Institucija je lider u upravljanju nabavkom IT resursa i primjenjuje inovativne prakse."
+      },
+      {
+        "kod": "AI5-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Nabavka IT resursa je integrisana u sve aspekte strategije institucije"
+      },
+      {
+        "kod": "AI5-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Postoje automatizovani sistemi za praćenje potreba i optimizaciju nabavke."
+      },
+      {
+        "kod": "AI5-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Saradnja s drugim institucijama za razmjenu najboljih praksi."
+      },
+      {
+        "kod": "AI5-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Institucija je transformisala svoje poslovanje kroz inovacije u upravljanju nabavkom IT resursa."
+      },
+      {
+        "kod": "AI5-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Koristi napredne tehnologije poput vještačke inteligencije za predviđanje potreba i optimizaciju nabavke."
+      },
+      {
+        "kod": "AI5-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Nabavka IT resursa nije samo proces, već i izvor inovacija i konkurentske prednosti."
+      },
+      {
+        "kod": "AI5-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji globalna saradnja kako bi se pratile najnovije tehnologije i prakse u nabavci IT resursa."
+      },
+      {
+        "kod": "AI5-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Transformacija i inovacija u upravljanju nabavkom IT resursa postale su ključni elementi uspjeha institucije."
+      },
+      {
+        "kod": "AI5-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Institucija aktivno učestvuje u istraživačkim projektima i partnerstvima s tehnološkim liderima kako bi oblikovala budućnost tehnologije u visokoškolskom obrazovanju i osigurala najnaprednije IT resurse za potrebe svojih studenata i fakulteta."
+      }
+    ]
+  },
+  {
+    "kod": "AI6",
+    "naziv": "Upravljanje promjenama",
+    "domen": "AI",
+    "redniBroj": 9,
+    "izjave": [
+      {
+        "kod": "AI6-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Institucija nema formalno definisan proces za upravljanje promjenama."
+      },
+      {
+        "kod": "AI6-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Promjene se događaju ad-hoc, bez struktuirane metode ili planiranja."
+      },
+      {
+        "kod": "AI6-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Institucija je svjesna važnosti upravljanja promjenama, ali nema sveobuhvatan okvir."
+      },
+      {
+        "kod": "AI6-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Postoje osnovni postupci za planiranje i sprovođenje promjena."
+      },
+      {
+        "kod": "AI6-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Postoji osoba ili tim odgovoran za koordinaciju promjena."
+      },
+      {
+        "kod": "AI6-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Dobra komunikacija s osobljem i korisnicima o nadolazećim promjenama."
+      },
+      {
+        "kod": "AI6-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Povremeno se sprovode evaluacije učinka promjena."
+      },
+      {
+        "kod": "AI6-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Institucija ima formalno definisan okvir za upravljanje promjenama."
+      },
+      {
+        "kod": "AI6-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Promjene se dokumentuju i ocjenjuju za njihovu važnost i uticaj."
+      },
+      {
+        "kod": "AI6-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Postoji jasno definisani proces za planiranje, odobrenje i sprovođenje promjena."
+      },
+      {
+        "kod": "AI6-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Postoji sistem komunikacije s osobljem i korisnicima o promjenama."
+      },
+      {
+        "kod": "AI6-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Institucija primjenjuje učinkovit okvir za upravljanje promjenama."
+      },
+      {
+        "kod": "AI6-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Promjene su detaljno dokumentovane, analizirane i prioritetizovane."
+      },
+      {
+        "kod": "AI6-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "Postoji tim za upravljanje promjenama s jasno definisanim ulogama i odgovornostima."
+      },
+      {
+        "kod": "AI6-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Komunikacija s osobljem i korisnicima o promjenama je redovna i prilagođena ciljnoj publici."
+      },
+      {
+        "kod": "AI6-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Evaluacija učinka promjena je integrisana u proces i koristi se za kontinuirano unaprjeđenje."
+      },
+      {
+        "kod": "AI6-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Institucija je lider u upravljanju promjenama i primjenjuje inovativne prakse."
+      },
+      {
+        "kod": "AI6-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Promjene se ne vide samo kao izazovi, već i kao prilike za inovaciju i unaprjeđenje usluga."
+      },
+      {
+        "kod": "AI6-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Postoje napredne tehnologije i alati za podršku upravljanju promjenama."
+      },
+      {
+        "kod": "AI6-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Saradnja s drugim institucijama za razmjenu najboljih praksi."
+      },
+      {
+        "kod": "AI6-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Institucija je transformisala svoje poslovanje kroz inovacije u upravljanju promjenama."
+      },
+      {
+        "kod": "AI6-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Koristi napredne tehnologije poput vještačke inteligencije za analizu i predviđanje potreba za promjenama."
+      },
+      {
+        "kod": "AI6-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Promjene se brzo i fleksibilno implementiraju kako bi se prilagodili dinamičnom okruženju."
+      },
+      {
+        "kod": "AI6-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji saradnja na globalnom nivou kako bi se anticipirale promjene u obrazovanju."
+      },
+      {
+        "kod": "AI6-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Transformacija i inovacija u upravljanju promjenama postale su ključni elementi konkurentske prednosti institucije."
+      },
+      {
+        "kod": "AI6-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Institucija razvija kulturu kontinuirane promjene i inovacije, potičući svoje zaposlene i studente na aktivno učestvovanje u procesima donošenja odluka i oblikovanja budućnosti ustanove kako bi se osigurala adaptacija i konkurentska prednost u sve dinamičnijem obrazovnom okruženju."
+      }
+    ]
+  },
+  {
+    "kod": "DS1",
+    "naziv": "Definisanje i upravljanje nivoima usluga",
+    "domen": "DS",
+    "redniBroj": 10,
+    "izjave": [
+      {
+        "kod": "DS1-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Institucija nema formalno definisane nivoe usluga."
+      },
+      {
+        "kod": "DS1-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Nisu identifikovane ključne usluge koje treba pružiti korisnicima."
+      },
+      {
+        "kod": "DS1-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Institucija je svjesna važnosti definisanja nivoa usluga, ali nema sveobuhvatan okvir."
+      },
+      {
+        "kod": "DS1-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Ključne usluge su identifikovane, ali nisu jasno dokumentovane"
+      },
+      {
+        "kod": "DS1-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Postoje osnovni standardi performansi za neke usluge"
+      },
+      {
+        "kod": "DS1-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Povremeno se sprovode mjerenja usluga, ali nema sistemske analize."
+      },
+      {
+        "kod": "DS1-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Korisnici su djelimično informisani o dostupnim uslugama i njihovim očekivanjima."
+      },
+      {
+        "kod": "DS1-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Institucija ima formalno definisan okvir za nivoe usluga."
+      },
+      {
+        "kod": "DS1-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Ključne usluge su detaljno dokumentovane, uključujući opise i ciljeve."
+      },
+      {
+        "kod": "DS1-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Postoje jasno definisani standardi performansi za sve usluge."
+      },
+      {
+        "kod": "DS1-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Redovno se sprovode mjerenja usluga, a rezultati se dokumentuju."
+      },
+      {
+        "kod": "DS1-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Institucija primjenjuje učinkovit okvir za upravljanje nivoima usluga."
+      },
+      {
+        "kod": "DS1-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Ključne usluge su kontinuirano revidirane i optimizovane."
+      },
+      {
+        "kod": "DS1-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "Postoje sistemski procesi za praćenje i mjerenje performansi usluga."
+      },
+      {
+        "kod": "DS1-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Analiza rezultata usluga koristi se za poboljšanje i prilagođavanje standarda."
+      },
+      {
+        "kod": "DS1-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Korisnici su aktivno uključeni u postavljanje i ocjenu nivoa usluga."
+      },
+      {
+        "kod": "DS1-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Institucija je lider u upravljanju nivoima usluga i primjenjuje inovativne prakse."
+      },
+      {
+        "kod": "DS1-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Ključne usluge su u potpunosti integrisane u strategiju institucije."
+      },
+      {
+        "kod": "DS1-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Postoje automatizovani sistemi za neprekidno praćenje performansi usluga."
+      },
+      {
+        "kod": "DS1-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Analitika se koristi za predviđanje potreba korisnika i optimizaciju standarda."
+      },
+      {
+        "kod": "DS1-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Institucija je transformisala svoje poslovanje kroz inovacije u upravljanju nivoima usluga."
+      },
+      {
+        "kod": "DS1-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Nivoi usluga nisu samo standardi, već i izvor inovacija i diferencijacije."
+      },
+      {
+        "kod": "DS1-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Koristi napredne tehnologije poput vještačke inteligencije za dinamično prilagođavanje usluga."
+      },
+      {
+        "kod": "DS1-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji saradnja s drugim institucijama kako bi se dijelile najbolje prakse."
+      },
+      {
+        "kod": "DS1-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Transformacija nivoa usluga postala je dio kulture institucije i njene strategije."
+      },
+      {
+        "kod": "DS1-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Institucija je postala lider u definisanju standarda kvalitete usluga u visokoškolskom sektorui aktivno sarađuje s relevantnim regulatornim tijelima kako bi oblikovala buduće standarde i smjernice za obrazovni sektor."
+      }
+    ]
+  },
+  {
+    "kod": "DS4",
+    "naziv": "Osiguranje kontinuiteta usluga",
+    "domen": "DS",
+    "redniBroj": 11,
+    "izjave": [
+      {
+        "kod": "DS4-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Institucija ima formalno definisanu strategiju za osiguranje kontinuiteta usluga."
+      },
+      {
+        "kod": "DS4-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Identifikovani su ključni procesi i usluge koje treba očuvati tokom incidenta."
+      },
+      {
+        "kod": "DS4-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Institucija je svjesna važnosti kontinuiteta usluga, ali nema sveobuhvatan okvir."
+      },
+      {
+        "kod": "DS4-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Radi se na identifikaciji ključnih procesa i usluga koje treba očuvati tokom incidenta"
+      },
+      {
+        "kod": "DS4-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Postoji osnovni plan za oporavak od incidenta"
+      },
+      {
+        "kod": "DS4-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Ponekad se sprovode vježbe za testiranje planova."
+      },
+      {
+        "kod": "DS4-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Postoji analiza incidenta radi poboljšanja kontinuiteta usluga."
+      },
+      {
+        "kod": "DS4-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Institucija ima formalno definisan okvir za osiguranje kontinuiteta usluga."
+      },
+      {
+        "kod": "DS4-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Ključni procesi i usluge su djelimično dokumentovani i ocijenjeni za rizike."
+      },
+      {
+        "kod": "DS4-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Postoji detaljan plan za oporavak od incidenta s jasnim ulogama i odgovornostima."
+      },
+      {
+        "kod": "DS4-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Redovno se sprovode vježbe za testiranje planova za oporavak."
+      },
+      {
+        "kod": "DS4-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Institucija primjenjuje učinkovit okvir za osiguranje kontinuiteta usluga."
+      },
+      {
+        "kod": "DS4-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Ključni procesi i usluge redovito se ocjenjuju i prilagođavaju promjenama."
+      },
+      {
+        "kod": "DS4-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "Postoji tim za upravljanje kontinuitetom usluga s visoko obučenim članovima."
+      },
+      {
+        "kod": "DS4-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Vježbe za testiranje planova sprovode se redovno i detaljno."
+      },
+      {
+        "kod": "DS4-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Analiza incidenta koristi se za unaprjeđenje planova i postupaka."
+      },
+      {
+        "kod": "DS4-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Institucija je lider u osiguranju kontinuiteta usluga i primjenjuje najnovije tehnologije i prakse."
+      },
+      {
+        "kod": "DS4-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Kontinuitet usluga integrisan je u sve aspekte poslovanja i IT-a."
+      },
+      {
+        "kod": "DS4-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Postoje automatizovani sistemi i za praćenje i reakciju na incidente."
+      },
+      {
+        "kod": "DS4-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Vježbe za testiranje planova su napredne i uključuju realistične scenarije."
+      },
+      {
+        "kod": "DS4-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Institucija je transformisala svoje poslovanje kroz inovacije u osiguranju kontinuiteta usluga."
+      },
+      {
+        "kod": "DS4-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Kontinuitet usluga nije samo zaštita, već i strateška komponenta poslovanja i konkurentske prednosti."
+      },
+      {
+        "kod": "DS4-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Koristi napredne tehnologije poput vještačke inteligencije i analitike za kontinuirano poboljšanje."
+      },
+      {
+        "kod": "DS4-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji saradnja s drugim institucijama kako bi se dijelile najbolje prakse."
+      },
+      {
+        "kod": "DS4-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Transformacija kontinuiteta usluga postala je dio kulture institucije i njene strategije."
+      },
+      {
+        "kod": "DS4-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Institucija redovno sprovodi simulacije kriznih situacija i scenarija kako bi osigurala najviši nivo pripremljenosti i brzog odgovora na neočekivane događaje, stvarajući tako ne samo sigurnost već i agilnost u kontinuitetu usluga."
+      }
+    ]
+  },
+  {
+    "kod": "DS5",
+    "naziv": "Sigurnost sistema",
+    "domen": "DS",
+    "redniBroj": 12,
+    "izjave": [
+      {
+        "kod": "DS5-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Visokoškolska institucija nema formalno definisanu strategiju ili politiku sigurnosti sistema."
+      },
+      {
+        "kod": "DS5-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Sistemi nisu redovno ažurirani, što dovodi do ranjivosti."
+      },
+      {
+        "kod": "DS5-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Institucija je svjesna važnosti sigurnosti sistema, ali nema sveobuhvatni okvir."
+      },
+      {
+        "kod": "DS5-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Sistemi se periodično ažuriraju, ali to nije sistemski."
+      },
+      {
+        "kod": "DS5-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Postoje osnovne sigurnosne politike i pravila, ali njihovo sprovođenje nije dosljedno."
+      },
+      {
+        "kod": "DS5-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Postoji neki nivo nadzora nad mrežnim aktivnostima, ali ne i duboka analiza sigurnosnih incidenata."
+      },
+      {
+        "kod": "DS5-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Postoji minimalna edukacija o sigurnosnim praksama za osoblje."
+      },
+      {
+        "kod": "DS5-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Visokoškolska institucija ima formalno definisanu politiku i okvir za sigurnost sistema."
+      },
+      {
+        "kod": "DS5-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Sistemi se redovito ažuriraju i postoji inventar svih IT resursa."
+      },
+      {
+        "kod": "DS5-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Postoje definisani postupci za reagovanje na sigurnosne incidente."
+      },
+      {
+        "kod": "DS5-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Postoji centralizovani nadzor nad sigurnosnim događajima i incidentima."
+      },
+      {
+        "kod": "DS5-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Institucija primjenjuje učinkovit okvir sigurnosti sistema."
+      },
+      {
+        "kod": "DS5-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Sistemi se sistemski ažuriraju i testiraju na ranjivosti."
+      },
+      {
+        "kod": "DS5-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "Postoji odgovorni tim za upravljanje sigurnosnim incidentima i krizama."
+      },
+      {
+        "kod": "DS5-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Duboka analiza sigurnosnih incidenata s ciljem unaprjeđenja sigurnosti."
+      },
+      {
+        "kod": "DS5-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Postoje redovni treninzi i vježbe za osoblje kako bi se ojačala svijest i reakcija na sigurnosne prijetnje."
+      },
+      {
+        "kod": "DS5-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Institucija je lider u sigurnosti sistema i primjenjuje najnovije tehnologije i prakse."
+      },
+      {
+        "kod": "DS5-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Sistemi su automatizovani za ranjivosti i prijetnje te se redovito izvještava o njihovom stanju."
+      },
+      {
+        "kod": "DS5-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Timovi za sigurnosne incidente su visoko obučeni i sposobni reagovati brzo i učinkovito."
+      },
+      {
+        "kod": "DS5-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Postoje napredni sistemi za otkrivanje i prevenciju sigurnosnih prijetnji."
+      },
+      {
+        "kod": "DS5-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Institucija je transformisala svoje poslovanje kroz inovacije u sigurnosti sistema."
+      },
+      {
+        "kod": "DS5-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Koristi napredne tehnologije poput vještačke inteligencije za detekciju prijetnji i prevenciju."
+      },
+      {
+        "kod": "DS5-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Sigurnost sistema je ne samo zaštita, već i strateška komponenta poslovanja."
+      },
+      {
+        "kod": "DS5-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji saradnja s drugim institucijama kako bi se dijelile najbolje prakse."
+      },
+      {
+        "kod": "DS5-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Transformacija sigurnosti sistema postala je dio kulture institucije i njene strategije."
+      },
+      {
+        "kod": "DS5-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Institucija kontinuirano investira u obuku i razvoj svog osoblja kako bi osigurala visok nivo svijesti o sigurnosti i osposobljenost za reagovanje na kompleksne sigurnosne prijetnje, čineći sigurnost sistema neodvojivim dijelom svakodnevnog rada i kulture ustanove."
+      }
+    ]
+  },
+  {
+    "kod": "DS10",
+    "naziv": "Upravljanje problemima i incidentima",
+    "domen": "DS",
+    "redniBroj": 13,
+    "izjave": [
+      {
+        "kod": "DS10-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Visokoškolska institucija nema formalno uspostavljen proces za praćenje ili rješavanje problema i incidenata."
+      },
+      {
+        "kod": "DS10-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Incidenti se ne dokumentuju niti prate, pa se ponavljajući problemi ne identifikuju."
+      },
+      {
+        "kod": "DS10-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Institucija ima osnovni proces za prijavu i praćenje problema i incidenata."
+      },
+      {
+        "kod": "DS10-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Incidenti se dokumentuju, ali njihovo praćenje je ograničeno i reaktivno."
+      },
+      {
+        "kod": "DS10-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Postoji osnovni tim za rješavanje incidenata, ali bez jasnih rokova ili prioriteta."
+      },
+      {
+        "kod": "DS10-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Problemi se rješavaju na ad-hoc osnovi, bez dublje analize uzroka."
+      },
+      {
+        "kod": "DS10-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Korisnici su obaviješteni o incidentima, ali komunikacija može biti sporadična."
+      },
+      {
+        "kod": "DS10-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Visokoškolska institucija ima formalno definisan proces za upravljanje problemima i incidentima."
+      },
+      {
+        "kod": "DS10-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Incidenti se dokumentuju, prate i razvrstavaju prema prioritetima."
+      },
+      {
+        "kod": "DS10-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Postoji strukturiran tim za rješavanje incidenata s jasnim ulogama i odgovornostima."
+      },
+      {
+        "kod": "DS10-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Problemi se rješavaju sistemski, s pokušajem identifikacije korijenskih uzroka."
+      },
+      {
+        "kod": "DS10-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Institucija primjenjuje učinkovit okvir za upravljanje problemima i incidentima."
+      },
+      {
+        "kod": "DS10-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Incidenti se detaljno dokumentuju, analiziraju, i koriste za kontinuirano poboljšanje."
+      },
+      {
+        "kod": "DS10-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "Timovi za rješavanje incidenata su visoko obučeni i u mogućnosti reaguju brzo i učinkovito."
+      },
+      {
+        "kod": "DS10-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Postoji sistem za preventivno djelovanje kako bi se smanjila pojava problema i incidenata."
+      },
+      {
+        "kod": "DS10-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Korisnici su aktivno uključeni u komunikaciju i dobijaju povratne informacije o rješavanju problema."
+      },
+      {
+        "kod": "DS10-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Institucija je lider u upravljanju problemima i incidentima i primjenjuje inovativne prakse."
+      },
+      {
+        "kod": "DS10-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Incidenti se analiziraju duboko, koristeći naprednu analitiku za predviđanje budućih incidenata."
+      },
+      {
+        "kod": "DS10-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Timovi za rješavanje incidenata su visoko automatizovani, s AI i automatizacijom."
+      },
+      {
+        "kod": "DS10-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Postoji proaktivno upravljanje rizicima kako bi se spriječili problemi i incidenti."
+      },
+      {
+        "kod": "DS10-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Institucija je transformisala svoje poslovanje kroz inovacije u upravljanju problemima i incidentima."
+      },
+      {
+        "kod": "DS10-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Koristi naprednu vještačku inteligenciju za predviđanje, sprečavanje i rješavanje problema i incidenata."
+      },
+      {
+        "kod": "DS10-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Incidenti se ne vide samo kao izazovi, već i kao prilike za inovaciju i unaprjeđenje usluga."
+      },
+      {
+        "kod": "DS10-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji saradnja s drugim institucijama kako bi se dijelile najbolje prakse."
+      },
+      {
+        "kod": "DS10-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Transformacija problema i incidenata postala je dio kulture institucije i njene strategije."
+      },
+      {
+        "kod": "DS10-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Institucija je postala globalni lider u području upravljanja problemima i incidentima i redovno učestvuje u međunarodnim konferencijama i projektima kako bi promovisala najbolje prakse i standardizovane pristupe upravljanju problemima i incidentima u visokoškolskom sektoru, doprinoseći time unaprjeđenju celokupnog obrazovanja."
+      }
+    ]
+  },
+  {
+    "kod": "DS11",
+    "naziv": "Upravljanje podacima",
+    "domen": "DS",
+    "redniBroj": 14,
+    "izjave": [
+      {
+        "kod": "DS11-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Visokoškolska institucija nema formalno definisane postupke ili politike za upravljanje podacima."
+      },
+      {
+        "kod": "DS11-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Podaci se skladište na različitim lokacijama i nemaju jasno identifikovane vlasnike."
+      },
+      {
+        "kod": "DS11-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Institucija je svjesna važnosti upravljanja podacima, ali nema sveobuhvatni okvir."
+      },
+      {
+        "kod": "DS11-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Postoje osnovne smjernice za klasifikaciju podataka, ali nisu nužno primjenjene konzistentno."
+      },
+      {
+        "kod": "DS11-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Podaci su skladišteni na nekoliko centralizovanih lokacija."
+      },
+      {
+        "kod": "DS11-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Pristup podacima je kontrolisan, ali postoje ograničene sigurnosne mjere."
+      },
+      {
+        "kod": "DS11-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Postoje osnovni postupci za sigurno skladištenje i arhiviranje podataka."
+      },
+      {
+        "kod": "DS11-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Institucija ima definisan okvir za upravljanje podacima."
+      },
+      {
+        "kod": "DS11-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Podaci su klasificirani i označeni prema važnosti i osjetljivosti."
+      },
+      {
+        "kod": "DS11-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Postoji centralizovano skladištenje podataka s definisanim vlasnicima i odgovornostima."
+      },
+      {
+        "kod": "DS11-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Pristup podacima je kontrolisan i praćen, a postoji i sigurnosna obuka za osoblje."
+      },
+      {
+        "kod": "DS11-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Visokoškolska institucija primjenjuje učinkovit okvir za upravljanje podacima."
+      },
+      {
+        "kod": "DS11-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Podaci su detaljno klasifikovani, s jasnim pravilima za pristup i dijeljenje."
+      },
+      {
+        "kod": "DS11-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "Postoji centralizovani i skalabilni sistem za skladištenje podataka."
+      },
+      {
+        "kod": "DS11-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Postoje napredne sigurnosne mjere, uključujući enkripciju i višefaktorsku autentifikaciju."
+      },
+      {
+        "kod": "DS11-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Upravljanje podacima je integrisano u sve aspekte institucije, s kontinuiranim nadzorom i prilagođavanjem."
+      },
+      {
+        "kod": "DS11-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Institucija je lider u upravljanju podacima i inovacijama u tom području."
+      },
+      {
+        "kod": "DS11-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Podaci su dinamički klasifikovani i prilagođavaju se promjenama u okolini."
+      },
+      {
+        "kod": "DS11-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Postoji automatsko upravljanje podacima, uključujući automatizovanu detekciju prijetnji."
+      },
+      {
+        "kod": "DS11-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Sigurnost podataka je visoka, s naprednim rješenjima za zaštitu i rednim revizijama."
+      },
+      {
+        "kod": "DS11-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Institucija je transformisala svoje poslovanje kroz inovacije u upravljanju podacima."
+      },
+      {
+        "kod": "DS11-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Podaci su ne samo sigurni, već i izvor inovacija i novih vrijednosti."
+      },
+      {
+        "kod": "DS11-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Upravljanje podacima je potpuno automatizovano, uključujući vještačku inteligenciju i analitiku."
+      },
+      {
+        "kod": "DS11-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Postoji saradnja s drugim institucijama i obrazovnim partnerima u vezi s podacima."
+      },
+      {
+        "kod": "DS11-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Podaci se koriste za predviđanje budućih potreba i transformaciju visokoškolskog iskustva."
+      },
+      {
+        "kod": "DS11-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Institucija aktivno učestvuje u razvoju i promociji globalnih standarda za upravljanje podacima u obrazovnom sektoru, čime postavlja trendove i utiče na budućnost prakse upravljanja podacima u visokoškolskim ustanovama u Crnoj Gori."
+      }
+    ]
+  },
+  {
+    "kod": "ME1",
+    "naziv": "Nadzor i procjena IT perfomansi",
+    "domen": "ME",
+    "redniBroj": 15,
+    "izjave": [
+      {
+        "kod": "ME1-N0-1",
+        "nivoZrelosti": 0,
+        "redniBroj": 1,
+        "tekst": "Institucija nema formalno uspostavljen proces za nadzor IT performansi."
+      },
+      {
+        "kod": "ME1-N0-2",
+        "nivoZrelosti": 0,
+        "redniBroj": 2,
+        "tekst": "Nema praćenja dostupnosti IT sistema i usluga."
+      },
+      {
+        "kod": "ME1-N1-1",
+        "nivoZrelosti": 1,
+        "redniBroj": 1,
+        "tekst": "Institucija ima osnovni proces za nadzor IT performansi."
+      },
+      {
+        "kod": "ME1-N1-2",
+        "nivoZrelosti": 1,
+        "redniBroj": 2,
+        "tekst": "Praćenje dostupnosti IT sistema i usluga je povremeno, ali nije sistemski."
+      },
+      {
+        "kod": "ME1-N1-3",
+        "nivoZrelosti": 1,
+        "redniBroj": 3,
+        "tekst": "Postoje definisani osnovni ciljevi i mjerni pokazatelji za IT performanse."
+      },
+      {
+        "kod": "ME1-N1-4",
+        "nivoZrelosti": 1,
+        "redniBroj": 4,
+        "tekst": "Reakcija na IT probleme je reaktivna, ali postoje neki dokumentovani postupci."
+      },
+      {
+        "kod": "ME1-N1-5",
+        "nivoZrelosti": 1,
+        "redniBroj": 5,
+        "tekst": "Periodično se generišu osnovni izvještaji o IT performansama i incidentima."
+      },
+      {
+        "kod": "ME1-N2-1",
+        "nivoZrelosti": 2,
+        "redniBroj": 1,
+        "tekst": "Institucija primjenjuje standardne prakse za nadzor IT performansi."
+      },
+      {
+        "kod": "ME1-N2-2",
+        "nivoZrelosti": 2,
+        "redniBroj": 2,
+        "tekst": "Praćenje dostupnosti IT sistema i usluga je sistemsko i redovno."
+      },
+      {
+        "kod": "ME1-N2-3",
+        "nivoZrelosti": 2,
+        "redniBroj": 3,
+        "tekst": "Postoje jasno definisani ciljevi i mjerni pokazatelji za IT performanse."
+      },
+      {
+        "kod": "ME1-N2-4",
+        "nivoZrelosti": 2,
+        "redniBroj": 4,
+        "tekst": "Reakcija na IT probleme je planirana i dokumentovana."
+      },
+      {
+        "kod": "ME1-N3-1",
+        "nivoZrelosti": 3,
+        "redniBroj": 1,
+        "tekst": "Institucija primjenjuje napredne metode nadzora IT performansi."
+      },
+      {
+        "kod": "ME1-N3-2",
+        "nivoZrelosti": 3,
+        "redniBroj": 2,
+        "tekst": "Praćenje dostupnosti IT sistema i usluga je kontinuirano i automatsko."
+      },
+      {
+        "kod": "ME1-N3-3",
+        "nivoZrelosti": 3,
+        "redniBroj": 3,
+        "tekst": "Postoje detaljno definisani i mjerljivi ciljevi za IT performanse."
+      },
+      {
+        "kod": "ME1-N3-4",
+        "nivoZrelosti": 3,
+        "redniBroj": 4,
+        "tekst": "Reakcija na IT probleme je brza, automatska i dokumentovana."
+      },
+      {
+        "kod": "ME1-N3-5",
+        "nivoZrelosti": 3,
+        "redniBroj": 5,
+        "tekst": "Redovno se generišu detaljni i analitički izvještaji o IT performansama i incidentima te se koriste za strateške odluke."
+      },
+      {
+        "kod": "ME1-N4-1",
+        "nivoZrelosti": 4,
+        "redniBroj": 1,
+        "tekst": "Institucija je lider u nadzoru i optimizaciji IT performansi."
+      },
+      {
+        "kod": "ME1-N4-2",
+        "nivoZrelosti": 4,
+        "redniBroj": 2,
+        "tekst": "Praćenje dostupnosti IT sistema i usluga je potpuno automatizovano i proaktivno."
+      },
+      {
+        "kod": "ME1-N4-3",
+        "nivoZrelosti": 4,
+        "redniBroj": 3,
+        "tekst": "Ciljevi za IT performanse su ambiciozni i usmjereni prema postizanju izvrsnosti."
+      },
+      {
+        "kod": "ME1-N4-4",
+        "nivoZrelosti": 4,
+        "redniBroj": 4,
+        "tekst": "Reakcija na IT probleme je instantna, s AI ili automatizovanim sistemima."
+      },
+      {
+        "kod": "ME1-N5-1",
+        "nivoZrelosti": 5,
+        "redniBroj": 1,
+        "tekst": "Institucija je inovativna u nadzoru IT performansi i postavlja standarde u obrazovanju."
+      },
+      {
+        "kod": "ME1-N5-2",
+        "nivoZrelosti": 5,
+        "redniBroj": 2,
+        "tekst": "Praćenje dostupnosti IT sistema i usluga je potpuno autonomno i prediktivno."
+      },
+      {
+        "kod": "ME1-N5-3",
+        "nivoZrelosti": 5,
+        "redniBroj": 3,
+        "tekst": "Ciljevi za IT performanse su usmjereni na transformaciju i stvaranje novih vrijednosti."
+      },
+      {
+        "kod": "ME1-N5-4",
+        "nivoZrelosti": 5,
+        "redniBroj": 4,
+        "tekst": "Reakcija na IT probleme je automatska i koristi naprednu vještačku inteligenciju."
+      },
+      {
+        "kod": "ME1-N5-5",
+        "nivoZrelosti": 5,
+        "redniBroj": 5,
+        "tekst": "Izvještaji o IT performansama se koriste za kreiranje novih strategija i inovacija u IT sektoru institucije."
+      },
+      {
+        "kod": "ME1-N5-6",
+        "nivoZrelosti": 5,
+        "redniBroj": 6,
+        "tekst": "Institucija aktivno učestvuje u saradnji s vodećim tehnološkim partnerima kako bi razvila nove metode i alate za nadzor i procjenu IT performansi, doprinoseći tako razvoju standarda i naprednih praksi u upravljanju IT performansama u visokoškolskom sektoru."
+      }
+    ]
+  }
+]

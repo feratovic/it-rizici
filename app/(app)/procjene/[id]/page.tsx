@@ -68,10 +68,31 @@ export default async function PregledProcjene({
       </div>
 
       <div className="kartica max-w-2xl">
-        <h2 className="mb-2 text-sm font-semibold text-gray-900">Moduli</h2>
-        <p className="text-sm text-gray-500">
-          Moduli popunjavanja se uvode u narednim mjernim tačkama razvoja
-          (COBIT u M2, IT upitnik u M3 i M4, rezultati u M5).
+        <h2 className="mb-3 text-sm font-semibold text-gray-900">
+          Podaci o procjeni
+        </h2>
+        <dl className="grid grid-cols-2 gap-3 text-sm">
+          <div>
+            <dt className="text-gray-500">Institucija</dt>
+            <dd className="text-gray-900">{procjena.institucija.naziv}</dd>
+          </div>
+          <div>
+            <dt className="text-gray-500">Godina</dt>
+            <dd className="text-gray-900">{procjena.godina}</dd>
+          </div>
+          <div>
+            <dt className="text-gray-500">Tip</dt>
+            <dd className="text-gray-900">{tipOznaka}</dd>
+          </div>
+          <div>
+            <dt className="text-gray-500">Kontakt osoba</dt>
+            <dd className="text-gray-900">{procjena.institucija.kontaktOsoba}</dd>
+          </div>
+        </dl>
+
+        <p className="mt-4 text-sm text-gray-500">
+          Popunjavanje se otvara kroz module u bočnoj navigaciji. Odgovori se
+          snimaju automatski, bez posebnog potvrđivanja.
         </p>
       </div>
     </>

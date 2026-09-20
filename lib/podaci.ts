@@ -6,6 +6,8 @@
  *      tagu nad odgovorima. U V1 svaki poziv ide do baze.
  */
 import { prisma } from '@/lib/prisma';
+import type { CobitVrijednost } from '@prisma/client';
+
 import type { Sesija } from '@/lib/ovlascenja';
 
 // --- Institucije -----------------------------------------------------------
@@ -130,4 +132,51 @@ export async function dohvatiKorisnika(id: string) {
     where: { id },
     include: { institucija: true },
   });
+}
+
+// --- COBIT modul -----------------------------------------------------------
+// [V2] katalog je praktično nepromjenljiv — kandidat za `unstable_cache`
+
+export async function dohvatiCobitProcese() {
+  return prisma.cobitProces.findMany({ orderBy: { redniBroj: 'asc' } });
+}
+
+export async function dohvatiCobitProces(kod: string) {
+  return prisma.cobitProces.findUnique({ where: { kod } });
+}
+
+export async function dohvatiCobitOdgovore(procjenaId: string) {
+  return prisma.cobitOdgovor.findMany({ where: { procjenaId } });
+}
+
+export async function sacuvajCobitOdgovor(
+  procjenaId: string,
+  izjavaKod: string,
+  vrijednost: CobitVrijednost,
+) {
+  // Jedan upsert po promjeni — zato su odgovori zasebna kolekcija sa
+  // složenim jedinstvenim indeksom, a ne ugniježđeni niz u Procjeni.
+  return prisma.cobitOdgovor.upsert({
+    where: { procjenaId_izjavaKod: { procjenaId, izjavaKod } },
+    update: { vrijednost },
+    create: { procjenaId, izjavaKod, vrijednost },
+  });
+}
+
+/** Broj odgovorenih izjava po procesu — za indikator popunjenosti. */
+export async function popunjenostCobit(procjenaId: string) {
+  const [procesi, odgovori] = await Promise.all([
+    dohvatiCobitProcese(),
+    dohvatiCobitOdgovore(procjenaId),
+  ]);
+
+  const odgovoreni = new Set(odgovori.map((o) => o.izjavaKod));
+
+  return procesi.map((p) => ({
+    kod: p.kod,
+    naziv: p.naziv,
+    domen: p.domen,
+    ukupno: p.izjave.length,
+    odgovoreno: p.izjave.filter((i) => odgovoreni.has(i.kod)).length,
+  }));
 }

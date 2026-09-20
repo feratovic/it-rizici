@@ -6,10 +6,19 @@
  *
  * Pokretanje: npm run db:seed
  */
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
 import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
 
 const prisma = new PrismaClient();
+
+const PODACI = join(__dirname, 'podaci');
+
+function ucitaj<T>(naziv: string): T {
+  return JSON.parse(readFileSync(join(PODACI, naziv), 'utf-8')) as T;
+}
 
 // --- Institucije -----------------------------------------------------------
 
@@ -93,11 +102,65 @@ async function seedKorisnike(institucije: Map<string, string>) {
   console.log(`  korisnici: ${KORISNICI.length} (lozinka za sve: ${LOZINKA})`);
 }
 
+// --- COBIT katalog ---------------------------------------------------------
+// Tekstovi se čuvaju u prisma/podaci/cobit.json i generišu se iz izvornog
+// Excel fajla skriptom alati/izvuci-cobit.py, da bi se mogli regenerisati
+// bez diranja koda.
+
+type CobitIzjavaJson = {
+  kod: string;
+  nivoZrelosti: number;
+  redniBroj: number;
+  tekst: string;
+};
+
+type CobitProcesJson = {
+  kod: string;
+  naziv: string;
+  domen: string;
+  redniBroj: number;
+  izjave: CobitIzjavaJson[];
+};
+
+async function seedCobit() {
+  const procesi = ucitaj<CobitProcesJson[]>('cobit.json');
+
+  for (const p of procesi) {
+    const izjave = p.izjave.map((i) => ({
+      kod: i.kod,
+      nivoZrelosti: i.nivoZrelosti,
+      redniBroj: i.redniBroj,
+      tekst: i.tekst,
+    }));
+
+    await prisma.cobitProces.upsert({
+      where: { kod: p.kod },
+      update: {
+        naziv: p.naziv,
+        domen: p.domen,
+        redniBroj: p.redniBroj,
+        izjave,
+      },
+      create: {
+        kod: p.kod,
+        naziv: p.naziv,
+        domen: p.domen,
+        redniBroj: p.redniBroj,
+        izjave,
+      },
+    });
+  }
+
+  const ukupnoIzjava = procesi.reduce((a, p) => a + p.izjave.length, 0);
+  console.log(`  COBIT: ${procesi.length} procesa, ${ukupnoIzjava} izjava`);
+}
+
 async function main() {
   console.log('Seed baze — start');
 
   const institucije = await seedInstitucije();
   await seedKorisnike(institucije);
+  await seedCobit();
 
   console.log('Seed baze — gotovo');
 }

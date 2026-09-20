@@ -32,41 +32,84 @@ enum StatusProcjene {
 }
 
 model Institucija {
-  id           String     @id @default(auto()) @map("_id") @db.ObjectId
-  naziv        String     @unique
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  naziv        String   @unique
   kontaktOsoba String
   email        String
   telefon      String
-  kreiranoDana DateTime   @default(now())
+  kreiranoDana DateTime @default(now())
 
-  korisnici    Korisnik[]
-  procjene     Procjena[]
+  korisnici Korisnik[]
+  procjene  Procjena[]
 }
 
 model Korisnik {
-  id             String       @id @default(auto()) @map("_id") @db.ObjectId
-  email          String       @unique
-  lozinkaHash    String
-  ime            String
-  uloga          Uloga
-  institucijaId  String?      @db.ObjectId
-  institucija    Institucija? @relation(fields: [institucijaId], references: [id])
-  kreiranoDana   DateTime     @default(now())
+  id            String       @id @default(auto()) @map("_id") @db.ObjectId
+  email         String       @unique
+  lozinkaHash   String
+  ime           String
+  uloga         Uloga
+  institucijaId String?      @db.ObjectId
+  institucija   Institucija? @relation(fields: [institucijaId], references: [id])
+  kreiranoDana  DateTime     @default(now())
 
   kreiraneProcjene Procjena[] @relation("KreiraoProcjenu")
 }
 
 model Procjena {
-  id            String         @id @default(auto()) @map("_id") @db.ObjectId
-  institucijaId String         @db.ObjectId
-  institucija   Institucija    @relation(fields: [institucijaId], references: [id])
-  godina        Int
-  tip           TipProcjene
-  status        StatusProcjene @default(U_TOKU)
-  kreiraoId     String         @db.ObjectId
-  kreirao       Korisnik       @relation("KreiraoProcjenu", fields: [kreiraoId], references: [id])
-  kreiranoDana  DateTime       @default(now())
+  id             String         @id @default(auto()) @map("_id") @db.ObjectId
+  institucijaId  String         @db.ObjectId
+  institucija    Institucija    @relation(fields: [institucijaId], references: [id])
+  godina         Int
+  tip            TipProcjene
+  status         StatusProcjene @default(U_TOKU)
+  kreiraoId      String         @db.ObjectId
+  kreirao        Korisnik       @relation("KreiraoProcjenu", fields: [kreiraoId], references: [id])
+  kreiranoDana   DateTime       @default(now())
   zakljucenoDana DateTime?
 
   @@unique([institucijaId, godina, tip])
+}
+
+// ---------------------------------------------------------------------------
+// COBIT modul                                                          [M2]
+// ---------------------------------------------------------------------------
+
+enum CobitVrijednost {
+  NE // 0
+  UGLAVNOM_NE // 0.33
+  UGLAVNOM_DA // 0.66
+  DA // 1
+}
+
+/// Izjave se ugnježđuju u proces: katalog je nepromjenljiv i uvijek se čita
+/// u cjelini, pa je jedan upit po ekranu bolji od spajanja kolekcija.
+type CobitIzjava {
+  kod          String // stabilan čitljiv kod, npr. PO1-N2-3
+  nivoZrelosti Int // 0–5, VEĆE = BOLJE
+  redniBroj    Int
+  tekst        String
+}
+
+model CobitProces {
+  id        String        @id @default(auto()) @map("_id") @db.ObjectId
+  kod       String        @unique // PO1, DS5, ME1…
+  naziv     String
+  domen     String // PO | AI | DS | ME
+  redniBroj Int
+  izjave    CobitIzjava[]
+}
+
+/// Odgovori su zasebna kolekcija, ne ugniježđeni niz: upitnik se snima
+/// automatski pri svakoj promjeni, a Prisma nad MongoDB nema pozicioni upis
+/// u ugniježđeni niz. Sa složenim jedinstvenim indeksom snimanje je jedan upsert.
+model CobitOdgovor {
+  id          String          @id @default(auto()) @map("_id") @db.ObjectId
+  procjenaId  String          @db.ObjectId
+  izjavaKod   String
+  vrijednost  CobitVrijednost
+  izmijenjeno DateTime        @updatedAt
+
+  @@unique([procjenaId, izjavaKod])
+  @@index([procjenaId])
 }
