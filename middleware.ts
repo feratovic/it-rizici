@@ -9,5 +9,11 @@ import { authConfig } from './auth.config';
 export const { auth: middleware } = NextAuth(authConfig);
 
 export const config = {
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|.*\.png$|.*\.svg$).*)'],
+  // `.well-known` mora ostati izvan provjere sesije: tu stoji datoteka kojom
+  // se dokazuje vlasništvo nad domenom, a provjera je nenajavljen anonimni
+  // zahtjev. Da je obuhvaćena matcherom, vratila bi redirect na /prijava
+  // umjesto sadržaja i provjera ne bi prošla.
+  matcher: [
+    '/((?!api|_next/static|_next/image|favicon.ico|\\.well-known|.*\\.png$|.*\\.svg$).*)',
+  ],
 };
