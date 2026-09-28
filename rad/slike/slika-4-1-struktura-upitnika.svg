@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 800" width="1120" height="800" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="str" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <rect width="1120" height="800" fill="#ffffff"/>
+
+  <!-- ===== DIO A ===== -->
+  <rect x="30" y="30" width="330" height="190" rx="4" fill="#fafafa" stroke="#333" stroke-width="1.5"/>
+  <rect x="30" y="30" width="330" height="34" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="46" y="52" font-size="15" font-weight="bold" fill="#111">Dio A — Opšti podaci</text>
+  <text x="46" y="88" font-size="13" fill="#222">4 sekcije: A1–A4</text>
+  <text x="46" y="110" font-size="13" fill="#222">107 pitanja</text>
+  <text x="58" y="130" font-size="12" fill="#555">49 glavnih + 58 podpitanja (1a, 1b…)</text>
+  <text x="46" y="156" font-size="12" fill="#555">Tipovi odgovora: BROJ, TEKST,</text>
+  <text x="46" y="173" font-size="12" fill="#555">DA_NE, IZBOR</text>
+  <rect x="46" y="186" width="160" height="22" rx="3" fill="#ddd" stroke="#888"/>
+  <text x="126" y="201" font-size="12" fill="#333" text-anchor="middle">ne ocjenjuje se</text>
+
+  <!-- ===== DIO B ===== -->
+  <rect x="395" y="30" width="330" height="190" rx="4" fill="#fafafa" stroke="#333" stroke-width="1.5"/>
+  <rect x="395" y="30" width="330" height="34" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="411" y="52" font-size="15" font-weight="bold" fill="#111">Dio B — Indikatori IT rizika</text>
+  <text x="411" y="88" font-size="13" fill="#222">5 kategorija: B1–B5</text>
+  <text x="411" y="110" font-size="13" fill="#222">68 pitanja</text>
+  <text x="423" y="130" font-size="12" fill="#555">42 glavna + 26 podpitanja</text>
+  <text x="411" y="156" font-size="12" fill="#555">B1 IT sigurnost · B2 raspoloživost</text>
+  <text x="411" y="173" font-size="12" fill="#555">B3 promjene · B4 eksternalizacija</text>
+  <text x="411" y="190" font-size="12" fill="#555">B5 integritet podataka</text>
+  <rect x="411" y="198" width="230" height="14" fill="none"/>
+
+  <!-- ===== DIO C ===== -->
+  <rect x="760" y="30" width="330" height="190" rx="4" fill="#fafafa" stroke="#333" stroke-width="1.5"/>
+  <rect x="760" y="30" width="330" height="34" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="776" y="52" font-size="15" font-weight="bold" fill="#111">Dio C — IT kontrole</text>
+  <text x="776" y="88" font-size="13" fill="#222">10 oblasti: C1–C10</text>
+  <text x="776" y="110" font-size="13" fill="#222">33 podoblasti (C1.1, C4.5…)</text>
+  <text x="776" y="132" font-size="13" fill="#222">227 pitanja</text>
+  <text x="776" y="158" font-size="12" fill="#555">Odgovor: DA / NE / DJELIMIČNO</text>
+  <text x="776" y="180" font-size="12" fill="#555">C9 i C10 nemaju podoblasti —</text>
+  <text x="776" y="197" font-size="12" fill="#555">ocjena se unosi na nivou oblasti</text>
+
+  <!-- strelice nadolje -->
+  <line x1="560" y1="220" x2="560" y2="262" stroke="#333" stroke-width="1.5" marker-end="url(#str)"/>
+  <line x1="925" y1="220" x2="925" y2="262" stroke="#333" stroke-width="1.5" marker-end="url(#str)"/>
+
+  <!-- ===== OCJENJIVANJE ===== -->
+  <text x="30" y="255" font-size="13" font-weight="bold" fill="#111">OCJENJIVANJE</text>
+  <line x1="30" y1="264" x2="360" y2="264" stroke="#bbb" stroke-width="1"/>
+  <text x="30" y="292" font-size="12" fill="#666">Dio A ne ulazi u ocjenu.</text>
+  <text x="30" y="312" font-size="12" fill="#666">Odgovori se koriste kao kontekst</text>
+  <text x="30" y="332" font-size="12" fill="#666">pri ocjenjivanju dijelova B i C.</text>
+
+  <rect x="395" y="270" width="330" height="86" rx="4" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="411" y="292" font-size="13" font-weight="bold" fill="#111">Ocjena rizika po kategoriji</text>
+  <text x="411" y="314" font-size="12" fill="#444">Korisnik unosi 1–4 za svaku od B1–B5,</text>
+  <text x="411" y="331" font-size="12" fill="#444">uz obavezno tekstualno obrazloženje.</text>
+  <text x="411" y="348" font-size="12" font-style="italic" fill="#8a1a1a">Skala 1–4: VEĆE = GORE</text>
+
+  <rect x="760" y="270" width="330" height="86" rx="4" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="776" y="292" font-size="13" font-weight="bold" fill="#111">Ocjena zrelosti po podoblasti</text>
+  <text x="776" y="314" font-size="12" fill="#444">Korisnik unosi 1–4 za svaku podoblast, uz</text>
+  <text x="776" y="331" font-size="12" fill="#444">obrazloženje prednosti i slabosti (2 polja).</text>
+  <text x="776" y="348" font-size="12" font-style="italic" fill="#8a1a1a">Skala 1–4: VEĆE = GORE</text>
+
+  <line x1="560" y1="356" x2="560" y2="400" stroke="#333" stroke-width="1.5" marker-end="url(#str)"/>
+  <line x1="925" y1="356" x2="925" y2="400" stroke="#333" stroke-width="1.5" marker-end="url(#str)"/>
+
+  <!-- ===== AGREGACIJA ===== -->
+  <text x="30" y="393" font-size="13" font-weight="bold" fill="#111">AGREGACIJA</text>
+  <line x1="30" y1="402" x2="360" y2="402" stroke="#bbb" stroke-width="1"/>
+
+  <rect x="395" y="408" width="330" height="56" rx="4" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/>
+  <text x="411" y="430" font-size="12" fill="#222">Ukupna ocjena dijela B</text>
+  <text x="411" y="452" font-size="13" font-family="Consolas, monospace" fill="#111">ROUND(AVERAGE(B1..B5), 2)</text>
+
+  <rect x="760" y="408" width="330" height="56" rx="4" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/>
+  <text x="776" y="430" font-size="12" fill="#222">Ocjena oblasti C1–C8</text>
+  <text x="776" y="452" font-size="13" font-family="Consolas, monospace" fill="#111">ROUND(AVERAGE(podoblasti), 2)</text>
+
+  <line x1="925" y1="464" x2="925" y2="500" stroke="#333" stroke-width="1.5" marker-end="url(#str)"/>
+
+  <rect x="760" y="508" width="330" height="70" rx="4" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/>
+  <text x="776" y="530" font-size="12" fill="#222">Ukupna ocjena dijela C</text>
+  <text x="776" y="552" font-size="13" font-family="Consolas, monospace" fill="#111">ROUND(AVERAGE(C1..C10), 2)</text>
+  <text x="776" y="570" font-size="11" fill="#666">C9 i C10 ulaze direktno unesenom ocjenom</text>
+
+  <!-- napomena o redoslijedu zaokruzivanja -->
+  <rect x="395" y="508" width="330" height="70" rx="4" fill="#fffbe6" stroke="#b8860b" stroke-width="1.2"/>
+  <text x="411" y="530" font-size="12" font-weight="bold" fill="#7a5c00">Redoslijed zaokruživanja je bitan</text>
+  <text x="411" y="549" font-size="11.5" fill="#5c4600">Ukupna ocjena dijela C je prosjek već</text>
+  <text x="411" y="565" font-size="11.5" fill="#5c4600">zaokruženih ocjena oblasti, ne svih podoblasti.</text>
+
+  <!-- ===== IZVOR ===== -->
+  <line x1="30" y1="612" x2="1090" y2="612" stroke="#bbb" stroke-width="1"/>
+  <text x="30" y="638" font-size="12" fill="#555">Formule su preuzete iz bloka „Rezultat samoprocjene" izvornog Excel fajla (redovi 485–534),</text>
+  <text x="30" y="657" font-size="12" fill="#555">gdje su ocjene sekcija referencirane pojedinačno, a zbirne vrijednosti izračunate funkcijom ROUND(AVERAGE(...), 2).</text>
+
+  <!-- legenda skala -->
+  <rect x="30" y="686" width="1060" height="72" rx="4" fill="#f7f7f7" stroke="#999" stroke-width="1"/>
+  <text x="46" y="708" font-size="12" font-weight="bold" fill="#111">Smjer skala u aplikaciji</text>
+  <text x="46" y="730" font-size="12" fill="#333">IT upitnik, dio B (rizik) — 1–4, veće je gore     ·     IT upitnik, dio C (zrelost kontrola) — 1–4, veće je gore</text>
+  <text x="46" y="749" font-size="12" fill="#333">COBIT nivo zrelosti — 0–5, veće je bolje  (suprotan smjer; mapiranje ocjene u boju centralizovano je u lib/skale.ts)</text>
+</svg>

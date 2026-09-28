@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 880" width="1160" height="880" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#333"/>
+    </marker>
+    <marker id="ad" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#0b6"/>
+    </marker>
+  </defs>
+
+  <rect width="1160" height="880" fill="#ffffff"/>
+
+  <!-- naslovi kolona -->
+  <text x="30" y="26" font-size="13" font-weight="bold" fill="#555">OSNOVNI ENTITETI</text>
+  <text x="420" y="26" font-size="13" font-weight="bold" fill="#555">KATALOG (nepromjenljiv)</text>
+  <text x="820" y="26" font-size="13" font-weight="bold" fill="#555">ODGOVORI I OCJENE (po procjeni)</text>
+
+  <!-- ===== Institucija ===== -->
+  <rect x="30" y="40" width="250" height="112" rx="4" fill="#fafafa" stroke="#333" stroke-width="1.5"/>
+  <rect x="30" y="40" width="250" height="28" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="44" y="59" font-size="14" font-weight="bold" fill="#111">Institucija</text>
+  <text x="44" y="86" font-size="12" fill="#222">naziv  (unique)</text>
+  <text x="44" y="105" font-size="12" fill="#444">kontaktOsoba</text>
+  <text x="44" y="124" font-size="12" fill="#444">email, telefon</text>
+  <text x="44" y="143" font-size="12" fill="#444">kreiranoDana</text>
+
+  <!-- ===== Korisnik ===== -->
+  <rect x="30" y="196" width="250" height="130" rx="4" fill="#fafafa" stroke="#333" stroke-width="1.5"/>
+  <rect x="30" y="196" width="250" height="28" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="44" y="215" font-size="14" font-weight="bold" fill="#111">Korisnik</text>
+  <text x="44" y="242" font-size="12" fill="#222">email  (unique)</text>
+  <text x="44" y="261" font-size="12" fill="#444">lozinkaHash  (bcrypt)</text>
+  <text x="44" y="280" font-size="12" fill="#444">ime</text>
+  <text x="44" y="299" font-size="12" fill="#444">uloga: ADMIN | REVIZOR |</text>
+  <text x="56" y="316" font-size="12" fill="#444">KONTAKT_OSOBA</text>
+
+  <!-- ===== Procjena ===== -->
+  <rect x="30" y="370" width="250" height="148" rx="4" fill="#f2f6fa" stroke="#333" stroke-width="2"/>
+  <rect x="30" y="370" width="250" height="28" rx="4" fill="#d8e4ef" stroke="#333" stroke-width="2"/>
+  <text x="44" y="389" font-size="14" font-weight="bold" fill="#111">Procjena</text>
+  <text x="44" y="416" font-size="12" fill="#444">institucijaId, kreiraoId</text>
+  <text x="44" y="435" font-size="12" fill="#444">godina</text>
+  <text x="44" y="454" font-size="12" fill="#444">tip: COBIT | IT_UPITNIK</text>
+  <text x="44" y="473" font-size="12" fill="#444">status: U_TOKU | ZAKLJUCENA</text>
+  <text x="44" y="496" font-size="11" font-style="italic" fill="#666">unique(institucijaId, godina, tip)</text>
+
+  <!-- ===== CobitProces ===== -->
+  <rect x="420" y="40" width="320" height="170" rx="4" fill="#fafafa" stroke="#333" stroke-width="1.5"/>
+  <rect x="420" y="40" width="320" height="28" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="434" y="59" font-size="14" font-weight="bold" fill="#111">CobitProces</text>
+  <text x="434" y="86" font-size="12" fill="#222">kod  (unique)  — PO1, DS5, ME1…</text>
+  <text x="434" y="105" font-size="12" fill="#444">naziv, domen, redniBroj</text>
+  <rect x="434" y="118" width="292" height="80" rx="3" fill="#fff" stroke="#777" stroke-dasharray="4 3"/>
+  <text x="446" y="136" font-size="12" font-weight="bold" fill="#111">izjave: CobitIzjava[]</text>
+  <text x="446" y="154" font-size="11" fill="#555">ugniježđeni composite tip</text>
+  <text x="446" y="172" font-size="11" fill="#555">kod, nivoZrelosti (0–5), redniBroj, tekst</text>
+  <text x="446" y="190" font-size="11" font-style="italic" fill="#0a6">15 procesa · 388 izjava</text>
+
+  <!-- ===== UpitnikSekcija ===== -->
+  <rect x="420" y="250" width="320" height="196" rx="4" fill="#fafafa" stroke="#333" stroke-width="1.5"/>
+  <rect x="420" y="250" width="320" height="28" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="434" y="269" font-size="14" font-weight="bold" fill="#111">UpitnikSekcija</text>
+  <text x="434" y="296" font-size="12" fill="#222">kod  (unique)  — A1, B3, C4.7…</text>
+  <text x="434" y="315" font-size="12" fill="#444">naziv, dio (A|B|C), redniBroj</text>
+  <text x="434" y="334" font-size="12" fill="#444">roditeljKod  — oblast podoblasti</text>
+  <rect x="434" y="346" width="292" height="88" rx="3" fill="#fff" stroke="#777" stroke-dasharray="4 3"/>
+  <text x="446" y="364" font-size="12" font-weight="bold" fill="#111">pitanja: UpitnikPitanje[]</text>
+  <text x="446" y="382" font-size="11" fill="#555">ugniježđeni composite tip</text>
+  <text x="446" y="400" font-size="11" fill="#555">kod, redniBroj, tekst, uputstvo,</text>
+  <text x="446" y="415" font-size="11" fill="#555">tipOdgovora, opcije[]</text>
+  <text x="446" y="431" font-size="11" font-style="italic" fill="#0a6">52 sekcije · 402 pitanja</text>
+
+  <!-- ===== CobitOdgovor ===== -->
+  <rect x="820" y="40" width="310" height="112" rx="4" fill="#fafafa" stroke="#333" stroke-width="1.5"/>
+  <rect x="820" y="40" width="310" height="28" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="834" y="59" font-size="14" font-weight="bold" fill="#111">CobitOdgovor</text>
+  <text x="834" y="86" font-size="12" fill="#444">procjenaId, izjavaKod</text>
+  <text x="834" y="105" font-size="12" fill="#444">vrijednost: NE | UGLAVNOM_NE |</text>
+  <text x="846" y="121" font-size="12" fill="#444">UGLAVNOM_DA | DA</text>
+  <text x="834" y="143" font-size="11" font-style="italic" fill="#666">unique(procjenaId, izjavaKod)</text>
+
+  <!-- ===== UpitnikOdgovor ===== -->
+  <rect x="820" y="196" width="310" height="112" rx="4" fill="#fafafa" stroke="#333" stroke-width="1.5"/>
+  <rect x="820" y="196" width="310" height="28" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="834" y="215" font-size="14" font-weight="bold" fill="#111">UpitnikOdgovor</text>
+  <text x="834" y="242" font-size="12" fill="#444">procjenaId, pitanjeKod</text>
+  <text x="834" y="261" font-size="12" fill="#444">vrijednost, objasnjenje</text>
+  <text x="834" y="280" font-size="12" fill="#444">izmijenjeno</text>
+  <text x="834" y="299" font-size="11" font-style="italic" fill="#666">unique(procjenaId, pitanjeKod)</text>
+
+  <!-- ===== UpitnikOcjena ===== -->
+  <rect x="820" y="352" width="310" height="132" rx="4" fill="#fafafa" stroke="#333" stroke-width="1.5"/>
+  <rect x="820" y="352" width="310" height="28" rx="4" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
+  <text x="834" y="371" font-size="14" font-weight="bold" fill="#111">UpitnikOcjena</text>
+  <text x="834" y="398" font-size="12" fill="#444">procjenaId, sekcijaKod</text>
+  <text x="834" y="417" font-size="12" fill="#444">ocjena: 1–4</text>
+  <text x="834" y="436" font-size="12" fill="#444">prednosti, slabosti</text>
+  <text x="834" y="455" font-size="11" font-style="italic" fill="#666">unique(procjenaId, sekcijaKod)</text>
+  <text x="834" y="474" font-size="11" font-style="italic" fill="#8a1a1a">skala 1–4: veće je gore</text>
+
+  <!-- ===== relacije (pune linije) ===== -->
+  <line x1="155" y1="152" x2="155" y2="196" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="163" y="177" font-size="11" fill="#444">1 : N</text>
+
+  <path d="M 30 96 L 14 96 L 14 444 L 30 444" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="18" y="270" font-size="11" fill="#444" transform="rotate(-90 18 270)">1 : N</text>
+
+  <line x1="155" y1="326" x2="155" y2="370" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="163" y="351" font-size="11" fill="#444">kreirao</text>
+
+  <path d="M 280 420 L 350 420 L 350 96 L 820 96" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+  <path d="M 280 440 L 366 440 L 366 252 L 820 252" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+  <path d="M 280 460 L 382 460 L 382 408 L 820 408" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="300" y="414" font-size="11" fill="#444">1 : N</text>
+
+  <!-- ===== veze po kodu (isprekidane) ===== -->
+  <path d="M 740 150 L 780 150 L 780 118 L 820 118" fill="none" stroke="#0b6" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#ad)"/>
+  <text x="742" y="143" font-size="10.5" fill="#0a6">izjavaKod</text>
+
+  <path d="M 740 380 L 772 380 L 772 292 L 820 292" fill="none" stroke="#0b6" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#ad)"/>
+  <text x="742" y="373" font-size="10.5" fill="#0a6">pitanjeKod</text>
+
+  <path d="M 740 300 L 790 300 L 790 430 L 820 430" fill="none" stroke="#0b6" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#ad)"/>
+  <text x="742" y="293" font-size="10.5" fill="#0a6">sekcijaKod</text>
+
+  <!-- ===== legenda ===== -->
+  <rect x="30" y="556" width="1100" height="128" rx="4" fill="#f7f7f7" stroke="#999" stroke-width="1"/>
+  <text x="46" y="580" font-size="13" font-weight="bold" fill="#111">Legenda i principi modelovanja</text>
+
+  <line x1="50" y1="600" x2="96" y2="600" stroke="#333" stroke-width="1.5" marker-end="url(#a)"/>
+  <text x="106" y="604" font-size="12" fill="#333">relacija preko ObjectId</text>
+
+  <line x1="330" y1="600" x2="376" y2="600" stroke="#0b6" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#ad)"/>
+  <text x="386" y="604" font-size="12" fill="#333">veza preko stabilnog čitljivog koda, bez relacije u bazi</text>
+
+  <rect x="50" y="616" width="46" height="14" rx="2" fill="#fff" stroke="#777" stroke-dasharray="4 3"/>
+  <text x="106" y="628" font-size="12" fill="#333">ugniježđeni composite tip — nema sopstvenu kolekciju</text>
+
+  <text x="46" y="652" font-size="11.5" fill="#555">Katalog se ugnježđuje jer je nepromjenljiv i uvijek se čita u cjelini: jedan upit po ekranu umjesto spajanja kolekcija.</text>
+  <text x="46" y="670" font-size="11.5" fill="#555">Odgovori i ocjene su zasebne kolekcije jer se snimaju automatski pri svakoj promjeni — složeni jedinstveni indeks čini svaku izmjenu jednim upsertom,</text>
+  <text x="46" y="686" font-size="11.5" fill="#555">umjesto prepisivanja dokumenta od više stotina stavki. Prisma nad MongoDB nema pozicioni upis u ugniježđeni niz.</text>
+
+  <!-- ===== kodovi ===== -->
+  <rect x="30" y="706" width="1100" height="86" rx="4" fill="#fffbe6" stroke="#b8860b" stroke-width="1.2"/>
+  <text x="46" y="730" font-size="13" font-weight="bold" fill="#7a5c00">Stabilni kodovi umjesto ObjectId</text>
+  <text x="46" y="752" font-size="12" fill="#5c4600">PO1-N2-3  →  COBIT izjava: proces PO1, nivo zrelosti 2, redni broj 3</text>
+  <text x="46" y="770" font-size="12" fill="#5c4600">B1-7  →  pitanje 7 u kategoriji B1        C4.5-101  →  pitanje 101 u podoblasti C4.5</text>
+  <text x="620" y="752" font-size="11.5" fill="#5c4600">Kodovi čine seed idempotentnim (upsert po kodu)</text>
+  <text x="620" y="770" font-size="11.5" fill="#5c4600">i održavaju rezultate mjerenja uporedivim kroz verzije.</text>
+</svg>
