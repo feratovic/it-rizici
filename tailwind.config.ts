@@ -9,8 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        // Font se učitava preko @import u globals.css, ne preko next/font.
-        // Vidi NAPOMENE.md — [V2] kandidat za next/font/google.
+        // V2: font se učitava preko next/font u app/layout.tsx.
         osnovni: ['var(--font-osnovni)'],
       },
       colors: {

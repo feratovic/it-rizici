@@ -1,19 +1,17 @@
-/* Font se učitava preko CSS @import — jedno mjesto, jedna CSS promjenljiva.
-   Ovo je render-blocking i namjerno je tako u V1 baseline verziji.
-   [V2] kandidat za next/font/google — vidi NAPOMENE.md */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
+/* V2: font se učitava preko next/font u app/layout.tsx (samostalno posluživan,
+   bez CSS @import koji je blokirao renderovanje). Promjenljiva --font-osnovni
+   postavlja se na <html>. */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --font-osnovni: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-osnovni-rezerva: system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 
 html,
 body {
-  font-family: var(--font-osnovni);
+  font-family: var(--font-osnovni), var(--font-osnovni-rezerva);
 }
 
 body {

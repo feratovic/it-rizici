@@ -81,3 +81,40 @@ tačan, ali nije posljedica namjerne odluke o baseline stanju.
 `lib/fontovi/Inter-Regular.ttf` i `Inter-Bold.ttf` — font Inter (Rasmus
 Andersson), licenca SIL Open Font License 1.1. Ugrađeni PDF fontovi nemaju
 slova č, ć i đ, pa se Inter registruje u `@react-pdf/renderer`.
+
+---
+
+## V2 — preporuke alata nad V1 i šta je primijenjeno
+
+Izvor: izvještaj alata, skeniranje #9 (autentifikovani režim, 01.11.2026,
+https://it-rizici.vercel.app/, oznaka `v1-baseline`). Rezultat V1:
+KI = 82,88 · P = 97,00 · S = 68,75.
+
+| # | Preporuka alata | U | N | Izmjena u V2 | Status |
+|---|---|---|---|---|---|
+| 1 | Dodati Content-Security-Policy | 3,33 | 1 | `next.config.js` | primijenjeno, ali sa `'unsafe-inline'` → alat ga ocjenjuje kao „slabo“ (vidi ispod) |
+| 2 | Dodati X-Frame-Options / frame-ancestors | 2,08 | 1 | `next.config.js` (oba) | primijenjeno |
+| 3 | Dodati X-Content-Type-Options: nosniff | 1,67 | 1 | `next.config.js` | primijenjeno |
+| 4 | Dodati Referrer-Policy | 1,67 | 1 | `next.config.js` | primijenjeno |
+| 5 | Dodati Permissions-Policy | 1,25 | 1 | `next.config.js` | primijenjeno |
+| 6 | ZAP: Cross-Domain Misconfiguration (`Access-Control-Allow-Origin: *`) | 2,08 | 2 | `next.config.js` — zaglavlje suženo na sopstveni domen | primijenjeno |
+| 7 | ZAP: Absence of Anti-CSRF Tokens | 2,08 | 2 | `lib/csrf.ts`, `components/CsrfPolje.tsx`, svih pet formi i njihove akcije | primijenjeno |
+| 8 | ZAP: Big Redirect Detected | 0,83 | 2 | `next.config.js` → `redirects()` umjesto `redirect()` u `app/page.tsx` | primijenjeno |
+| 9 | ZAP: Retrieved from Cache | 0,21 | 2 | — | nije primijenjeno: informativni nalaz o CDN kešu statičkih resursa; uklanjanje bi pogoršalo performanse |
+| 10 | ZAP: Modern Web Application | 0,21 | 2 | — | nije primjenjivo: informativni nalaz („aplikacija koristi JavaScript“), nema šta da se otkloni |
+| 11 | ZAP: Session Management Response Identified | 0,21 | 2 | — | nije primjenjivo: informativni nalaz (prepoznat kolačić sesije), ne opisuje slabost |
+| 12 | Odložiti učitavanje resursa koji blokiraju prikaz | 0,00 | 2 | `app/layout.tsx` + `next/font`, uklonjen `@import` iz `globals.css` (P1) | primijenjeno |
+
+**Nije dirano jer alat to nije preporučio:** keširanje podataka (P5),
+virtualizacija (P6), dinamički uvoz grafika (P3/P4), `next/image` (P2 —
+komponenta se nigdje ne koristi), HSTS (postavlja Vercel), `poweredByHeader`,
+kolačići (NextAuth podrazumijevano postavlja HttpOnly, Secure, SameSite),
+rate limiting (S4).
+
+**CSP i 'unsafe-inline'.** Next.js App Router umeće RSC podatke kao inline
+skripte, a komponente koriste `style` atribute. Bez `'unsafe-inline'` aplikacija
+ne radi. Nonce bi riješio skripte, ali prisiljava dinamičko renderovanje svih
+strana (lošiji TTFB) i ne pokriva `style` atribute. Posljedica: alat zaglavlje
+ocjenjuje kao „slabo“ (4 umjesto 8 kaznenih bodova), a ZAP može prijaviti
+pravilo 10055 (CSP: unsafe-inline), koje model trenutno ne isključuje kao
+duplikat sopstvene provjere CSP-a.

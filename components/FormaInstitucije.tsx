@@ -3,6 +3,8 @@
 import { useActionState } from 'react';
 import { useFormStatus } from 'react-dom';
 
+import CsrfPolje from '@/components/CsrfPolje';
+
 import {
   sacuvajInstituciju,
   type StanjeInstitucije,
@@ -25,6 +27,7 @@ export default function FormaInstitucije() {
 
   return (
     <form action={akcija} className="max-w-lg space-y-4">
+      <CsrfPolje />
       <div>
         <label htmlFor="naziv" className="oznaka-polja">Naziv institucije</label>
         <input id="naziv" name="naziv" required className="polje" />

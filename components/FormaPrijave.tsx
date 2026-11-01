@@ -3,6 +3,8 @@
 import { useActionState } from 'react';
 import { useFormStatus } from 'react-dom';
 
+import CsrfPolje from '@/components/CsrfPolje';
+
 import { prijava, type StanjePrijave } from '@/app/akcije';
 
 function Dugme() {
@@ -19,6 +21,7 @@ export default function FormaPrijave() {
 
   return (
     <form action={akcija} className="space-y-4">
+      <CsrfPolje />
       <div>
         <label htmlFor="email" className="oznaka-polja">
           E-pošta

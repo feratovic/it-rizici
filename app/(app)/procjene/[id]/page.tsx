@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 
 import Breadcrumbs from '@/components/Breadcrumbs';
+import CsrfPolje from '@/components/CsrfPolje';
 import RezultatCobit, { NajslabijiProcesi } from '@/components/cobit/RezultatCobit';
 import RezultatUpitnik, {
   NajslabijeSekcije,
@@ -118,6 +119,7 @@ export default async function PregledProcjene({
 
           {mozeOcjenjivati(korisnik.uloga) && (
             <form action={promijeniStatus}>
+              <CsrfPolje />
               <input type="hidden" name="id" value={procjena.id} />
               <input
                 type="hidden"

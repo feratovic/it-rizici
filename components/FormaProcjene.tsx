@@ -3,6 +3,8 @@
 import { useActionState } from 'react';
 import { useFormStatus } from 'react-dom';
 
+import CsrfPolje from '@/components/CsrfPolje';
+
 import { sacuvajProcjenu, type StanjeProcjene } from '@/app/(app)/procjene/akcije';
 
 function Dugme() {
@@ -28,6 +30,7 @@ export default function FormaProcjene({
 
   return (
     <form action={akcija} className="max-w-lg space-y-4">
+      <CsrfPolje />
       <div>
         <label htmlFor="institucijaId" className="oznaka-polja">Institucija</label>
         <select id="institucijaId" name="institucijaId" required className="polje">

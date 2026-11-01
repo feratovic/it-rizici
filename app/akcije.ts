@@ -1,8 +1,10 @@
 'use server';
 
 import { signIn, signOut } from '@/auth';
+import { ispravanCsrf, PORUKA_CSRF } from '@/lib/csrf';
 
-export async function odjava() {
+export async function odjava(formular: FormData) {
+  if (!(await ispravanCsrf(formular))) return;
   await signOut({ redirectTo: '/prijava' });
 }
 
@@ -12,6 +14,8 @@ export async function prijava(
   _prethodno: StanjePrijave,
   formular: FormData,
 ): Promise<StanjePrijave> {
+  if (!(await ispravanCsrf(formular))) return { greska: PORUKA_CSRF };
+
   try {
     await signIn('credentials', {
       email: String(formular.get('email') ?? ''),

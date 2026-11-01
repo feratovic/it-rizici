@@ -12,6 +12,7 @@ import {
   zakljuciProcjenu,
 } from '@/lib/podaci';
 import { zahtijevajKorisnika, mozeOcjenjivati } from '@/lib/ovlascenja';
+import { ispravanCsrf, PORUKA_CSRF } from '@/lib/csrf';
 
 const sema = z.object({
   institucijaId: z.string().min(1, 'Izaberite instituciju.'),
@@ -25,6 +26,8 @@ export async function sacuvajProcjenu(
   _prethodno: StanjeProcjene,
   formular: FormData,
 ): Promise<StanjeProcjene> {
+  if (!(await ispravanCsrf(formular))) return { greska: PORUKA_CSRF };
+
   const korisnik = await zahtijevajKorisnika();
   if (!mozeOcjenjivati(korisnik.uloga)) {
     return { greska: 'Nemate ovlašćenje za kreiranje procjena.' };
@@ -59,6 +62,8 @@ export async function sacuvajProcjenu(
 }
 
 export async function promijeniStatus(formular: FormData) {
+  if (!(await ispravanCsrf(formular))) return;
+
   const korisnik = await zahtijevajKorisnika();
   if (!mozeOcjenjivati(korisnik.uloga)) return;
 

@@ -6,6 +6,7 @@ import { z } from 'zod';
 
 import { kreirajInstituciju } from '@/lib/podaci';
 import { zahtijevajKorisnika, mozeOcjenjivati } from '@/lib/ovlascenja';
+import { ispravanCsrf, PORUKA_CSRF } from '@/lib/csrf';
 
 const sema = z.object({
   naziv: z.string().min(2, 'Naziv mora imati bar dva znaka.'),
@@ -20,6 +21,8 @@ export async function sacuvajInstituciju(
   _prethodno: StanjeInstitucije,
   formular: FormData,
 ): Promise<StanjeInstitucije> {
+  if (!(await ispravanCsrf(formular))) return { greska: PORUKA_CSRF };
+
   const korisnik = await zahtijevajKorisnika();
   if (!mozeOcjenjivati(korisnik.uloga)) {
     return { greska: 'Nemate ovlašćenje za dodavanje institucija.' };

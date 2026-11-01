@@ -1,4 +1,5 @@
 import { odjava } from '@/app/akcije';
+import CsrfPolje from '@/components/CsrfPolje';
 import { NAZIV_ULOGE, type Sesija } from '@/lib/ovlascenja';
 
 export default function Header({ korisnik }: { korisnik: Sesija }) {
@@ -14,6 +15,7 @@ export default function Header({ korisnik }: { korisnik: Sesija }) {
           <div className="text-xs text-gray-500">{NAZIV_ULOGE[korisnik.uloga]}</div>
         </div>
         <form action={odjava}>
+          <CsrfPolje />
           <button type="submit" className="dugme-sporedno py-1.5">
             Odjava
           </button>
