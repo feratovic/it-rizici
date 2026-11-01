@@ -3,8 +3,8 @@
  * ocjena svake oblasti dijela C i popunjenost sva tri dijela.
  *
  * Serverska komponenta bez ijednog klijentskog bajta: trake su obične `div`
- * širine u procentima. Grafička biblioteka (recharts) namjerno se ne uvodi
- * ovdje — ona ulazi tek u M5, vidi NAPOMENE.md (P4).
+ * širine u procentima. Grafici (recharts) su u `components/grafici/` i
+ * prikazuju se samo na ekranu rezultata, vidi NAPOMENE.md (P4).
  *
  * ⚠ Skala je 1–4 i VEĆE JE GORE — suprotno od COBIT nivoa zrelosti. Boja se
  *   uzima isključivo iz `bojaOcjene1do4`; komponenta sama ne tumači smjer skale.

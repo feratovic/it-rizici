@@ -4,7 +4,13 @@ import { redirect } from 'next/navigation';
 import { revalidatePath } from 'next/cache';
 import { z } from 'zod';
 
-import { kreirajProcjenu, zakljuciProcjenu, otkljucajProcjenu } from '@/lib/podaci';
+import {
+  dohvatiProcjenu,
+  kreirajProcjenu,
+  otkljucajProcjenu,
+  potpunostProcjene,
+  zakljuciProcjenu,
+} from '@/lib/podaci';
 import { zahtijevajKorisnika, mozeOcjenjivati } from '@/lib/ovlascenja';
 
 const sema = z.object({
@@ -61,6 +67,12 @@ export async function promijeniStatus(formular: FormData) {
   if (!id) return;
 
   if (akcija === 'zakljuci') {
+    // UC-A8: nepotpuna procjena se ne zaključuje — agregirali bi se
+    // nepotpuni podaci. Provjera je na serveru, ne samo na dugmetu.
+    const procjena = await dohvatiProcjenu(id);
+    if (!procjena) return;
+    const { potpuna } = await potpunostProcjene(id, procjena.tip);
+    if (!potpuna) redirect(`/procjene/${id}?greska=nepotpuna`);
     await zakljuciProcjenu(id);
   } else if (akcija === 'otkljucaj') {
     await otkljucajProcjenu(id);

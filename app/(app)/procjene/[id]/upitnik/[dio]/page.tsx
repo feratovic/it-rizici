@@ -12,7 +12,7 @@ import {
   dohvatiUpitnikOdgovore,
   dohvatiUpitnikSekcije,
 } from '@/lib/podaci';
-import { zahtijevajKorisnika, mozeVidjetiInstituciju } from '@/lib/ovlascenja';
+import { zahtijevajKorisnika, mozeVidjetiInstituciju, mozeOcjenjivati } from '@/lib/ovlascenja';
 import { ocjenjivaSekcija } from '@/lib/upitnik';
 import {
   DIJELOVI_UPITNIKA,
@@ -129,6 +129,7 @@ export default async function StranicaDijela({
           pocetniOdgovori={pocetniOdgovori}
           pocetneOcjene={pocetneOcjene}
           zakljucena={procjena.status === 'ZAKLJUCENA'}
+          mozeOcjenjivati={mozeOcjenjivati(korisnik.uloga)}
         />
       )}
     </>

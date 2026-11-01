@@ -455,25 +455,30 @@ Provjereno u kodu na dan pisanja ovog dokumenta:
 | M2 | modul COBIT samoprocjene | dovršeno, oznaka `m2` |
 | M3 | IT upitnik, dijelovi A i B | dovršeno, oznaka još nije postavljena |
 | M4 | IT upitnik, dio C | dovršeno, oznaka još nije postavljena |
-| M5 | rezultati, grafici, izvoz izvještaja | **nije započeto** |
+| M5 | rezultati, grafici, izvoz izvještaja | dovršeno, oznaka `v1-baseline` još nije postavljena |
 
 Sva tri dijela upitnika popunjavaju se kroz zajedničku rutu
 `/procjene/[id]/upitnik/[dio]`, uključujući unos ocjena rizika i ocjena
 zrelosti sa obrazloženjima prednosti i slabosti.
 
+**Dovršeno u M5:**
+
+- ruta `/procjene/[id]/rezultati` sa agregiranim rezultatima i graficima
+  (`components/grafici/`, recharts uvezen statički — P4),
+- izvoz u Excel (`exceljs`) i PDF (`@react-pdf/renderer`), samo za
+  administratora i revizora (UC-A7),
+- zaključivanje procjene uz provjeru potpunosti, na serveru (UC-A8),
+- ocjenu i obrazloženja unosi samo administrator ili revizor; kontakt osoba
+  ih vidi, ali ne mijenja (UC-A5) — ranije to nije bilo ograničeno.
+
 **Nedostaje za V1:**
 
-- ruta `/procjene/[id]/rezultati` sa agregiranim rezultatima i graficima,
-- izvoz u Excel — biblioteka `exceljs` je instalirana, ali se nigdje ne koristi,
-- izvoz u PDF — biblioteka `@react-pdf/renderer` je instalirana, ali se nigdje
-  ne koristi,
-- oznake `m3` i `m4` u repozitorijumu,
+- oznake `m3`, `m4` i `v1-baseline` u repozitorijumu,
 - popunjen `PROTOKOL-MJERENJA.md` (identifikatori commita, adrese, datumi).
 
-Dio 4.7 gore opisuje i modul rezultata i izvoza. Dok se M5 ne dovrši, treba
-ili taj red ukloniti iz tabele 4.5, ili u tekstu jasno naznačiti dokle je
-razvoj doveden. Opis funkcionalnosti koja ne postoji najlakše je mjesto za
-primjedbu komisije.
+Modul rezultata i izvoza iz dijela 4.7 sada postoji, pa tabela 4.5 odgovara
+aplikaciji. U tabelu 4.5 ruta modula je `/procjene/[id]/rezultati` (izvoz:
+`/rezultati/excel` i `/rezultati/pdf`).
 
 **Redoslijed posla koji predlažem:** dovršiti M5 → postaviti oznake `m3`, `m4`,
 `v1-baseline` → sprovesti mjerenja i popuniti protokol → napraviti V2 →

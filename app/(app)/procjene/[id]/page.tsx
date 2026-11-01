@@ -5,16 +5,24 @@ import RezultatCobit, { NajslabijiProcesi } from '@/components/cobit/RezultatCob
 import RezultatUpitnik, {
   NajslabijeSekcije,
 } from '@/components/upitnik/RezultatUpitnik';
-import { dohvatiProcjenu, rezultatCobit, rezultatUpitnik } from '@/lib/podaci';
+import {
+  dohvatiProcjenu,
+  potpunostProcjene,
+  rezultatCobit,
+  rezultatUpitnik,
+} from '@/lib/podaci';
 import { zahtijevajKorisnika, mozeVidjetiInstituciju, mozeOcjenjivati } from '@/lib/ovlascenja';
 import { promijeniStatus } from '../akcije';
 
 export default async function PregledProcjene({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams: Promise<{ greska?: string }>;
 }) {
   const { id } = await params;
+  const { greska } = await searchParams;
   const korisnik = await zahtijevajKorisnika();
   const procjena = await dohvatiProcjenu(id);
 
@@ -27,6 +35,13 @@ export default async function PregledProcjene({
     procjena.tip === 'COBIT' ? await rezultatCobit(procjena.id) : null;
   const rezultatUpitnika =
     procjena.tip === 'IT_UPITNIK' ? await rezultatUpitnik(procjena.id) : null;
+
+  // UC-A8: zaključivanje je dozvoljeno tek kad je procjena potpuna.
+  const potpunost =
+    procjena.status === 'U_TOKU' && mozeOcjenjivati(korisnik.uloga)
+      ? await potpunostProcjene(procjena.id, procjena.tip)
+      : null;
+  const zakljucivanjeBlokirano = potpunost !== null && !potpunost.potpuna;
 
   const naslov = `${procjena.institucija.naziv} — ${procjena.godina}`;
   const tipOznaka =
@@ -109,13 +124,44 @@ export default async function PregledProcjene({
                 name="akcija"
                 value={procjena.status === 'ZAKLJUCENA' ? 'otkljucaj' : 'zakljuci'}
               />
-              <button type="submit" className="dugme-sporedno py-1.5">
+              <button
+                type="submit"
+                className="dugme-sporedno py-1.5"
+                disabled={zakljucivanjeBlokirano}
+                title={
+                  zakljucivanjeBlokirano
+                    ? 'Procjena se može zaključiti tek kada su sva pitanja odgovorena i sve ocjene unesene.'
+                    : undefined
+                }
+              >
                 {procjena.status === 'ZAKLJUCENA' ? 'Otključaj' : 'Zaključi'}
               </button>
             </form>
           )}
         </div>
       </div>
+
+      {zakljucivanjeBlokirano && potpunost && (
+        <div
+          className={
+            'mb-6 rounded-lg border px-4 py-3 text-sm ' +
+            (greska === 'nepotpuna'
+              ? 'border-red-300 bg-red-50 text-red-800'
+              : 'border-gray-200 bg-white text-gray-600')
+          }
+        >
+          <p className="font-medium">
+            {greska === 'nepotpuna'
+              ? 'Procjena nije zaključena jer nije potpuna.'
+              : 'Procjena se može zaključiti tek kada bude potpuna.'}
+          </p>
+          <ul className="mt-1 list-disc pl-5">
+            {potpunost.nedostaje.map((n) => (
+              <li key={n}>{n}</li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {rezultatCobita && (
         <div className="mb-6">

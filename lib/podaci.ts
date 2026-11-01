@@ -392,3 +392,153 @@ export async function popunjenostUpitnika(procjenaId: string) {
     ),
   }));
 }
+
+// --- Potpunost procjene (UC-A8) -------------------------------------------
+
+export type Potpunost = {
+  potpuna: boolean;
+  /** kratak opis šta nedostaje, za poruku na ekranu */
+  nedostaje: string[];
+};
+
+/**
+ * Procjena se smije zaključiti tek kada su sva pitanja odgovorena i sve
+ * ocjene unesene — inače bi se agregirali nepotpuni podaci.
+ */
+export async function potpunostProcjene(
+  procjenaId: string,
+  tip: 'COBIT' | 'IT_UPITNIK',
+): Promise<Potpunost> {
+  if (tip === 'COBIT') {
+    const r = await rezultatCobit(procjenaId);
+    const nedostaje =
+      r.odgovoreno < r.ukupno
+        ? [`odgovoreno ${r.odgovoreno} od ${r.ukupno} COBIT izjava`]
+        : [];
+    return { potpuna: nedostaje.length === 0, nedostaje };
+  }
+
+  const dijelovi = await popunjenostUpitnika(procjenaId);
+  const nedostaje: string[] = [];
+  for (const d of dijelovi) {
+    if (d.odgovoreno < d.ukupnoPitanja) {
+      nedostaje.push(`dio ${d.dio}: odgovoreno ${d.odgovoreno} od ${d.ukupnoPitanja} pitanja`);
+    }
+    if (d.ocijenjeno < d.ukupnoOcjena) {
+      nedostaje.push(`dio ${d.dio}: ocijenjeno ${d.ocijenjeno} od ${d.ukupnoOcjena} sekcija`);
+    }
+  }
+  return { potpuna: nedostaje.length === 0, nedostaje };
+}
+
+// --- Izvještaj (izvoz u Excel i PDF) ---------------------------------------
+
+export type IzvjestajIzjava = {
+  kod: string;
+  nivoZrelosti: number;
+  tekst: string;
+  odgovor: CobitVrijednost | null;
+};
+
+export type IzvjestajProcesa = RezultatProcesa & { izjave: IzvjestajIzjava[] };
+
+export type IzvjestajPitanja = {
+  kod: string;
+  tekst: string;
+  vrijednost: string | null;
+  objasnjenje: string | null;
+};
+
+export type IzvjestajSekcije = {
+  kod: string;
+  naziv: string;
+  dio: DioUpitnika;
+  roditeljKod: string | null;
+  /** unesena ocjena 1–4; `null` ako sekcija nije ocijenjena ili se ne ocjenjuje */
+  ocjena: number | null;
+  prednosti: string | null;
+  slabosti: string | null;
+  pitanja: IzvjestajPitanja[];
+};
+
+export type Izvjestaj = {
+  procjena: NonNullable<Awaited<ReturnType<typeof dohvatiProcjenu>>>;
+  cobit: { rezultat: RezultatCobit; procesi: IzvjestajProcesa[] } | null;
+  upitnik: { rezultat: RezultatUpitnik; sekcije: IzvjestajSekcije[] } | null;
+};
+
+/**
+ * Svi podaci jedne procjene za izvoz. Rezultati se računaju istim funkcijama
+ * kao na ekranu, pa se brojevi u Excelu, PDF-u i aplikaciji ne razlikuju.
+ */
+export async function podaciIzvjestaja(procjenaId: string): Promise<Izvjestaj | null> {
+  const procjena = await dohvatiProcjenu(procjenaId);
+  if (!procjena) return null;
+
+  if (procjena.tip === 'COBIT') {
+    const [rezultat, procesi, odgovori] = await Promise.all([
+      rezultatCobit(procjenaId),
+      dohvatiCobitProcese(),
+      dohvatiCobitOdgovore(procjenaId),
+    ]);
+    const mapa = new Map(odgovori.map((o) => [o.izjavaKod, o.vrijednost]));
+    const poKodu = new Map(rezultat.procesi.map((r) => [r.kod, r]));
+
+    return {
+      procjena,
+      cobit: {
+        rezultat,
+        procesi: procesi.map((p) => ({
+          ...poKodu.get(p.kod)!,
+          izjave: [...p.izjave]
+            .sort((a, b) => a.nivoZrelosti - b.nivoZrelosti || a.redniBroj - b.redniBroj)
+            .map((i) => ({
+              kod: i.kod,
+              nivoZrelosti: i.nivoZrelosti,
+              tekst: i.tekst,
+              odgovor: mapa.get(i.kod) ?? null,
+            })),
+        })),
+      },
+      upitnik: null,
+    };
+  }
+
+  const [rezultat, sekcije, odgovori, ocjene] = await Promise.all([
+    rezultatUpitnik(procjenaId),
+    dohvatiUpitnikSekcije(),
+    dohvatiUpitnikOdgovore(procjenaId),
+    dohvatiUpitnikOcjene(procjenaId),
+  ]);
+  const odgovoriPoKodu = new Map(odgovori.map((o) => [o.pitanjeKod, o]));
+  const ocjenePoKodu = new Map(ocjene.map((o) => [o.sekcijaKod, o]));
+
+  return {
+    procjena,
+    cobit: null,
+    upitnik: {
+      rezultat,
+      sekcije: sekcije.map((s) => {
+        const o = ocjenePoKodu.get(s.kod);
+        return {
+          kod: s.kod,
+          naziv: s.naziv,
+          dio: s.dio,
+          roditeljKod: s.roditeljKod,
+          // Ocjena 0 je zapis nastao unosom obrazloženja bez ocjene.
+          ocjena: o && o.ocjena >= 1 ? o.ocjena : null,
+          prednosti: o?.prednosti ?? null,
+          slabosti: o?.slabosti ?? null,
+          pitanja: [...s.pitanja]
+            .sort((a, b) => a.redniBroj - b.redniBroj)
+            .map((p) => ({
+              kod: p.kod,
+              tekst: p.tekst,
+              vrijednost: odgovoriPoKodu.get(p.kod)?.vrijednost ?? null,
+              objasnjenje: odgovoriPoKodu.get(p.kod)?.objasnjenje ?? null,
+            })),
+        };
+      }),
+    },
+  };
+}

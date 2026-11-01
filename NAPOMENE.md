@@ -21,10 +21,11 @@ stringu.
 | P1 | Font se učitava preko `@import` u CSS-u (render-blocking), ne preko `next/font` | `app/globals.css` → `app/layout.tsx` (`next/font/google`) | FCP, LCP, render-blocking resursi | izostavljeno |
 | P2 | Obične `<img>` oznake umjesto `next/image` | `components/Slika.tsx` | LCP, ukupan prenešeni bajt | izostavljeno |
 | P3 | Bez code splittinga i `dynamic()` uvoza | mjesta označena `// [V2] kandidat za dynamic()` | TBT, veličina JS bundlea | izostavljeno |
-| P4 | Biblioteka za grafike u glavnom bundleu | `components/grafici/` | TBT, veličina JS bundlea | čeka M5 |
+| P4 | Biblioteka za grafike u glavnom bundleu — `recharts` se statički uvozi na ekranu rezultata | `components/grafici/`, `app/(app)/procjene/[id]/rezultati/page.tsx` | TBT, veličina JS bundlea | izostavljeno |
 | P5 | Bez keširanja i revalidacije | `lib/podaci.ts` | TTFB | izostavljeno |
 | P6 | Bez virtualizacije dugih lista — svih 227 pitanja dijela C renderuje se odjednom | `components/upitnik/ListaPitanja.tsx` | TBT, CLS, vrijeme renderovanja | izostavljeno |
 | P7 | Slike u `public/` nisu optimizovane | `public/` | LCP, prenešeni bajt | izostavljeno |
+| P8 | Izvoz u Excel i PDF generiše se pri svakom zahtjevu, bez keširanja zaključenih procjena | `app/(app)/procjene/[id]/rezultati/excel`, `.../pdf` | vrijeme odgovora (S6) | izostavljeno |
 
 ## Sigurnost
 
@@ -72,3 +73,11 @@ verzija koje specifikacija propisuje (Next.js 15, ExcelJS 4, Prisma 6):
 Sve tri su build-time, ne izvršavaju se u serverskom runtimeu aplikacije.
 Bilježe se ovdje radi potpunosti — ako ih alat za analizu prijavi, nalaz je
 tačan, ali nije posljedica namjerne odluke o baseline stanju.
+
+---
+
+## Fontovi u PDF izvozu
+
+`lib/fontovi/Inter-Regular.ttf` i `Inter-Bold.ttf` — font Inter (Rasmus
+Andersson), licenca SIL Open Font License 1.1. Ugrađeni PDF fontovi nemaju
+slova č, ć i đ, pa se Inter registruje u `@react-pdf/renderer`.

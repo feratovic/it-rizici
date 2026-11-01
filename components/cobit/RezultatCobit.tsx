@@ -3,8 +3,8 @@
  * domenima i nivo zrelosti svakog od 15 procesa.
  *
  * Serverska komponenta bez ijednog klijentskog bajta: trake su obične `div`
- * širine u procentima. Grafička biblioteka (recharts) namjerno se ne uvodi
- * ovdje — ona ulazi tek u M5, vidi NAPOMENE.md (P4).
+ * širine u procentima. Grafici (recharts) su u `components/grafici/` i
+ * prikazuju se samo na ekranu rezultata, vidi NAPOMENE.md (P4).
  *
  * ⚠ Skala je 0–5 i VEĆE JE BOLJE. Boja se uzima isključivo iz
  *   `bojaNivoaZrelosti` — komponenta sama ne tumači smjer skale.

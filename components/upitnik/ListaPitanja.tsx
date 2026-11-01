@@ -46,6 +46,8 @@ type Props = {
   pocetniOdgovori: Record<string, Odgovor>;
   pocetneOcjene: Record<string, Ocjena>;
   zakljucena: boolean;
+  /** ocjenu i obrazloženja unosi revizor; kontakt osoba ih samo vidi (UC-A5) */
+  mozeOcjenjivati: boolean;
 };
 
 type Stanje = 'mirno' | 'snimanje' | 'sacuvano' | 'greska';
@@ -66,6 +68,7 @@ export default function ListaPitanja({
   pocetniOdgovori,
   pocetneOcjene,
   zakljucena,
+  mozeOcjenjivati,
 }: Props) {
   const [odgovori, setOdgovori] =
     useState<Record<string, Odgovor>>(pocetniOdgovori);
@@ -125,7 +128,7 @@ export default function ListaPitanja({
     polje: keyof Ocjena,
     sadrzaj: string,
   ) {
-    if (zakljucena) return;
+    if (zakljucena || !mozeOcjenjivati) return;
 
     const prethodno = ocjene[sekcijaKod] ?? PRAZNA_OCJENA;
     const novo: Ocjena =
@@ -189,6 +192,7 @@ export default function ListaPitanja({
                   odgovori={odgovori}
                   ocjena={ocjene[oblast.kod] ?? PRAZNA_OCJENA}
                   zakljucena={zakljucena}
+                  mozeOcjenjivati={mozeOcjenjivati}
                   naOdgovor={promijeniOdgovor}
                   naOcjenu={promijeniOcjenu}
                 />
@@ -207,6 +211,7 @@ export default function ListaPitanja({
                         odgovori={odgovori}
                         ocjena={ocjene[podoblast.kod] ?? PRAZNA_OCJENA}
                         zakljucena={zakljucena}
+                        mozeOcjenjivati={mozeOcjenjivati}
                         naOdgovor={promijeniOdgovor}
                         naOcjenu={promijeniOcjenu}
                       />
@@ -346,6 +351,7 @@ function SekcijaPitanja({
   odgovori,
   ocjena,
   zakljucena,
+  mozeOcjenjivati,
   naOdgovor,
   naOcjenu,
 }: {
@@ -354,6 +360,7 @@ function SekcijaPitanja({
   odgovori: Record<string, Odgovor>;
   ocjena: Ocjena;
   zakljucena: boolean;
+  mozeOcjenjivati: boolean;
   naOdgovor: (pitanjeKod: string, polje: keyof Odgovor, sadrzaj: string) => void;
   naOcjenu: (sekcijaKod: string, polje: keyof Ocjena, sadrzaj: string) => void;
 }) {
@@ -423,7 +430,7 @@ function SekcijaPitanja({
           dio={dio}
           sekcija={sekcija}
           ocjena={ocjena}
-          zakljucena={zakljucena}
+          zakljucena={zakljucena || !mozeOcjenjivati}
           naOcjenu={naOcjenu}
         />
       )}

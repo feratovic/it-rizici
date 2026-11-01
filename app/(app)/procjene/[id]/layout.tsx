@@ -67,6 +67,12 @@ export default async function LayoutProcjene({
     }
   }
 
+  // Rezultati i izvoz (M5) — zajednički za oba tipa procjene.
+  moduli.push({
+    putanja: `/procjene/${id}/rezultati`,
+    oznaka: 'Rezultati i izvoz',
+  });
+
   return (
     <div className="flex gap-6">
       <div className="w-56 shrink-0">

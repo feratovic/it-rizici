@@ -9,7 +9,11 @@ import {
   sacuvajUpitnikOdgovor,
 } from '@/lib/podaci';
 import { prisma } from '@/lib/prisma';
-import { zahtijevajKorisnika, mozeVidjetiInstituciju } from '@/lib/ovlascenja';
+import {
+  zahtijevajKorisnika,
+  mozeOcjenjivati,
+  mozeVidjetiInstituciju,
+} from '@/lib/ovlascenja';
 import { ocjenjivaSekcija } from '@/lib/upitnik';
 import { OPCIJE_DA_NE, OPCIJE_KONTROLE } from '@/lib/skale';
 
@@ -135,6 +139,12 @@ export async function snimiUpitnikOcjenu(
   }
 
   const { procjenaId, sekcijaKod, polje, sadrzaj } = provjera.data;
+
+  // UC-A5: ocjenu i obrazloženja unosi revizor; kontakt osoba samo popunjava.
+  const korisnik = await zahtijevajKorisnika();
+  if (!mozeOcjenjivati(korisnik.uloga)) {
+    return { ok: false, greska: 'Ocjenu unosi revizor.' };
+  }
 
   const greska = await provjeriPristup(procjenaId);
   if (greska) return { ok: false, greska };
